@@ -1,9 +1,9 @@
 ---
-title: Documentation
+title: Photography
 description: >
-  This description is hidden
+  This is the new category Photography
 hide_description: true
-permalink: /docs/
+permalink: /photography/
 ---
 
 ## Getting started
