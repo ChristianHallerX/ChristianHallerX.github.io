@@ -1,24 +1,24 @@
 ---
 title: Photography
 description: >
-  This is the new category Photography
+  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
 permalink: /photography/
 ---
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
+Pictures captured in my life.
+
+## Florida
+
+* [Wildlife]{:.heading.flip-title} --- Life, big and small.
 {:.related-posts.faded}
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
+* [Plants]{:.heading.flip-title} --- Subtropical vegetation.
 {:.related-posts.faded}
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
+* [Environments]{:.heading.flip-title} --- Florida's metropolitan and nature landscapes.
 {:.related-posts.faded}
 
-[install]: install.md
-[basics]: basics.md
-[LICENSE]: ../LICENSE.md
-
+[Wildlife]: wildlife.md
+[Plants]: plants.md
+[Environments]: environments.md
