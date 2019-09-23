@@ -41,7 +41,6 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                Christian Haller
-  email:               christian_haller@gmx.de
   social:
     linkedin:          https://www.linkedin.com/in/christian-haller/
     github:            ChristianHallerX
