@@ -8,6 +8,9 @@ permalink: /photography/
 
 Pictures captured in my life.
 
+<img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:300px">
+
+
 ## Florida
 
 * [Wildlife]{:.heading.flip-title} --- Life, big and small.
