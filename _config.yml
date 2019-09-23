@@ -56,10 +56,12 @@ menu:
     url:               /photography/
   - title:             About
     url:               /about/
+  -
+  -
   - title:             "LinkedIn Profile"
     url:               https://www.linkedin.com/in/christian-haller/
   - title:             "GitHub Repository"
-    url:               https://github.com/ChristianHallerX/            
+    url:               https://github.com/ChristianHallerX/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
