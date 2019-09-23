@@ -14,14 +14,4 @@ During his time in academia, Christian has sailed on geological offshore (drilli
 * MSc in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012
 * BSc in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009
 
-## Connect and Communicate:
-
-<a href="https://www.linkedin.com/in/christian-haller/" target="_blank">LinkedIn</a>
-
-<a href="https://github.com/ChristianHallerX/" target="_blank">GitHub</a>
-
-<a href="https://www.researchgate.net/profile/Christian_Haller4/" target="_blank">ResearchGate</a>
-
-<a href="mailto:christian_haller&#64;gmx.de">E-Mail</a>
-
 <img src="/assets/img/about/microscope_christian_haller.jpg" alt="In the Sedlab" style="width:300px">
