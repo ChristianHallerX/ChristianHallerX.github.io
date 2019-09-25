@@ -11,6 +11,8 @@ This is an especially important question when you are starting out with your end
 
 Computational power is not part of that question and neither that important for toy examples..........
 
+<img src="https://pics.me.me/the-1-programmer-excuse-for-legitimately-slacking-off-my-neural-31632597.png" alt="Training" width="200">
+
 ## Read Full Article on LinkedIn Articles
 
 <a href="https://www.linkedin.com/pulse/dont-wait-hours-when-deep-learning-training-christian-haller/" target="_blank">Don’t wait for hours (when Deep Learning training)</a>
