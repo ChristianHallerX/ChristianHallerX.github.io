@@ -2,7 +2,7 @@
 title: Coral Cores
 image: /assets/img/research/coralcore.jpeg
 description: >
-  Siccar Point is one of geology's iconic locations.
+  Coral skeletons are drilled for geochemical studies.
 ---
 
 The coral reef workgroup came back with Florida Keys cores.

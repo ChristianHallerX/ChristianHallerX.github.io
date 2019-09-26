@@ -2,7 +2,7 @@
 title: Fresh Ooids under the Microscope!
 image: /assets/img/research/ooids_small.png
 description: >
-  Fresh Ooids under the Microscope!
+  Ooids are small carbonate grains formed in shallow, tropical seas.
 ---
 
 Ooids are small, well-rounded carbonate grains formed in warm, shallow waters with sufficient agitation.

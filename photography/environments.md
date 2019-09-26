@@ -61,3 +61,5 @@ hide_description: true
 ![Classic](/assets/img/photography/environments/7082.jpg "Classic")
 
 ![Orange](/assets/img/photography/environments/3395.jpg "Orange")
+
+![Orange](/assets/img/photography/environments/6715.jpg "ArtDeco")

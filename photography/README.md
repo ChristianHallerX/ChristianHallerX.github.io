@@ -1,7 +1,7 @@
 ---
 title: Photography
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+  The Photography Section.
 hide_description: true
 permalink: /photography/
 ---
@@ -10,6 +10,10 @@ Pictures captured in my life.
 
 <img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:300px">
 
+## Geology
+
+* [Rocks]{:.heading.flip-title} --- Geological outcrops, views, and friends.
+{:.related-posts.faded}
 
 ## Florida
 
@@ -22,6 +26,7 @@ Pictures captured in my life.
 * [Environments]{:.heading.flip-title} --- Florida's metropolitan and nature landscapes.
 {:.related-posts.faded}
 
+[Rocks]: rocks.md
 [Wildlife]: wildlife.md
 [Plants]: plants.md
 [Environments]: environments.md
