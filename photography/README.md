@@ -15,6 +15,9 @@ Pictures captured in my life.
 * [Rocks]{:.heading.flip-title} --- Geological outcrops, views, and friends.
 {:.related-posts.faded}
 
+* [JOIDES Resolution]{:.heading.flip-title} --- Scientific offshore drilling.
+{:.related-posts.faded}
+
 ## Florida
 
 * [Wildlife]{:.heading.flip-title} --- Life, big and small.
@@ -26,6 +29,7 @@ Pictures captured in my life.
 * [Environments]{:.heading.flip-title} --- Florida's metropolitan and nature landscapes.
 {:.related-posts.faded}
 
+[JOIDES Resolution]: JOIDES.md
 [Rocks]: rocks.md
 [Wildlife]: wildlife.md
 [Plants]: plants.md

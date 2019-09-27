@@ -14,4 +14,12 @@ During his time in academia, Christian has sailed on geological offshore (drilli
 * MSc in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012
 * BSc in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009
 
-<img src="/assets/img/about/microscope_christian_haller.jpg" alt="In the Sedlab" style="width:300px">
+<img src="/assets/img/about/microscope_christian_haller.jpg" alt="In the Sedlab" style="width:250px" class="center">
+
+## Academic Interests:
+[Past and Future Research]{:.heading.flip-title}
+
+[Teaching Philosophy]{:.heading.flip-title}
+
+[Past and Future Research]: /teaching-research/pastandfutureresearch.md
+[Teaching Philosophy]: /teaching-research/teaching.md
