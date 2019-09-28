@@ -12,7 +12,9 @@ I encourage you to take a look into the Jupyter notebooks and run the routines y
 This project was developed together with `Advanced Data Science with IBM` on Coursera.
 
 ## Play on Youtube
+
 <a href="http://www.youtube.com/watch?v=KxkD8paGVYs" target="_blank"><img src="http://img.youtube.com/vi/KxkD8paGVYs/0.jpg" alt="Rock Permeability Prediction (Data Science)" width="240" height="180" border="10" /></a>
 
 ## GitHub Repository
-[https://github.com/ChristianHallerX/Adv_Data_Science_Cap](https://github.com/ChristianHallerX/Adv_Data_Science_Cap)
+
+<a href="https://github.com/ChristianHallerX/Adv_Data_Science_Cap" target="_blank">https://github.com/ChristianHallerX/Adv_Data_Science_Cap)</a>
