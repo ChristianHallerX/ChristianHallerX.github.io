@@ -5,7 +5,7 @@ description: >
   MicroCT is a scanning methodology to create non-invasive 3D X-Ray models.
 ---
 
-The MicroCT housed at the [Steinmann Institut für Geowissenschaften](https://www.steinmann.uni-bonn.de/) can scan specimens from large to small (think *Brachiosaur* skull and friends).
+The MicroCT housed at the <a href="https://www.steinmann.uni-bonn.de/" target="_blank">Steinmann Institut für Geowissenschaften</a> can scan specimens from large to small (think *Brachiosaur* skull and friends).
 
 With a lower resolution limit of 2 micrometers, it is possible to get satisfactory details on microfossils, such as foraminifera in the size range 1-2 millimeters.
 
