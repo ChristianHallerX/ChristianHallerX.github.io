@@ -8,7 +8,7 @@ permalink: /photography/
 
 Pictures captured in my life.
 
-<img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:300px">
+<img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:400px">
 
 ## Geology
 

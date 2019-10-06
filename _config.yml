@@ -52,15 +52,19 @@ author:
 menu:
   - title:             Research
     url:               /research/
-  -
-  - title:             Photography
-    url:               /photography/
+  - 
+  - title:             Academic Interests
+    url:               /academic/
   -
   - title:             About
     url:               /about/
   -
+  - title:             Photography
+    url:               /photography/
+  -
   - title:             Connect and Communicate
     url:               /connect/
+  -
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

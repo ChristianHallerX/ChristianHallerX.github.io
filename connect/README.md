@@ -13,3 +13,8 @@ permalink: /connect/
 <a href="https://www.researchgate.net/profile/Christian_Haller4/" target="_blank">ResearchGate</a> --- scientific publications
 
 <a href="mailto:christian_haller&#64;gmx.de">E-Mail</a>
+
+<br>
+
+<img src="/assets/img/connect/128.jpg" alt="Missing Image: Microscope" style="width:400px">
+*Gubbio near K/T iridium outcrop, Italy*
