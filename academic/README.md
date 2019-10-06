@@ -90,5 +90,7 @@ I am prepared to teach courses related to marine geological processes, sedimento
 <br>
 
 <img src="/assets/img/academic/Mother_Goose_And_Grimm.jpg" alt="Radiocarbon Comic" style="width:600px">
+
+
 *You read all the way through this dry text. Let this comic strip cheer you up.,<br>(Source: 
 <a href="https://www.grimmy.com/">Mother Goose and Grimm</a>)*

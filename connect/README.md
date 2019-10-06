@@ -17,4 +17,6 @@ permalink: /connect/
 <br>
 
 <img src="/assets/img/connect/128.jpg" alt="Missing Image: Microscope" style="width:400px">
+
+
 *Gubbio near K/T iridium outcrop, Italy*

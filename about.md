@@ -84,4 +84,6 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
 <br>
 
 <img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike">
+
+
 *Barrk Sandstone at Kakadu NP, NT, Australia / Snowdon, Wales, UK*
