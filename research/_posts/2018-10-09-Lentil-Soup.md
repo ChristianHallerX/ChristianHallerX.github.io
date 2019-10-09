@@ -7,7 +7,7 @@ description: >
 
 Nummulites are a branch of the foraminifera that grow very large. Unlike other genera that can be on the order of 100 μm, these foraminifera grow >1 cm in diameter and are easy to spot with the naked eye.
 
-Nummulite fossils are a common occurence in Paleogene carbonate rocks in the Mediterranean ("nummulitic limestone") and hence, it is no surprise that the ancient Greeks, such as the historian Herododuts (5th century BC), had their ideas but no understanding that they were fossilized single-celled marine organisms.
+Nummulite fossils are a common occurence in Paleogene carbonate rocks in the Arabic Peninsula, and Mediterranean ("nummulitic limestone"). Hence, it is no surprise that the ancient Greeks, such as the historian Herododuts (5th century BC), had their ideas but no understanding that they were fossilized single-celled marine organisms.
 
 Since the flat, round shape of the Nummulite test closely resembles coins, it was a short line of thought to make the connection. In fact, the word "Nummulites" is the diminutive form of the Latin *nummulus* meaning "little coin".
 
