@@ -13,7 +13,7 @@ Since the flat, round shape of the Nummulite test closely resembles coins, it wa
 
 However, the hand pieces depicted above and below have a different story to tell. The rock is Egyptian limestone that stems from a quarry from where the ancient Egyptian Pharaohs mined rocks for their pyramids.
 
-The same limestone - chock full of nummulites - was also used for t he construciton of the Great Pyramids. Herodotus visited the Great Pyramids and documented what he saw. His conclusion was that they were petrified lentils dropped by the laborers who built the pyramids.
+The same limestone - chock full of nummulites - was also used for the construciton of the Great Pyramids. Herodotus visited the Great Pyramids and documented what he saw. His conclusion was that they were petrified lentils dropped by the laborers who built the pyramids.
 
 So if you have a lentil soup in your garden, please clean up after yourself so that the scientists of the future have it easier and can cross out at least one hypothesis.
 
