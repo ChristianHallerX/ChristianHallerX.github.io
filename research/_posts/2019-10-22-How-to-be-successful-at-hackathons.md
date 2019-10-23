@@ -5,8 +5,6 @@ description: >
  Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
 ---
 
-# How to be successful at Hackathons and Datathons for Data Scientists 
-
 ## Introduction
 
 In the last couple of weeks, I attended two Hackathons and one Datathon and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students. They are typically held on weekends in spring and fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
@@ -55,7 +53,7 @@ Photo Credit: Pixbay.
 
 ## Technical knowledge
 I reiterate: It does not matter how much or how little experience you have. You will learn new things regardless and you will be a worthwhile addition to your team. Joining a team that does **NOT** do what you already know will actually be an opportunity to expand your horizon. If you are not enrolled in a newly minted Data Science program at a university and are starting out from zero, I can recommend the following:
-- Learn a **coding** in Python and R, the most popular Data Science languages. Consider introductory and mostly free online courses on <a href="https://www.edx.org/" target="_blank">edX</a>, <a href="https://www.coursera.org/" target="_blank">Coursera</a>, <a href="https://www.udacity.com/" target="_blank">Udacity</a> or other (in person) bootcamps. See also: <a href="https://www.pcworld.com/article/3287981/best-python-courses.html" target="_blank">PCWorld Best Python Courses</a>.You do not need to become a wizard to wield powerful tools.
+- Learn **coding** in Python and/or R, the most popular Data Science languages. Consider introductory and mostly free online courses on <a href="https://www.edx.org/" target="_blank">edX</a>, <a href="https://www.coursera.org/" target="_blank">Coursera</a>, <a href="https://www.udacity.com/" target="_blank">Udacity</a> or other (in person) bootcamps. See also: <a href="https://www.pcworld.com/article/3287981/best-python-courses.html" target="_blank">PCWorld Best Python Courses</a>.You do not need to become a wizard to wield powerful tools.
 - Get a deeper understanding of **statistics** than your undergrad 101 course, since especially the exploration benefits from simple statistical tests and machine learning model evaluation relies heavily on statistics.
 - Continue with getting to know specific Data Science, Machine Learning, and then Deep Learning **libraries for Python and R**. For example, in Python that would be: Pandas, Numpy, Scipy, SciKit-Learn, SciKit-Image, TensorFlow, Keras for mentioning some popular ones. <a href="https://digitaldefynd.com/best-machine-learning-and-deep-learning-courses/" target="_blank">Best Machine Learning and Deep Learning Courses</a>
 - Learn the **workflows** from data set exploration over modeling to evaluation and how to iterate towards a better model.
@@ -69,8 +67,9 @@ When judging time comes, your team will have to present their project to a judge
 `Hackathons are a great place to learn and get your feet wet.`
 
 The Data Science subject is by no means exclusively tractable for Computer Science majors, and actually requires people with domain knowledge to pose the right questions and interpret data. That is true for your team as well. A Hackathon or Datathon is your chance to learn, enrich yourself with this new skillset, and learn new approaches. You do not have to be an expert to have your application approved. A Hackathon or Datathon may just be your way to embark on this journey.
+
 If you have more questions, feel free to send me an [E-Mail](mailto:christian_haller@gmx.de) or message on <a href="https://www.linkedin.com/in/christian-haller/" target="_blank">LinkedIn</a>.
 
 <br><img src="/assets/img/research/UNCHack.jpg" alt="UNCHack" style="width:720px">
 
-Photo Credit: Own.
+Photo Credit: Christian Haller.
