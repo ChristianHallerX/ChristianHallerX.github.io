@@ -1,13 +1,13 @@
 ---
 title: How to be successful at Hackathons and Datathons for Data Scientists
 image: /assets/img/research/TAMUHack2.jpg
-description: >
- Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
+description: Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
 ---
+# How to be successful at Hackathons and Datathons for Data Scientists
 
 ## Introduction
 
-In the last couple of weeks, I attended two Hackathons and one Datathon and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students. They are typically held on weekends in spring and fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
+In the last couple of weeks, I attended two Hackathons and one Datathon and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students for other students. They are typically held on weekends in spring and fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
 
 Hackathon events are now around for about ten years and often times incorporate Data Science and Machine Learning aspects, but within the last year a new type of -thon was created focusing specifically on Data Science challenges: the DATAthon.
 
