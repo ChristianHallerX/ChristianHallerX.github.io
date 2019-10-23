@@ -1,7 +1,8 @@
 ---
 title: How to be successful at Hackathons and Datathons for Data Scientists
 image: /assets/img/research/TAMUHack2.jpg
-description: Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
+description: >
+ Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
 ---
 # How to be successful at Hackathons and Datathons for Data Scientists
 
