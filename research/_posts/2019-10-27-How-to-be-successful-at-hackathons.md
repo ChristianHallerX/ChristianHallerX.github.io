@@ -1,6 +1,6 @@
 ---
 title: How to be successful at Hackathons and Datathons for Data Scientists
-image: /assets/img/research/TAMUHack2.jpg
+image: /assets/img/research/TAMUTAG.jpg
 description: >
   Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
 ---
@@ -49,9 +49,9 @@ In any case, all challenges are hard enough that you will have time for only a s
 ## Teams
 Hackathons and Datathons allow you to form teams of up to four members. Few participants will work alone and teamwork helps to train your organizational skills, work division, and communication. Make use of this opportunity and communicate with other participants **in advance**. If you already have someone for your team – good. If not, don’t worry either. You will have chances to find team members on the day of the event, between registration and the start of hacking. However, if you have formed your team in advance, it will save you time on the competition day that you may want to use for actual work. Commonly the organizers will set up a <a href="https://slack.com/" target="_blank">Slack</a> channel where members can communicate starting right after acceptance into the event. Make use of this opportunity and find a team balanced in experience and speciality.
 
-<br><img src="/assets/img/research/TAMUTAG.jpg" alt="TAMUTAG" style="width:720px">
+<br><img src="/assets/img/research/TAMUHack2.jpg" alt="TAMUTAG" style="width:720px">
 
-Photo Credit: Christian Haller
+Photo Credit: TAMU Datathon organizers
 
 ## Technical knowledge
 I reiterate: It does not matter how much or how little experience you have. You will learn new things regardless and you will be a worthwhile addition to your team. Joining a team that does **NOT** do what you already know will actually be an opportunity to expand your horizon. If you are not enrolled in a newly minted Data Science program at a university and are starting out from zero, I can recommend the following:
