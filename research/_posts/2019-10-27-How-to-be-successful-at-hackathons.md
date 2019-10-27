@@ -9,9 +9,13 @@ In the last couple of weeks, I attended two Hackathons and one Datathon. I recie
 
 Hackathon events have now been around for about ten years and often times incorporate Data Science and Machine Learning aspects. But within the last year a new type of -thon was created focusing specifically on Data Science challenges: the DATAthon.
 
-<br><img src="/assets/img/research/GTrendsDatathon.jpg" alt="GTrendsDatathon" style="width:720px">
+<br><img src="/assets/img/research/GTrendsDatathon.png" alt="GTrendsDatathon" style="width:720px">
 
-<a href="https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=datathon" target="_blank">Google Trends</a>
+<a href="https://trends.google.com/trends/explore?date=all&geo=US&q=datathon" target="_blank">Google Trends for search term "datathon". Takeoff in 2017.</a>
+
+<br><img src="/assets/img/research/GTrendsHackathon.png" alt="GTrendsHackathon" style="width:720px">
+
+<a href="https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F068mxn" target="_blank">Google Trends for event "Hackathon". Takeoff in 2010.</a>
 
 ## Approach
 
@@ -33,7 +37,7 @@ In order to prepare:
 
 <br><img src="/assets/img/research/TAMUHack1.jpg" alt="TAMUHack1" style="width:720px">
 
-Photo Credit: TAMU Datathon organizers.
+Photo Credit: TAMU Datathon organizers
 
 ## Types of challenges
 **Hackathons** have relatively open-ended tasks and give you a lot of freedom to what exactly you solve. Hackathon problems will require your creativity to create a solution. This means you have to be cognizant of problems society and individuals may have and an idea how to solve them with technology and software.
@@ -45,9 +49,9 @@ In any case, all challenges are hard enough that you will have time for only a s
 ## Teams
 Hackathons and Datathons allow you to form teams of up to four members. Few participants will work alone and teamwork helps to train your organizational skills, work division, and communication. Make use of this opportunity and communicate with other participants **in advance**. If you already have someone for your team – good. If not, don’t worry either. You will have chances to find team members on the day of the event, between registration and the start of hacking. However, if you have formed your team in advance, it will save you time on the competition day that you may want to use for actual work. Commonly the organizers will set up a <a href="https://slack.com/" target="_blank">Slack</a> channel where members can communicate starting right after acceptance into the event. Make use of this opportunity and find a team balanced in experience and speciality.
 
-<br><img src="/assets/img/research/pixbay.jpg" alt="pixbay" style="width:720px">
+<br><img src="/assets/img/research/TAMUTAG.jpg" alt="TAMUTAG" style="width:720px">
 
-Photo Credit: Pixbay
+Photo Credit: Christian Haller
 
 ## Technical knowledge
 I reiterate: It does not matter how much or how little experience you have. You will learn new things regardless and you will be a worthwhile addition to your team. Joining a team that does **NOT** do what you already know will actually be an opportunity to expand your horizon. If you are not enrolled in a newly minted Data Science program at a university and are starting out from zero, I can recommend the following:
@@ -58,12 +62,12 @@ I reiterate: It does not matter how much or how little experience you have. You 
 - Start using APIs to get access to **real-world data**. Many webservices offer their own APIs to request large amounts of data with little effort. Look into the developer section of their website. For example, Twitter, Foursquare, and Wikipedia offer API access, just to name a few.
 - Learn about **graph plotting** and how to visually show what your message is. For example, plot with Python's matplotlib and seaborn and R's Ggplot2. If you are bold, learn to create dashboards that let you manipulate graphs with sliders.
 
-<br><img src="/assets/img/research/TAMUTAG.jpg" alt="TAMUTAG" style="width:720px">
-
-Photo Credit: Christian Haller
-
 ## Presentation
 When judging time comes, your team will have to present their project to a judge from the hosting university and sometimes professional mentors. You will have **4-5 minutes** to present what you did. Summarize what the **business question** your project tackled and why it is **relevant**. Why is your solution innovative and how does it benefit the organization? Learn how to make effective (Powerpoint) slides and sum up a project without getting bogged down in details. Judges may be less interested in the exact technical details, but will focus on results and interpretation. It is likely that the organizers will announce on the event website/slack what the exact **judging criteria** are. Discuss which team member presents what and communicate confidently. Now graphing skills will come in handy because they are distilling your findings into something easy to grasp. If your team did not succeed in finishing the project, that is okay. Explain what your approaches were, how far you got, and what you found challenging.
+
+<br><img src="/assets/img/research/UNCHack.jpg" alt="UNCHack" style="width:720px">
+
+Photo Credit: Christian Haller
 
 ## Summary
 `Hackathons are a great place to learn and get your feet wet.`
@@ -71,7 +75,3 @@ When judging time comes, your team will have to present their project to a judge
 The Data Science subject is by no means exclusively tractable for Computer Science majors, and actually requires people with domain knowledge to pose the right questions and interpret data. That is true for your team as well. A Hackathon or Datathon is a chance to learn, enrich yourself with this new skillset, and learn new approaches. You do not have to be an expert to have your application approved. A Hackathon or Datathon may just be your way to embark on the journey towards Data Science.
 
 If you have more questions, feel free to send me an [E-Mail](mailto:christian_haller@gmx.de) or message on <a href="https://www.linkedin.com/in/christian-haller/" target="_blank">LinkedIn</a>.
-
-<br><img src="/assets/img/research/UNCHack.jpg" alt="UNCHack" style="width:720px">
-
-Photo Credit: Christian Haller
