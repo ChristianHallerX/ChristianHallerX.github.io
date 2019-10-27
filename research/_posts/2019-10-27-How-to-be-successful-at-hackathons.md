@@ -5,7 +5,7 @@ description: >
   Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
 ---
 
-In the last couple of weeks, I attended two Hackathons and one Datathon and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students for other students. They are typically held on weekends in Spring and Fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
+In the last couple of weeks, I attended two Hackathons and one Datathon. I recieved a lot of feedback on my endeavours and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students for other students. They are typically held on weekends in Spring and Fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
 
 Hackathon events have now been around for about ten years and often times incorporate Data Science and Machine Learning aspects. But within the last year a new type of -thon was created focusing specifically on Data Science challenges: the DATAthon.
 
@@ -47,7 +47,7 @@ Hackathons and Datathons allow you to form teams of up to four members. Few part
 
 <br><img src="/assets/img/research/pixbay.jpg" alt="pixbay" style="width:720px">
 
-Photo Credit: Pixbay.
+Photo Credit: Pixbay
 
 ## Technical knowledge
 I reiterate: It does not matter how much or how little experience you have. You will learn new things regardless and you will be a worthwhile addition to your team. Joining a team that does **NOT** do what you already know will actually be an opportunity to expand your horizon. If you are not enrolled in a newly minted Data Science program at a university and are starting out from zero, I can recommend the following:
@@ -57,6 +57,10 @@ I reiterate: It does not matter how much or how little experience you have. You 
 - Learn the **workflows** from data set exploration, modeling, evaluation, and how to iterate towards a better model.
 - Start using APIs to get access to **real-world data**. Many webservices offer their own APIs to request large amounts of data with little effort. Look into the developer section of their website. For example, Twitter, Foursquare, and Wikipedia offer API access, just to name a few.
 - Learn about **graph plotting** and how to visually show what your message is. For example, plot with Python's matplotlib and seaborn and R's Ggplot2. If you are bold, learn to create dashboards that let you manipulate graphs with sliders.
+
+<br><img src="/assets/img/research/TAMUTAG.jpg" alt="TAMUTAG" style="width:720px">
+
+Photo Credit: Christian Haller
 
 ## Presentation
 When judging time comes, your team will have to present their project to a judge from the hosting university and sometimes professional mentors. You will have **4-5 minutes** to present what you did. Summarize what the **business question** your project tackled and why it is **relevant**. Why is your solution innovative and how does it benefit the organization? Learn how to make effective (Powerpoint) slides and sum up a project without getting bogged down in details. Judges may be less interested in the exact technical details, but will focus on results and interpretation. It is likely that the organizers will announce on the event website/slack what the exact **judging criteria** are. Discuss which team member presents what and communicate confidently. Now graphing skills will come in handy because they are distilling your findings into something easy to grasp. If your team did not succeed in finishing the project, that is okay. Explain what your approaches were, how far you got, and what you found challenging.
@@ -70,4 +74,4 @@ If you have more questions, feel free to send me an [E-Mail](mailto:christian_ha
 
 <br><img src="/assets/img/research/UNCHack.jpg" alt="UNCHack" style="width:720px">
 
-Photo Credit: Christian Haller.
+Photo Credit: Christian Haller
