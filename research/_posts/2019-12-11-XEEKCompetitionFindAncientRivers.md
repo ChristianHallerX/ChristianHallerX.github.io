@@ -22,7 +22,7 @@ As I have not worked with a lot of demographic or IoT data, but not necessarily 
 
 ### Jupyter Notebooks
 
-<img src="https://jupyter.org/assets/main-logo.svg" alt="XEEKdataset" style="width:480px">
+<img src="https://jupyter.org/assets/main-logo.svg" alt="XEEKdataset" style="width:340px">
 
 Taking workshops, courses and reading up on anything Data Scinece e.g., on  <a href="https://towardsdatascience.com/" target="_blank">https://towardsdatascience.com/</a> amongst many others will inevitably expose you to a <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/XEEK_Find_Ancient_River_Channels/Challenge1_StarterNotebook.ipynb" target="_blank">Jupyter Notebook</a>. It revolutionized the Python experience and makes sharing and developing code so much easier by viewing the results of an operation in a separate window or just next to the code. In fact, the concept is not unique to Python anymore as Jupyter also runs Ruby, Julia, Spark, R, and many more. Matlab has a similar feature with their <a href="https://www.mathworks.com/help/matlab/matlab_prog/what-is-a-live-script-or-function.html" target="_blank">"Live Script"</a>, and of course R is now best used in <a href="https://rstudio.com/" target="_blank">R Studio</a>.
 You may think this could take a long time to assemble such an environmernt with a lot of optional open source addons to tweak the experience - a huge hassle for a newcomer. Turns out, it is not. An easy way is installing the <a href="https://www.anaconda.com/" target="_blank">Anaconda</a> suite, which comes with Jupyter built in. Start Jupyter Labs with one click and done. The coding work is done in a Jupyter notebook, with the file extension “.ipynb”, where you can select your pogramming language kernel. Another amenity is the documentation's superior formatting in <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a> language and having code snippets called "cells" by which only selected parts of the notebook can be executed and debugged at a time (instead of running the entire notebook over and over and wasting your time).
@@ -73,7 +73,7 @@ The task at hand is a classification problem where the algorithm is learning to 
 
 If you are not yet that comfortable with Machine Learning algorithms, I can recommend <a href="https://www.coursera.org/learn/machine-learning" target="_blank">this course</a>, which can be audited for free and delivers deeper insights into the mathematical background than many other courses on the market. After getting more insight in the basics of the algorithms, you may want to get deeper into popular Python libraries such as <a href="https://scikit-learn.org/" target="_blank">Sci-Kit Learn</a>, <a href="https://xgboost.readthedocs.io/en/latest/" target="_blank">XGBoost</a>, or <a href="https://keras.io/" target="_blank">Keras</a>. All of them come with great documentation and examples. No need to re-invent the wheel.
 
-<br><img src="https://www.meme-arsenal.com/memes/5d810a97b7d95c1071b764e112b88e4e.jpg" alt="NeoMeme" style="width:640px">
+<br><img src="https://www.meme-arsenal.com/memes/5d810a97b7d95c1071b764e112b88e4e.jpg" alt="NeoMeme" style="width:480px">
 
 You’re back from the books? Splendid! Now you should have a better grasp on the concept of "training a model", "generalization", and "overfitting". Those are the most important concepts you need for starters on the ML journey.
 
