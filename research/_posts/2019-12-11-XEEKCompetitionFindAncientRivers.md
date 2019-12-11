@@ -73,7 +73,7 @@ The task at hand is a classification problem where the algorithm is learning to 
 
 If you are not yet that comfortable with Machine Learning algorithms, I can recommend <a href="https://www.coursera.org/learn/machine-learning" target="_blank">this course</a>, which can be audited for free and delivers deeper insights into the mathematical background than many other courses on the market. After getting more insight in the basics of the algorithms, you may want to get deeper into popular Python libraries such as <a href="https://scikit-learn.org/" target="_blank">Sci-Kit Learn</a>, <a href="https://xgboost.readthedocs.io/en/latest/" target="_blank">XGBoost</a>, or <a href="https://keras.io/" target="_blank">Keras</a>. All of them come with great documentation and examples. No need to re-invent the wheel.
 
-<br><img src="https://www.meme-arsenal.com/memes/5d810a97b7d95c1071b764e112b88e4e.jpg" alt="NeoMeme" style="width:720px">
+<br><img src="https://www.meme-arsenal.com/memes/5d810a97b7d95c1071b764e112b88e4e.jpg" alt="NeoMeme" style="width:640px">
 
 You’re back from the books? Splendid! Now you should have a better grasp on the concept of "training a model", "generalization", and "overfitting". Those are the most important concepts you need for starters on the ML journey.
 
@@ -84,11 +84,11 @@ A big question is which algorithm will perform best with what kind of data and h
 
 I wanted some more information in the beginning to find the best algorithm to do the job. At that point I did not know about the importance of feature engineering yet. The most used algorithms in this challenge are:
 
-	- SVM, which bend the data's hyperspace with a kernel method that sets the classes apart.
-    - Random Forest, which is a smart play on many decision trees.
-    - Boosted Trees, which uses a supposedly smart choosing algorithm for decision trees
-	- Ensemble Methods, such as the Gradient Boosting originally used in the starter notebook. Ensembles use a combination of algorithms and select the best posterior.
-    - Neural Networks, of adjustable depth neural for different model complexities.
+* SVM, which bend the data's hyperspace with a kernel method that sets the classes apart.
+* Random Forest, which is a smart play on many decision trees.
+* Boosted Trees, which uses a supposedly smart choosing algorithm for decision trees
+* Ensemble Methods, such as the Gradient Boosting originally used in the starter notebook. Ensembles use a combination of algorithms and select the best posterior.
+* Neural Networks, of adjustable depth neural for different model complexities.
 
 Most Data Science articles talking about “winning Kaggle competitions” will point out that an ensemble method will most likely outperform other methods.
 
