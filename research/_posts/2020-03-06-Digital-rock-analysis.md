@@ -1,8 +1,8 @@
 ---
-title: Microfossil modeling with MicroCT
-image: /assets/img/research/CT2.png
+title: Digital Rocks
+image: /assets/img/research/berea0.png
 description: >
-  MicroCT is a scanning methodology to create non-invasive 3D X-Ray models.
+  Rock analysis is not only an analog process in the laboratory anymore.
 ---
 
 The MicroCT housed at the <a href="https://www.steinmann.uni-bonn.de/" target="_blank">Steinmann Institut für Geowissenschaften</a> can scan specimens from large to small (think *Brachiosaur* skull and friends).
@@ -31,12 +31,10 @@ The 3D model can be manipulated and specific materials and volumes marked and me
 
 ## Play on Youtube
 
-<a href="https://www.youtube.com/watch?v=ahsxIYM6Xj0" target="_blank"><img src="http://img.youtube.com/vi/ahsxIYM6Xj0/0.jpg" alt="Foraminifera in the MicroCT Part I" width="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=4AAFVgJ63bE" target="_blank"><img src="http://img.youtube.com/vi/4AAFVgJ63bE/0.jpg" alt="MicroCT Sandstone Porosity Segmentation" width="180" border="10" /></a>
 
-<a href="https://www.youtube.com/watch?v=phdytGKOuyY" target="_blank"><img src="http://img.youtube.com/vi/phdytGKOuyY/0.jpg" alt="Foraminifera in the MicroCT Part II" width="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=qUhcul-zl0c" target="_blank"><img src="http://img.youtube.com/vi/qUhcul-zl0c/0.jpg" alt="Single-Phase Flow Simulation through Sandstone" width="180" border="10" /></a>
 
-## ResearchGate
+## Related Articles
 
-<a href="https://www.doi.org/10.13140/RG.2.2.18074.59840" target="_blank">Haller & Langer 2013</a>
-
-<a href="https://www.researchgate.net/publication/308163600_Biometrical_studies_of_miliolid_foraminifera_using_high_resolution_micro-CT_reconstructions" target="_blank">Könen & Langer 2016</a>
+<a href="https://christianhallerx.github.io/research/2019-09-28-Microfossil-modeling-with-MicroCT/" target="_blank">Microfossil modeling with MicroCT</a>
