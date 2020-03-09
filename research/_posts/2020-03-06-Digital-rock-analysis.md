@@ -33,11 +33,13 @@ I want to describe how geologists go about quantifying **porosity** and then mod
 
 **Step 7** Divide the total pore space into separate pores and give each an identification.
 
+<img src="/assets/img/research/berea6.png" alt="berea6" style="width:420px"><br>
+
 **Step 8** Generate a pore-network model.
 
 <img src="/assets/img/research/berea4.png" alt="berea4" style="width:420px"><br>
 
-**Step 9** Model the pressure field and permeability/hydraulic conductivity (K) by setting fluid viscosity and other boundary conditions
+**Step 9** Model the pressure field and permeability/hydraulic conductivity (K) by setting fluid viscosity and other boundary conditions. Watch the vectorized flow pattern *Single-Phase Flow Simulation through Sandstone*.
 
 <br>
 
