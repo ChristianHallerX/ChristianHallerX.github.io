@@ -69,12 +69,12 @@ The TIN is converted to a raster, the final product. Again, return to Search and
 
 Assess the DEM. The more detailed your TIN is, the smaller you can select the cellsize (DEM resolution) without introducing artefacts. Tweak the parameters (including the Output Raster name) in order to get your desired results. You should create a set of DEMs.
 
-<img src="/assets/img/research/GIS1/GIS1_9.png" alt="GIS1_9" style="width:210px"><br>
+<img src="/assets/img/research/GIS1/GIS1_9.png" alt="GIS1_9" style="width:420px"><br>
 
 **Step 10**
 
 Use the Image Analysis sidebar (from the Windows menu) to compare your different DEMs. Turn on the layers for two that you would want to compare, and use the Slider Tool (red arrow) to drag across the images and compare them. For the final product select the DEM with smallest cellsize and minimal artefacts. Note that the 1m-DEM contains many artefacts especially visible near the houses, which was introduced by reducing the TIN size down from the 1m LAS dataset. The 5m DEM is a better compromise.  
 
-<img src="/assets/img/research/GIS1/GIS1_10a.png" alt="GIS1_10a" style="width:640px"><br>
+<img src="/assets/img/research/GIS1/GIS1_10a.png" alt="GIS1_10a" style="width:120px"><br>
 
 <img src="/assets/img/research/GIS1/GIS1_10b.png" alt="GIS1_10b"><br>
