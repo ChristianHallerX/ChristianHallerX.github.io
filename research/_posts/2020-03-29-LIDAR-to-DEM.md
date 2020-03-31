@@ -27,7 +27,7 @@ Many larger LIDAR projects are subdivided into sections for easier downloading. 
 
 Skip this step if your coordinate system and projection are saved in the .LAS properties.
 
-Adding the coordinate system and projection to the .LAS is not as straight forward as using the "Define Projection" tool for other features. Esri offers a separate toolbox on their website for creating a .PRJ file that contains the projection for each .LAS. Refer to <a href="https://support.esri.com/en/technical-article/000012272" target="_blank">this article"</a> for how to install and use the **LAS Custom GP Tools for ArcGIS 10.2** toolbox that will generate .PRJ files. Make sure to follow the information given in the metadata exactly or else the point cloud may be some meters off in the best case or displayed on the other end of the world.
+Adding the coordinate system and projection to the .LAS is not as straight forward as using the "Define Projection" tool for other features. Esri offers a separate toolbox on their website for creating a .PRJ file that contains the projection for each .LAS. Refer to <a href="https://support.esri.com/en/technical-article/000012272" target="_blank">this article</a> for how to install and use the **LAS Custom GP Tools for ArcGIS 10.2** toolbox that will generate .PRJ files. Make sure to follow the information given in the metadata exactly or else the point cloud may be some meters off in the best case or displayed on the other end of the world.
 
 <img src="/assets/img/research/GIS1/GIS1_3.png" alt="GIS1_3" style="width:420px"><br>
 
@@ -69,7 +69,7 @@ The TIN is converted to a raster, the final product. Again, return to Search and
 
 Assess the DEM. The more detailed your TIN is, the smaller you can select the cellsize (DEM resolution) without introducing artefacts. Tweak the parameters (including the Output Raster name) in order to get your desired results. You should create a set of DEMs.
 
-<img src="/assets/img/research/GIS1/GIS1_9.png" alt="GIS1_9" style="width:640px"><br>
+<img src="/assets/img/research/GIS1/GIS1_9.png" alt="GIS1_9" style="width:210px"><br>
 
 **Step 10**
 
