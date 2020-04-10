@@ -15,7 +15,7 @@ Let's get right into the creation of the streamlines with the Model Builder and 
 
 Now we will add the newly created toolbox, hence repeat steps 1-3, select the new toolbox, and click "Open". The "Hydrologic Tools" will now appear among with all the other ArcGIS built-in toolboxes. Great.
 
-<img src="/assets/img/research/GIS2/GIS2_1.png" alt="GIS2_1" style="width:640px"><br>
+<img src="/assets/img/research/GIS2/GIS2_1.png" alt="GIS2_1" style="width:200px"><br>
 
 <img src="/assets/img/research/GIS2/GIS2_2.png" alt="GIS2_1" style="width:640px"><br>
 
@@ -24,9 +24,9 @@ Now we will add the newly created toolbox, hence repeat steps 1-3, select the ne
 
 Create the model. Right click on the new toolbox (1) and select "New" (2) and "Model" (3). Ignore the popup for a moment and close it we will get back to it in the next step. Right click on the new model (4) and then "Rename" (5) to change the name from the default to "DEM to Streamlines".
 
-<img src="/assets/img/research/GIS2/GIS2_3.png" alt="GIS2_3" style="width:640px"><br>
+<img src="/assets/img/research/GIS2/GIS2_3.png" alt="GIS2_3" style="width:200px"><br>
 
-<img src="/assets/img/research/GIS2/GIS2_4.png" alt="GIS2_4" style="width:640px"><br>
+<img src="/assets/img/research/GIS2/GIS2_4.png" alt="GIS2_4" style="width:200px"><br>
 
 
 **Step 3**
@@ -37,11 +37,11 @@ The first process will be the "Flow Direction" tool, which creates a new raster 
 
 Double click on the "Flow Direction" tool to set Input Surface Raster to your DEM and then click OK. If everything went right, the tool will now be colored, which means it is ready to run. In future, we want that we can define the input raster for the model. To achieve that, we can right click on the Input oval and select "Model Parameter". A little P should appear on the top right of the oval. Great. 
 
-<img src="/assets/img/research/GIS2/GIS2_5.png" alt="GIS2_5" style="width:420px"><br>
+<img src="/assets/img/research/GIS2/GIS2_5.png" alt="GIS2_5" style="width:640px"><br>
 
-<img src="/assets/img/research/GIS2/GIS2_6.png" alt="GIS2_6" style="width:420px"><br>
+<img src="/assets/img/research/GIS2/GIS2_6.png" alt="GIS2_6" style="width:640px"><br>
 
-<img src="/assets/img/research/GIS2/GIS2_7.png" alt="GIS2_7" style="width:420px"><br>
+<img src="/assets/img/research/GIS2/GIS2_7.png" alt="GIS2_7" style="width:640px"><br>
 
 
 **Step 4**
