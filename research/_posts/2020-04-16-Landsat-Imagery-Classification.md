@@ -26,7 +26,7 @@ Create an NDVI raster. NDVI is an acronym for <a href="https://en.wikipedia.org/
 
 The burn scars in the mountains should be visible as broad areas of low NDVI, ranging from northwest to southeast.
 
-<img src="/assets/img/research/GIS3/GIS3_3.png" alt="GIS3_3" style="width:640px"><br>
+<img src="/assets/img/research/GIS3/GIS3_3.png" alt="GIS3_3" style="width:240px"><br>
 
 <img src="/assets/img/research/GIS3/GIS3_4.png" alt="GIS3_4" style="width:640px"><br>
 
