@@ -5,11 +5,13 @@ description: >
   Reconstructing the Great Salt Lake's giant ancestor
 ---
 
-Approximately 15,000 years ago, lakes in the Great Basin of the western United States achieved their maximum late Pleistocene extents. Three of those lake systems stand out in terms of surface area: Lake Lahontan with a surface area of 22,300 km<sup>2</sup>, Lake Bonneville with a surface area of 51,300 km<sup>2</sup>, and Lake Missoula with 7,770 km<sup>2</sup>. These gigantic freshwater bodies, which had surface areas approximately 10 times their reconstructed mean-historical values, have been the subject of intensive scientific research since Russell’s seminal study of Lake Lahontan (Russell, 1885) and Gilbert’s seminal study of Lake Bonneville (Gilbert, 1890).
+The Western United States is home to several terminal lakes with no outflow and evaporite deposition such as carbonates and salts (Harris et al. 2013). Approximately 15,000 years ago, lakes in the Great Basin of the western United States achieved their maximum late Pleistocene extents. Three of those lake systems stand out in terms of surface area: Lake Lahontan with a surface area of 22,300 km<sup>2</sup>, Lake Bonneville with a surface area of 51,300 km<sup>2</sup>, and Lake Missoula with 7,770 km<sup>2</sup>. These gigantic freshwater bodies, which had surface areas approximately 10 times their reconstructed mean-historical values, have been the subject of intensive scientific research since Russell’s seminal study of Lake Lahontan (Russell, 1885) and Gilbert’s seminal study of Lake Bonneville (Gilbert, 1890).
 Three main questions have occupied the minds of present-day paleoclimatologists working in these basins: (1) what caused the lakes to grow so large, (2) what was the record of lake-level change in each basin during the last glacial period, and (3) were lake-size changes linked to abrupt changes in the climate of the North Atlantic signaled by Dansgaard-Oeschgerand Heinrich events (Dansgaard, 1993).
 
-It is assumed that the ice shield covering North America during that period placed ground moraine dams on the lakes, which led them to grow in area and depth (Bond, 1993). It is assumed that melting of the ice sheets “pulled the plug” and rapidly lowered water levels. Bonneville reached its highstand level at 18.6 ka; it fluctuated near that level until 17.5 ka, at which time it incised its threshold at Red Rock Pass, Idaho, reaching the spillover level named “Red Rock Pass level” at 17.4 ka.
-Multiple research groups dated paleo-shorelines of Lake Bonneville and corroborated dates of lake levels using sediment cores (e.g., Benson et al. 2011). For this project proposes to explore the potential to use publicly Digital Elevation Models (DEMs) to calculate the water volumes in the Lake Bonneville system at different times during the last glacial. Specifically, this project seeks to answer whether spillover points and outflow locations can be detected using satellite imagery.
+It is assumed that the ice shield covering North America during that period placed ground moraine dams on the lakes, which led them to grow in area and depth (Bond, 1993). Melting of the ice sheets “pulled the plug” and rapidly lowered water levels in the basin. Bonneville reached its highstand level at 18.6 ka; it fluctuated near that level until 17.5 ka, at which time it incised its threshold at Red Rock Pass, Idaho, reaching the spillover level named “Red Rock Pass level” at 17.4 ka.
+Multiple research groups dated paleo-shorelines of Lake Bonneville and corroborated dates of lake levels using sediment cores (e.g., Benson et al. 2011).
+
+This project's goal is to explore the potential to use publicly Digital Elevation Models (DEMs) to calculate the water volumes in the Lake Bonneville system at different times during the last glacial. Specifically, it is to be answered whether spillover points and outflow locations can be detected using satellite imagery.
 
 ## Objectives
 
@@ -82,12 +84,12 @@ Using the timing and the water volume data, the net water flux in and out of the
 
 *Table 2 Flow rate comparison with similar modern waterfalls (Wikipedia, 2020)*
 
-| km<sup>3</sup>/a | m<sup>3</sup>/a | m<sup>3</sup>/s |
+| | km<sup>3</sup>/a | m<sup>3</sup>/a | m<sup>3</sup>/s |
 | --- | --- | --- | --- |
 | Niagara Falls	| 75.91 | 75,907,152,000 | 2,407 |
-| Bonneville Highstand Flood Event | (0.1 kyrs)	| 47.09	| 47,088,000,000 | 1,493 |
+| Bonneville Highstand Flood Event (0.1 kyrs)	| 47.09	| 47,088,000,000 | 1,493 |
 | Great Falls (Virginia, USA) | 14.95 | 14,948,064,000 | 474 |
-| Bonneville Highstand Flood Event | (0.5 kyrs) | 9.42 | 9,417,600,000 | 299 |
+| Bonneville Highstand Flood Event (0.5 kyrs) | 9.42 | 9,417,600,000 | 299 |
 | Murchison Falls (Uganda) | 9.46 | 9,460,800,000 | 300 |
 | Alexandra Falls (NW Territories, Canada) | 8.89 | 8,893,152,000 | 282 |
 
@@ -133,14 +135,15 @@ The USGS National Map 1-arc-second DEM is continuous and well updated. However, 
 
 ## References
 
-- Benson, L. L. (2011). The rise and fall of Lake Bonneville between 45 and 10.5 ka. Quaternary International, 235, 57-69.
-- Bond, G. B. (1993). Correlations between climate records from North Atlantic sediments and Greenland ice. Nature, 365, 143-147.
-- Dansgaard, W. J.-J. (1993). Evidence for general instability of past climate from a 250-kyrice-core record. Nature, 364, 218-220.
-- Gilbert, G. (1890). Lake Bonneville. U.S. Geological Survey Monograph.
-- Malde, H. (1968). The Catastrophic Late Pleistocene Bonneville Flood in the Snake River Plain. U.S. Geological Survey Professional Paper, 52.
+- Benson, L. L., Lund, S. P., Smoot, J. P., Rhode, D. E., Spencer, R. J., Verosub, K. L., Louderback, L. A., Johnson, C. A., Rye, R. O., Negrini, R. M. (2011). The rise and fall of Lake Bonneville between 45 and 10.5 ka. Quaternary International, 235, 57-69. DOI: <a href="https://www.doi.org/10.1016/j.quaint.2010.12.014" target="_blank">10.1016/j.quaint.2010.12.014</a>
+- Bond, G., Broecker, W., Johnsen, S., McManus, J., Labeyrie, L., Jouzel, J., Bonani, G. (1993). Correlations between climate records from North Atlantic sediments and Greenland ice. Nature, 365, 143-147. DOI: <a href="https://www.doi.org/10.1038/365143a0" target="_blank">10.1038/365143a0</a>
+- Dansgaard, W., Johnsen, S., Clausen, H.B., Dahl-Jensen, E., Gudnestrup, N.S., Hammer, C.U., Hvidberg, C.S., Steffensen, J.P., Sveinbjornsdottir, A.E., Jouzel, J., Bond, G. (1993). Evidence for general instability of past climate from a 250-kyrice-core record. Nature, 364, 218-220. DOI: <a href="https://www.doi.org/10.1038/364218a0" target="_blank">10.1038/364218a0</a>
+- Gilbert, G. K. (1890). Lake Bonneville. U.S. Geological Survey Monograph. DOI: <a href="https://www.doi.org/10.3133/m1" target="_blank">10.3133/m1</a>
+- Harris, P. M., Ellis, J., Purkis, S. J. (2013). Assessing the extent of carbonate deposition in early rift settings. AAPG Bulletin, 97, 27-60. DOI: <a href="https://www.doi.org/10.1306/06121212003" target="_blank">10.1306/06121212003</a>
+- Malde, H. E. (1968). The Catastrophic Late Pleistocene Bonneville Flood in the Snake River Plain. U.S. Geological Survey Professional Paper, 52. DOI: <a href="https://www.doi.org/10.3133/pp596" target="_blank">10.3133/pp596</a>
 - NASA. (2020, April). Global Climate Change - Vital Signs of the Planet. Retrieved from <a href="https://climate.nasa.gov/vital-signs/sea-level/" target="_blank">https://climate.nasa.gov/vital-signs/sea-level/</a>
-- Oviatt, C. C. (1992). Radiocarbon chronology of Lake Bonneville, Eastern Great Basin, USA. Palaeogeography, Palaeoclimatology, Palaeoecology, 99, 225-241.
-- Russell, I. (1885). Geological History of Lake Lahontan, A Quaternary Lake of Northwestern Nevada. U.S. Geological Survey Monograph.
+- Oviatt, C. C., Currey, D. R., Sack, D. (1992). Radiocarbon chronology of Lake Bonneville, Eastern Great Basin, USA. Palaeogeography, Palaeoclimatology, Palaeoecology, 99, 225-241. DOI: <a href="https://www.doi.org/10.1016/0031-0182(92)90017-Y" target="_blank">10.1016/0031-0182(92)90017-Y</a>
+- Russell, I. (1885). Geological History of Lake Lahontan, A Quaternary Lake of Northwestern Nevada. U.S. Geological Survey Monograph. DOI: <a href="https://www.doi.org/10.3133/m11" target="_blank">10.3133/m11</a>
 - Wikipedia. (2020, 4 28). List of Waterfalls by Flow Rate. Retrieved from <a href="https://en.wikipedia.org/wiki/List_of_waterfalls_by_flow_rate" target="_blank">https://en.wikipedia.org/wiki/List_of_waterfalls_by_flow_rate</a>
 
 
