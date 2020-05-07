@@ -148,7 +148,7 @@ The USGS National Map 1-arc-second DEM is continuous and well updated. However, 
 
 **3D Animation Video on Youtube**
 
-<a href="https://youtu.be/ZPlnN-vK7Ho" target="_blank"><img src="http://img.youtube.com/vi/ZPlnN-vK7Ho/0.jpg" alt="Lake Bonneville Evolution Youtube Video"/></a>
+<a href="https://youtu.be/ZPlnN-vK7Ho" target="_blank"><img src="http://img.youtube.com/vi/ZPlnN-vK7Ho/0.jpg" alt="Lake Bonneville Evolution Youtube Video" width="480"/></a>
 
 <br>
 <br>
@@ -157,5 +157,5 @@ The USGS National Map 1-arc-second DEM is continuous and well updated. However, 
 
 Click "Open in Map Viewer".
 
-<a href="https://www.arcgis.com/home/item.html?id=5c7df41a33044e2e8c3671fe767adef4" target="_blank"><img src="/assets/img/research/Bonneville/ArcGISOnline.png" alt="ArcGIS Online" width="240" height="180" border="10" /></a>
+<a href="https://www.arcgis.com/home/item.html?id=5c7df41a33044e2e8c3671fe767adef4" target="_blank"><img src="/assets/img/research/Bonneville/ArcGISOnline.png" alt="ArcGIS Online" width="480" border="10" /></a>
 
