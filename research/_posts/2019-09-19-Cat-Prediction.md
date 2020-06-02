@@ -17,10 +17,10 @@ Most likely a regularization technique would have prevented some overfitting and
 
 In the meantime, I have to live with the fact that my computer thinks I am a cat.
 
-<img src="https://raw.githubusercontent.com/ChristianHallerX/Deeplearning.ai/master/1%20Neural%20Networks%20and%20Deep%20Learning/Week%204/Deep%20Neural%20Network%20Application%20Image%20Classification/images/my_image.jpg" alt="Cat" style="width:500px">
+<img src="https://raw.githubusercontent.com/ChristianHallerX/Deeplearning.ai/master/Deep%20Learning%20Specialization/1%20Neural%20Networks%20and%20Deep%20Learning/Week%204/Deep%20Neural%20Network%20Application%20Image%20Classification/images/my_image.jpg" alt="Cat" style="width:500px">
 
 You are invited to download the Jupyter Notebook and run it with you own photo. Let me know what happens.
 
 ## GitHub
 
-<a href="https://github.com/ChristianHallerX/Deeplearning.ai/blob/master/1%20Neural%20Networks%20and%20Deep%20Learning/Week%204/Deep%20Neural%20Network%20Application%20Image%20Classification/Deep%2BNeural%2BNetwork%2B-%2BApplication%2Bv8.ipynb" target="_blank">Jupyter Notebook</a>
+<a href="https://github.com/ChristianHallerX/Deeplearning.ai/blob/master/Deep%20Learning%20Specialization/1%20Neural%20Networks%20and%20Deep%20Learning/Week%204/Deep%20Neural%20Network%20Application%20Image%20Classification/Deep%2BNeural%2BNetwork%2B-%2BApplication%2Bv8.ipynb" target="_blank">Jupyter Notebook</a>
