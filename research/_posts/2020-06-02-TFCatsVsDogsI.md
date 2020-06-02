@@ -548,7 +548,7 @@ plt.title ('Training and validation loss'   )
 
 **Result:**
 
-<img src="/assets/img/research/CatsVsDogsI/history.png" alt="history.png MISSING" style="width:640px"><br>
+<img src="/assets/img/research/CatsVsDogsI/history.png" alt="history.png MISSING" style="width:480px"><br>
 
 
 As the graph above shows, we are strongly overfitting our Training Set. Our Training accuracy (in blue) gets close to 100%, while our Validation accuracy (in orange) stalls as ~71%. The validation loss reaches its minimum after only five epochs and then increases steadily.
