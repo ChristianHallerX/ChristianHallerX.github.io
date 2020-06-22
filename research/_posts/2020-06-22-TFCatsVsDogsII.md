@@ -18,7 +18,7 @@ We will follow these steps:
 5.   Train Model
 6.   Evaluate the Training and Validation accuracy
 
-If you want to follow along on the Jupyter notebook hosted on GitHub click on <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsI.ipynb" target="_blank">this link</a>, otherwise keep on reading.
+If you want to follow along on the Jupyter notebook hosted on GitHub click on <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsII.ipynb" target="_blank">this link</a>, otherwise keep on reading.
 
 ## Step 1: Transfer Learning
 
