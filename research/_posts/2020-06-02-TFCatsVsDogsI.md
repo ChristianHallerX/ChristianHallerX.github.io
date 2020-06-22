@@ -21,7 +21,7 @@ We will follow these steps:
 6.   Making predictions
 7.   Evaluate the Training and Validation accuracy
 
-If you want to follow along on the Jupyther notebook hosted on GitHub click on <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsI.ipynb" target="_blank">this link</a>, otherwise keep on reading.
+If you want to follow along on the Jupyter notebook hosted on GitHub click on <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsII.ipynb" target="_blank">this link</a>, otherwise keep on reading.
 
 ## Step 1: Explore the Example Data of Cats and Dogs
 
@@ -269,12 +269,12 @@ model.compile(optimizer=RMSprop(lr=0.001),
 </code></pre>
 
 
-## Step 3: Data Preprocessing
+## Step 3: Pre-Processing - Image Data Generator
 
 
 Let's configure the data generators that will read pictures in our source folders, convert them to float32 tensors, and feed them including labels to the neural network. Training images and validation images will be separate generators. The generators will yield batches of 20 images of size 150x150 and their labels (binary).
 
-Statistical modeling data should usually be normalizedto make it more amenable to processing by the network. In our case, we will preprocess our images by normalizing the pixel values to be in the 0 to 1 range. Originally all values are in the 0 to 255 range.
+Statistical modeling data should usually be normalized to make it more amenable to processing by the network. In our case, we will preprocess our images by normalizing the pixel values to be in the 0 to 1 range. Originally all values are in the 0 to 255 range.
 
 In Keras this can be done via the `keras.preprocessing.image.ImageDataGenerator` class using the rescale parameter. This ImageDataGenerator class allows you to instantiate generators of augmented image batches (and their labels) via `.flow(data, labels)` or `.flow_from_directory(directory)`. These generators can then be used with the Keras model methods that accept data generators as inputs: `fit`, `evaluate_generator`, and `predict_generator`.
 
