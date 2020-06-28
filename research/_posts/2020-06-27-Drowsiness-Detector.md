@@ -1,33 +1,30 @@
 ---
-title: Drowsiness Detection in Real Time
+title: Falling Asleep? Detect Closed Eyes in Real Time
 image: /assets/img/research/Drowsy/DrowsinessDetection_Cover.png
 description: >
-  Real-time webcam inference if you are dozing away
+  A drowsiness detector to try out on yourself
 ---
 
-For this ML/DL project, I will show how to implement a simple relatively simple drowsiness detection tool. Drowsiness detection may be helpful in many instances. For example driving a vehicle (<a href="https://en.wikipedia.org/wiki/Driver_drowsiness_detection" target="_blank">Wikipedia: Driver drowsiness detection, </a> <a href="https://www.nytimes.com/2017/03/16/automobiles/wheels/drowsy-driving-technology.html" target="_blank">NYTimes: Sleepy Behind the Wheel? Some Cars Can Tell</a>). But perhaps also more recent applications such as virtual school classes.
-
-Many people have to drive on the highway for long hours. Taxi drivers, bus drivers, truck drivers and people traveling long-distance suffer from lack of sleep. Due to which it becomes very dangerous to drive when feeling sleepy.
+For this ML/DL project, we will implement a relatively simple drowsiness-detection tool. Drowsiness detection can be done by measuring if someone's eyes were closed longer than blinking and may be a life-saver in many instances. For example while driving a vehicle for long hours or at night (<a href="https://en.wikipedia.org/wiki/Driver_drowsiness_detection" target="_blank">Wikipedia: Driver drowsiness detection</a>, <a href="https://www.nytimes.com/2017/03/16/automobiles/wheels/drowsy-driving-technology.html" target="_blank">NYTimes: Sleepy Behind the Wheel? Some Cars Can Tell</a>). Other use cases are more recent applications such as virtual school classes. In either case, we hope people are wide awake during these activities.
 
 I will show how to implement a camera system that watches a person and can tell if they are falling asleep. The most accute signs for this are prolonged periods of closed eyes.
 
 For the model here I will first use a Haar Cascade object identifier to find face and eyes in real-time footage. From an incoming frame, the eyes will be cropped and fed into a Convolutional Neural Netowk (CNN) model for inference.
 
-If closed eyes were predicted for several consecutive frames an alarm will sound. When eyes are predicted opened again, everything goes back to normal.
+If closed eyes were predicted for several consecutive frames, a warning chime will sound. When eyes are predicted open again, everything is supposed to go back to normal.
+
+Give it a go!
 
 
-## Preparation
+## Prerequisites (I prepared this in advance)
 
-- **Dataset creation**. To create the DNN dataset, a script was written that captures eyes from a camera and stores on local disk. They were labeled "Open" or "Closed’. The data was manually cleaned by removing the unwanted images which were not necessary for building the model. The dataset comprises ~7,000 images of people’s eyes under different lighting conditions.
+- **Dataset creation**. To create the DNN dataset, a script was written that captures eyes from a camera and stored them on local disk. They were labeled "Open" or "Closed". The data was manually cleaned by removing bad and redundant images. The dataset comprised ~7,000 images of people’s eyes under different lighting conditions. Sorry, this is too big for GitHub.
 
-- **Training**. A Deep Neural Network (DNN) model was trained. See file "Drowsiness_detection_CNN_pre-train.ipynb" attached the final weights and model architecture file “models/cnnCat2.h5” in the data repository.
+- **Training**. Next, a Deep Neural Network (DNN) model was trained to classify open and closed eyes. See file  <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Data/drowsiness_data/Drowsiness_detection_CNN_pre-train.ipynb " target="_blank">"Drowsiness_detection_CNN_pre-train.ipynb"</a> and the the final weights and model architecture file "cnnCat2.h5".
 
-- **Object Detection.** with Haar Cascade in <a href="https://opencv.org/" target="_blank">OpenCV</a>. The Haar Cascade <a href="https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html" target="_blank">(example in OpenCV)</a> produces similar results as the newer YOLO object detection algorithm and uses kernel computation, which is very similar to convolution filters. The "cascade" part is used to narrow down features to the wanted areas and save computation. The kernels used by OpenCV here are set to detect eyes and face. Many pre-tuned kernels are available for different purposes. <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades" target="_blank">Link to OpenCV's kernel repo</a>.
+- **Object Detection.** The Haar Cascade <a href="https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html" target="_blank">(example in OpenCV)</a> finds landmarks in image frames and cuts them out. The Haar Cascade algorithm produces similar results as the newer YOLO object detection using image convolution filters but instead uses kernel computation. Kernel computation is very similar to YOLO's convolution filters. Different kernels are tuned for different landmarks and can be loaded as needed. The "cascade" part of the algorithm is used to narrow down features to the wanted areas and save computation. The kernels we will use here are set to detect eyes and face. Many pre-tuned kernels are shared by OpenCV for different purposes and objects. <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades" target="_blank">Link to OpenCV's kernel repo</a>.
 
-Data Repository: <a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/drowsiness_data" target="_blank">https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/drowsiness_data</a>
-
-
-If you want to follow along and try it out yourself , download the Jupyter notebook on <a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Drowsiness_detection_main.ipynb" target="_blank">this link</a>. Make sure you have all the packages installed, the respective <a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/drowsiness_data" target="_blank">files</a> and links modified. And of course, you will need a video camera or webcam.
+If you want to follow along and try it out yourself, download the **<a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Drowsiness_detection_main.ipynb" target="_blank">Jupyter notebook</a>**. Check if your environment has all the packages installed. The necessary data files for this project are available from **<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/drowsiness_data" target="_blank">this folder</a>**. Make sure the paths in the notebook point to the correrct local directories. And of course, you will need a video camera or webcam plugged into your computer.
 
 ## Step 1: Imports
 
@@ -200,13 +197,33 @@ cv2.destroyAllWindows()
 					
 </code></pre>
 
-**Result:**
+## Result:
 
-![alt text](https://github.com/ChristianHallerX/ChristianHallerX.github.io/blob/master/assets/img/research/Drowsy/Screen1.png)
+- Normal
 
-![alt text](https://github.com/ChristianHallerX/ChristianHallerX.github.io/blob/master/assets/img/research/Drowsy/Screen2.png)
 
-![alt text](https://github.com/ChristianHallerX/ChristianHallerX.github.io/blob/master/assets/img/research/Drowsy/Screen3.png)
+<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/img/research/Drowsy/Screen1.png" alt="Screen 1" style="width:640px">
+
+
+- Blinking
+
+
+<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/img/research/Drowsy/Screen2.png" alt="Screen 2" style="width:640px">
+
+
+- Eyes closed for too long
+
+
+<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/img/research/Drowsy/Screen3.png" alt="Screen 3" style="width:640px">
+
+
+
+- Videos
+
+<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/video/Drowsy/Drowsiness1.gif" alt="Screen 3" style="width:640px">
+
+<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/video/Drowsy/Drowsiness2.gif" alt="Screen 3" style="width:640px">
+
 
 
 
