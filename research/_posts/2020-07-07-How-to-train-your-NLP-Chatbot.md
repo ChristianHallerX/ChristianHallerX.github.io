@@ -5,7 +5,6 @@ description: >
   Implement an NLP model with a chat GUI
 ---
 
-# Medical NLP Chatbot with NLTK
 
 A chatbot is smart code that is capable of communicating similar to a human.
 
