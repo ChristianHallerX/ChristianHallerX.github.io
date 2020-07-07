@@ -26,12 +26,12 @@ We are going to build a chatbot using deep learning techniques following the ret
 Topics the chatbot will be helpful with is helping doctors/patients finding **(1) Adverse drug reaction**, **(2) Blood pressure**, **(3) Hospitals** and **(4) Pharmacies**. It may be used on websites pertaining to hospital, pharmaceutical online stores etc. or modified to fit completely different purposes. Furthermore, this is just a prototype whose functionality can be greatly expanded in topics it can reply to, depth of conversation, answer variert and so on.
 
 
-<br><img src="/assets/video/MedInfo/chatbotvid.gif" alt="chatbot gif" style="width:640px"><br>
+<br><img src="/assets/video/MedInfo/chatbotvid.gif" alt="chatbot gif" style="width:420px"><br>
 
 
 ## Prerequisites
 
-The training set and DNN for chatbot inference was created in a separate **<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/chatbot_data/Medical_Chatbot_with_NLTK_Train.ipynb" target="_blank">Jupyter notebook</a>** . The model used data from the **intents.json** file, which contains:
+The training set and DNN for chatbot inference was created in a separate **<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/chatbot_data/Medical_Chatbot_with_NLTK_Train.ipynb" target="_blank">Jupyter notebook</a>**. The model used data from the **intents.json** file, which contains:
 - "tag", a shorthand for the topic of the conversation,
 - "patterns", the user input, multiple alternatives possible for this topic,
 - "responses", the chatbot replies,
@@ -47,7 +47,7 @@ Files generated in that notebook are:
 - **classes.pkl**, a pickle file containing the unique tags/topics of intents
 - **chatbot_model.h5**, a file containing the weights of the trained DNN for prediction
 
-If you want to follow along and try it out yourself, download the **<a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Medical_Chatbot_with_NLTK_main.ipynb" target="_blank">Jupyter notebook</a>**. Check if your environment has all the packages installed. The necessary data files for this project are available from **<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/chatbot_data" target="_blank">this folder</a>**. Make sure the paths in the notebook point to the correrct local directories. And of course, you will need to install all the Python packages if you do not have all of them yet.
+If you want to follow along and try it out yourself, download the **<a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Medical_Chatbot_with_NLTK_main.ipynb" target="_blank">Jupyter notebook</a>** containing all the steps shown below. Check if your environment has all the packages installed. The necessary data files for this project are available from **<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/chatbot_data" target="_blank">this folder</a>**. Make sure the paths in the notebook point to the correrct local directories. And of course, you will need to install all the Python packages if you do not have all of them yet.
 
 Give it a go and talk with the chatbot yourself!
 
