@@ -1,6 +1,6 @@
 ---
 title: Digital Rocks
-image: /assets/img/research/berea0.png
+image: /assets/img/research/DigitalRock/berea0.png
 description: >
   Rock analysis is not only an analog process in the laboratory anymore.
 ---
@@ -21,23 +21,23 @@ I want to describe how geologists go about quantifying **porosity** and then mod
 
 **Step 4** Preprocess noisy images.
 
-<img src="/assets/img/research/berea5.png" alt="berea5" style="width:420px"><br>
+<img src="/assets/img/research/DigitalRock/berea5.png" alt="berea5" style="width:420px"><br>
 
 **Step 5** Segment objects into classes. For example mask only the pores and assign them to class "pore space", then mask the mineral grains etc. Various segmentation techniques exist: manual selection, magic wand, thresholding by color value, watershed. To avoid operator bias, a completely automatic routine such as wathershed should be used that delivers repeatable results. 
 
-<img src="/assets/img/research/berea1.png" alt="berea1" style="width:420px"><br>
+<img src="/assets/img/research/DigitalRock/berea1.png" alt="berea1" style="width:420px"><br>
 
 **Step 6** Remove disconnected porosity (that has no permeability) from the total porosity and obtain the connected pore space.
 
-<img src="/assets/img/research/berea3.png" alt="berea3" style="width:420px"><br>
+<img src="/assets/img/research/DigitalRock/berea3.png" alt="berea3" style="width:420px"><br>
 
 **Step 7** Divide the total pore space into separate pores and give each an identification.
 
-<img src="/assets/img/research/berea6.png" alt="berea6" style="width:420px"><br>
+<img src="/assets/img/research/DigitalRock/berea6.png" alt="berea6" style="width:420px"><br>
 
 **Step 8** Generate a pore-network model.
 
-<img src="/assets/img/research/berea4.png" alt="berea4" style="width:420px"><br>
+<img src="/assets/img/research/DigitalRock/berea4.png" alt="berea4" style="width:420px"><br>
 
 **Step 9** Model the pressure field and permeability/hydraulic conductivity (K) by setting fluid viscosity and other boundary conditions. Watch the vectorized flow pattern *Single-Phase Flow Simulation through Sandstone*.
 
