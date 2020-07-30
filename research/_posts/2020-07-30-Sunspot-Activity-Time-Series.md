@@ -1,11 +1,11 @@
 ---
 title: Time Series Modeling - Sunspot Activity
-image: /assets/img/research/Sunspot/SunSpot_Cover.png
+image: /assets/img/research/Sunspot/Sunspot_Cover.png
 description: >
-  Time Series data requires more complicated pre-processing
+  Sunspots have a scientific record reaching back to 1749
 ---
 
-For this project we will examine making time series predictions using sunspot records. Sunspots are dark spots on the sun, associated with lower temperature.
+For this project we will examine making time series predictions using sunspot records. Sunspots are dark spots on the sun, associated with lower temperature but also marked by intense magnetic activity. They play host to solar flares and hot gassy ejections from the sun’s corona. 
 
 As the Sun moves through its natural 11-year cycle, in which its activity rises and falls, sunspots rise and fall in number, too. NASA and NOAA track sunspots in order to determine, and predict, the progress of the solar cycle — and ultimately, solar activity.
 
