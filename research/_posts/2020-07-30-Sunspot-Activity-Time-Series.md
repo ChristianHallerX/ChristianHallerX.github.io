@@ -249,7 +249,7 @@ plt.ylabel("Loss")
 
 </code></pre>
 
-<br><img src="/assets/img/research/Sunspot/lroptimization.png" alt="lr optimization graph" style="width:640px"><br>
+<br><img src="/assets/img/research/Sunspot/lroptimization.png" alt="lr optimization graph" style="width:480px"><br>
 
 
 
@@ -318,7 +318,7 @@ plt.figure()
 
 </code></pre>
 
-<br><img src="/assets/img/research/Sunspot/history.png" alt="history graphs" style="width:640px"><br>
+<br><img src="/assets/img/research/Sunspot/history.png" alt="history graphs" style="width:480px"><br>
 
 
 ## Step 6: Forecasting and Evaluating
