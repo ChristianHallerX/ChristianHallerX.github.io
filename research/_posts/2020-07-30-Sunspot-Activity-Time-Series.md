@@ -196,7 +196,7 @@ for series_window,time_window in zip(plot_split(series,window_size), plot_split(
 <br><img src="/assets/img/research/Sunspot/windows.png" alt="windows graph" style="width:640px"><br>
 
 
-## Step 4: Train for Learning Rate Optimization
+## Step 4: Train for Learning-Rate Optimization
 
 Next task is finding a learning rate that delivers the least loss. With a callback that contains a Learning Rate Scheduler, the learning rate is increased sucessively over the 100 epochs. The model design itself will remain the same later. Fisrst, a 1D-convolutional filter with a width of 5 (2 samples before, two after the selected sample) and then two LSTM layers do the sequence learning work. Two dense layers and an output layer (1 neuron) make up the rest of the network. 
 
@@ -237,7 +237,7 @@ history = model.fit(train_set, epochs=100, callbacks=[lr_schedule], verbose=0)
 
 </code></pre>
 
-All the epoch's metrics are saved in the history variable and can be visualized. The graph helps us find a learning rate with lowest loss and assure it is in an area of low volatility. A learning rate of 10e-5 is a save pick.
+All the epoch's metrics are saved in the history variable and can be visualized. The graph helps us find a learning rate with lowest loss and assure it is in an area of low volatility. A learning rate of 10e-5 is a safe pick.
 
 <pre><code>
 # pick lr from graph
