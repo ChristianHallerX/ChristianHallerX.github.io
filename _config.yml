@@ -25,12 +25,10 @@ title:                 Christian Haller
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   Christian Haller - Personal Website. Building digital eminence for geoscience.
-
 # A shorter description for the sidebar.
 tagline:               >
   Geoscientist &
   Machine Learning Dev
-
 # A list of keywords for your blog
 keywords:              [geology,geoscience,geophysics,geochemistry,paleontology,data science,data analytics]
 
@@ -76,7 +74,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2019. All rights reserved.
+copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -345,7 +343,6 @@ replace_img:
       <noscript><img data-ignore %{attrs}/></noscript>
       <span slot="loading" class="loading"><span class="icon-cog"></span></span>
     </hy-img>
-
 kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'
   math_engine:         mathjax
