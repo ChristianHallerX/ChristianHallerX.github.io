@@ -38,7 +38,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", git: "https://github.com/hydecorp/jekyll-include-cache"
-  gem "kramdown-parser-gfm"
+  gem "jekyll-replace-img"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
@@ -47,3 +47,4 @@ end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
+gem "kramdown-parser-gfm"
