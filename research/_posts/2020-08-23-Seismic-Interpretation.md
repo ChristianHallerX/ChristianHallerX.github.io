@@ -40,7 +40,7 @@ You see some strong contrasts in a rounded structure. The rounded structure cons
 
 Within this anticline structure you see something that cannot form syn-depositionally. There are two lines crossing. The convex anticline crosses an almost straight (horizontal) line. This indicates that there has to be something else causing this image. These so-called **flat spots** can be an indicator for a hydrocarbon trap as the fluid in the sediments changes the accoustic impedance for our seismic signal travelling through.
 
-Now the really interesting piece is, that you very probably able to follow this explanation of the **flat spot**, but there is a good chance we were not looking at the same flat structure. Seismic interpreters working with a single seismic image will interpret it in different ways. The following image is a shnapshot how 39 different interpreters's opinion **<a href="https://pickthis.io" target="_blank">https://pickthis.io</a>** then a heatmap was generated.
+Now the really interesting piece is, that you very probably able to follow this explanation of the **flat spot**, but there is a good chance you and I are not looking at exactly the same flat structure. Seismic interpreters working with a single seismic image will interpret it in different ways. The following image is a shnapshot how 39 different interpreters's opinion **<a href="https://pickthis.io" target="_blank">https://pickthis.io</a>** then a heatmap was generated. 
 
 <details>
  <summary>
@@ -53,9 +53,9 @@ Now the really interesting piece is, that you very probably able to follow this 
 </details>
 <br>
 
-We can explain these phenomenae scientifically, but finding them is still highly subjective. We can see that the heatmap shows many picks along the flat spot I described. This is especially interesting as I posed the challenge to pick the “hydrocarbon indication” instead of directly giving out the challenge “find the flat spot”, giving us many more interpretations.
+Science can explain these patterns well, but finding them is still highly subjective. You can see that the heatmap shows many picks along the flat spot described. This is especially interesting as I posed the challenge to pick the “hydrocarbon indication” instead of directly giving out the challenge “find the flat spot”, giving us many more interpretations. This starts becoming a problem when companies require hard volume numbers on how much hydrocarbons are trapped in the structure (or none at all??). These volumes go into larger risk calculations if the company wants to invest in drilling the structure or not. The interpretation is a make-or-break situation and such requires experience and at best multiple sets of eyes.
 
-I encourage you to sign up with **<a href="https://pickthis.io" target="_blank">https://pickthis.io</a>** and take the challenge for yourself. Only after submitting your interpretation you can see other submissions. Be relieved, there is no wrong interpretation, just look at it and get going. If you know your way in geophysical interpretation already, then this is a perfect training opportunity without wagering your company's exploration budget.
+For building up your interpretation experience, I encourage you to sign up with **<a href="https://pickthis.io" target="_blank">https://pickthis.io</a>**, a social image interpretation web-app, and take the challenge for yourself. Note: Only after submitting your interpretation you can see the others'. Be relieved, there is no wrong interpretation, just look at it and get going. If you know your way in geophysical interpretation already, then this is a perfect training opportunity without wagering your company's exploration budget.
 
 
 ## Some Examples from pickthis.io
