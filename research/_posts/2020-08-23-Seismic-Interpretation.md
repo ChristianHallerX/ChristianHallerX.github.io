@@ -4,7 +4,6 @@ image: /assets/img/research/SeismicInterpretation/SeismicInterpretation_Cover.pn
 description: >
   The final step in the work with seismic data is seismic interpretation.
 ---
-## Introduction 
 
 <pre><code>
 A Paleontologist, a Geologist, and a Geophysicist are interviewing for a job.
@@ -30,7 +29,7 @@ I would love to say that interpretation is straight forward and seismic data rev
 
 After all the pre-processing the geophysicist be left with something like this in the image below:
 
-<img src="/assets/img/research/SeismicInterpretation/FlatSpot.png" alt="flat spot" style="width:640px">
+<img src="/assets/img/research/SeismicInterpretation/FlatSpot.png" alt="flat spot" style="width:640px"><br>
 Joshua Doubek / pickthis.io<br>
 
 This seismic image above is easy on the eyes: low noise and good contrast. You can even see some hydrocarbons! At least if the interpreter knows know what they are looking at.
@@ -48,7 +47,7 @@ Now the really interesting piece is, that you very probably able to follow this 
   <b><u>Click me!</u></b>
  </summary>
  <ul>
-  <img src="/assets/img/research/SeismicInterpretation/FlatSpotb.png" alt="flat spot b" style="width:640px">
+  <img src="/assets/img/research/SeismicInterpretation/FlatSpotb.png" alt="flat spot b" style="width:640px"><br>
   Joshua Doubek / pickthis.io<br>
  </ul>
 </details>
@@ -67,7 +66,7 @@ I encourage you to sign up with **<a href="https://pickthis.io" target="_blank">
 
 **Description:** Seismic section through Penobscot 3D seismic volume.
 
-<img src="/assets/img/research/SeismicInterpretation/interp1b.png" alt="interpretation 1" style="width:640px">
+<img src="/assets/img/research/SeismicInterpretation/interp1b.png" alt="interpretation 1" style="width:640px"><br>
 Evan M. Bianco / pickthis.io<br>
 
 <details>
@@ -75,7 +74,7 @@ Evan M. Bianco / pickthis.io<br>
   <b><u>Click me!</u></b>
  </summary>
  <ul>
-  <img src="/assets/img/research/SeismicInterpretation/interp1.png" alt="interpretation 1" style="width:640px">
+  <img src="/assets/img/research/SeismicInterpretation/interp1.png" alt="interpretation 1" style="width:640px"><br>
   Evan M. Bianco / pickthis.io<br>
  </ul>
 </details>
@@ -87,7 +86,7 @@ Evan M. Bianco / pickthis.io<br>
 
 **Description:** Pick the fault along the cross section.
 
-<img src="/assets/img/research/SeismicInterpretation/interp2b.png" alt="interpretation 2" style="width:640px">
+<img src="/assets/img/research/SeismicInterpretation/interp2b.png" alt="interpretation 2" style="width:640px"><br>
 Aziz Amirul Abdul / pickthis.io<br>
 
 <details>
@@ -95,7 +94,7 @@ Aziz Amirul Abdul / pickthis.io<br>
   <b><u>Click me!</u></b>
  </summary>
  <ul>
-  <img src="/assets/img/research/SeismicInterpretation/interp2.png" alt="interpretation 2" style="width:640px">
+  <img src="/assets/img/research/SeismicInterpretation/interp2.png" alt="interpretation 2" style="width:640px"><br>
   Aziz Amirul Abdul / pickthis.io<br>
  </ul>
 </details>
@@ -107,7 +106,7 @@ Aziz Amirul Abdul / pickthis.io<br>
 
 **Description:** Image created by slicing and modifying an openly available 3D depth migrated image of the SEAM Phase 1 salt body.
 
-<img src="/assets/img/research/SeismicInterpretation/interp3b.png" alt="interpretation 3" style="width:640px">
+<img src="/assets/img/research/SeismicInterpretation/interp3b.png" alt="interpretation 3" style="width:640px"><br>
 tdrapstine / pickthis.io<br>
 
 <details>
@@ -115,7 +114,7 @@ tdrapstine / pickthis.io<br>
   <b><u>Click me!</u></b>
  </summary>
  <ul>
-  <img src="/assets/img/research/SeismicInterpretation/interp3.png" alt="interpretation 3" style="width:640px">
+  <img src="/assets/img/research/SeismicInterpretation/interp3.png" alt="interpretation 3" style="width:640px"><br>
   tdrapstine / pickthis.io<br>
  </ul>
 </details>
@@ -127,7 +126,7 @@ tdrapstine / pickthis.io<br>
 
 **Description:** Duplicated and folded strata from the Horton Bluff formation at Rainy Cove, Nova Scotia..
 
-<img src="/assets/img/research/SeismicInterpretation/interp4.png" alt="interpretation 4" style="width:640px">
+<img src="/assets/img/research/SeismicInterpretation/interp4.png" alt="interpretation 4" style="width:640px"><br>
 Evan M. Bianco / pickthis.io<br>
 
 <details>
@@ -135,7 +134,7 @@ Evan M. Bianco / pickthis.io<br>
   <b><u>Click me!</u></b>
  </summary>
  <ul>
-  <img src="/assets/img/research/SeismicInterpretation/interp4b.png" alt="interpretation 4" style="width:640px">
+  <img src="/assets/img/research/SeismicInterpretation/interp4b.png" alt="interpretation 4" style="width:640px"><br>
   Evan M. Bianco / pickthis.io<br>
  </ul>
 </details>
