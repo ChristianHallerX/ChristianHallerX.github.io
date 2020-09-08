@@ -1,6 +1,6 @@
 ---
 title: Siccar Point and Hutton's Unconformity
-image: /assets/img/research/Huttonclean.jpg
+image: /assets/img/research/Siccar_Point/Siccar_Point_Cover.png
 description: >
   Siccar Point is one of geology's iconic locations.
 ---
@@ -19,7 +19,7 @@ This iconic outcrop is considered to have spurred modern geologic thinking how d
 
 Furthermore, Hutton also used Siccar Point as a prime example to proof how much time is stored in the rock record contrary to previous assumptions.
 
-<br><img src="/assets/img/research/Huttons.png" alt="Siccar Point">
+<br><img src="/assets/img/research/Siccar_Point/Huttons_Diagram.png" alt="Huttons_Diagram">
 
 
 ## Further reading

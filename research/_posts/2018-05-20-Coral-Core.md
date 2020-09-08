@@ -1,15 +1,15 @@
 ---
-title: Coral Cores
-image: /assets/img/research/coralcore.jpeg
+title: Freshly Drilled Coral Cores ... from the Florida Reef Tract
+image: /assets/img/research/Coral_Core/Coral_Cores_Cover.png
 description: >
   Coral skeletons are drilled for geochemical studies.
 ---
 
-The coral reef workgroup came back with Florida Keys cores.
+The coral reef workgroup came back with Florida Keys cores and I took the opportunity to have a look at them before go into the laboratory for processing.
 
-You can trace the polyp growth direction if you look closely.
+Looking closely, you can trace the coral polyp growth direction and even the transition from living coral to clean skeleton. Insight: the living part of the coral is only a thin outer skin. Further down the core individual polyp cavities become rock porosity.
 
-The growth of the corals towards the sea surface leaves back a calcium carbonate skeleton.
+<br><img src="/assets/img/research/Coral_Core/Coral_Zoom.png" alt="Coral Zoom">
 
 This skeleton is biomineralized from sea water and incorporates and preserves trace elements and stable isotopes from the time the coral was alive.
 
@@ -23,10 +23,14 @@ A lot of permiting is required to justify core extraction.
 
 Fun fact: In the old days, several decades ago, it was common for researchers to use explosives to get large chunks of corals to study.
 
-<br><img src="/assets/img/research/coraldiagram.jpg" alt="Coral Diagram">
+<br><img src="/assets/img/research/Coral_Core/coraldiagram.jpg" alt="Coral Diagram">
 
 ## Further reading
 
 <a href="https://www.usgs.gov/media/images/usgs-scientists-drill-a-coral-core-florida-keys" target="_blank">USGS scientists drill a coral core in the Florida Keys</a>
+
+
+<a href="https://www.usgs.gov/natural-hazards/coastal-marine-hazards-and-resources/science/marine-climate-history?qt-science_center_objects=0#qt-science_center_objects" target="_blank">USGS Marine Climate History</a>
+
 
 <a href="https://www.whoi.edu/oceanus/feature/coral-coring/" target="_blank">Woodshole Researchers on Coral Coring campaign</a>
