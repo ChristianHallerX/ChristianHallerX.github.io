@@ -1,8 +1,8 @@
 ---
-title: Microfossil modeling with MicroCT
-image: /assets/img/research/CT2.png
+title: Microfossil Modeling with MicroCT
+image: /assets/img/research/MicroCT/MicroCT_Cover.png
 description: >
-  MicroCT is a scanning methodology to create non-invasive 3D X-Ray models.
+  360° X-Ray Shots reveal Interior Volumes
 ---
 
 The MicroCT housed at the <a href="https://www.steinmann.uni-bonn.de/" target="_blank">Steinmann Institut für Geowissenschaften</a> can scan specimens from large to small (think *Brachiosaur* skull and friends).
@@ -13,7 +13,7 @@ The Langer Lab deviced a new mounting technique to successfuly scan foraminifera
 
 Goal is measuring structures and volumes of foraminiferal shells without destroying precious specimens. 
 
-<br><img src="/assets/img/research/CT1.jpg" alt="CT1" style="width:360px">
+<br><img src="/assets/img/research/MicroCT/CT1.jpg" alt="CT1" style="width:480px"><br>
 
 In the figure above the yellow cylinder on the right hand side is the X-Ray source.
 
@@ -29,11 +29,13 @@ After the recording is finished, the computer will calculate a black-and-white i
 
 The 3D model can be manipulated and specific materials and volumes marked and measured (see linked materials below).
 
+<br><img src="/assets/img/research/MicroCT/CT2.png" alt="CT2" style="width:640px"><br>
+
 ## Play on Youtube
 
-<a href="https://www.youtube.com/watch?v=ahsxIYM6Xj0" target="_blank"><img src="http://img.youtube.com/vi/ahsxIYM6Xj0/0.jpg" alt="Foraminifera in the MicroCT Part I" width="180" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ahsxIYM6Xj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<a href="https://www.youtube.com/watch?v=phdytGKOuyY" target="_blank"><img src="http://img.youtube.com/vi/phdytGKOuyY/0.jpg" alt="Foraminifera in the MicroCT Part II" width="180" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/phdytGKOuyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ResearchGate
 
