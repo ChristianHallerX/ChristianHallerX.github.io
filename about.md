@@ -13,7 +13,7 @@ image: /assets/img/about/0342.jpg
 Christian is a rising `Geologist` who knows how to talk to computers, and has a proficiency in one of the hottest subjects of our time: `Data Science`, and `Machine Learning` models.
 These models are used to analyze wireline logs and seismic data to simplify facies recognition, interpretation, and well-log correlation.
 As digital scientist and geologist, he soaked up Dr. Andrew Ng's (Standord University) lectures and papers like a sponge, and is now specializing in creating models that predict our subsurface more and more precisely.
-During his time in academia, Christian has sailed on geological offshore expeditions (scientific drilling)and published various technical papers.
+During his time in academia, Christian has sailed on geological offshore expeditions (scientific drilling) and published various technical papers.
 
 Outside his technical roles, Christian is a keen computer science nerd, photographer and mountain biker - with a broad interest in emerging tech, economics, and management. While working in the laboratory and computer he already listened to "The Martian" over a hundred times and regularly tunes into technology podcasts. In his downtime he and his partner pursue their passion for backpacking such as camping in the Australian Outback, the Black Forest, or the Northeast Kingdom.
 
@@ -64,7 +64,6 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
  </summary>
   <ul>
   <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>
-  
   <li>ResTech 2020, Petryx</li>
   <li>GSA Northeastern/Southeastern 2020 Joint Section Meeting, Reston, Virginia CANCELLED</li>
   <li>HackDuke (Duke University Hackathon), November 2019, Durham, North Carolina</li>
@@ -89,12 +88,8 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
 </details>
 
 <br>
-
 <img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike"><br>
-
 *Barrk Sandstone at Kakadu NP, NT, Australia / Snowdon, Wales, UK*
-
-
 <br>
 ## Disclaimer
 
