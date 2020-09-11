@@ -10,10 +10,10 @@ image: /assets/img/about/0342.jpg
 
 ## Bio:
 
-Christian is a rising `Geologist` who knows how to talk to computers, and has a proficiency in the hottest subject of our time: `Data Science`, and `Machine Learning` models.
+Christian is a rising `Geologist` who knows how to talk to computers, and has a proficiency in one of the hottest subjects of our time: `Data Science`, and `Machine Learning` models.
 These models are used to analyze wireline logs and seismic data to simplify facies recognition, interpretation, and well-log correlation.
-Previously a researcher in pure geology, he has watched every talk by Dr. Andrew Ng ever recorded, and is now specializing in `Deep Learning` and its applications.
-During his time in academia, Christian has sailed on geological offshore (drilling) expeditions and published various technical papers.
+As digital scientist and geologist, he soaked up Dr. Andrew Ng's (Standord University) lectures and papers like a sponge, and is now specializing in creating models that predict our subsurface more and more precisely.
+During his time in academia, Christian has sailed on geological offshore expeditions (scientific drilling)and published various technical papers.
 
 Outside his technical roles, Christian is a keen computer science nerd, photographer and mountain biker - with a broad interest in emerging tech, economics, and management. While working in the laboratory and computer he already listened to "The Martian" over a hundred times and regularly tunes into technology podcasts. In his downtime he and his partner pursue their passion for backpacking such as camping in the Australian Outback, the Black Forest, or the Northeast Kingdom.
 
@@ -23,7 +23,7 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <b><u>Skills</u></b>
  </summary>
  <ul>
-  <li>Siliciclastic and Carbonate Geology</li>
+  <li>Carbonate Geology</li>
   <li>(Petroleum) Geoscience</li>
   <li>Biostratigraphy</li>
   <li>Data Science</li>
@@ -33,7 +33,6 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <li>Geologic Modeling</li>
   <li>Seismic Interpretation</li>
   <li>Emerging Technologies</li>
-  <li>Business Intelligence</li>
  </ul>
 </details>
 
@@ -53,9 +52,9 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <b><u>Upcoming Events</u></b>
  </summary>
  <ul>
-  <li>GSA October 2020, Montreal, Canada</li>
-  <li>SEG20 October 2020, Houston, Texas</li>
-  <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>
+  <li>GSA October 2020, Montreal/Online</li>
+  <li>AAPG Annual Conference and Exhibition 2020, Houston/Online</li>
+  
  </ul>
 </details>
 
@@ -64,7 +63,8 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <b><u>Past Events (abbreviated)</u></b>
  </summary>
   <ul>
-  <li>AAPG Annual Conference and Exhibition 2020, Houston, Texas POSTPONED</li>
+  <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>
+  
   <li>ResTech 2020, Petryx</li>
   <li>GSA Northeastern/Southeastern 2020 Joint Section Meeting, Reston, Virginia CANCELLED</li>
   <li>HackDuke (Duke University Hackathon), November 2019, Durham, North Carolina</li>
@@ -90,7 +90,12 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
 
 <br>
 
-<img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike">
-
+<img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike"><br>
 
 *Barrk Sandstone at Kakadu NP, NT, Australia / Snowdon, Wales, UK*
+
+
+<br>
+## Disclaimer
+
+Opinions expressed are solely my own and do not express the views or opinions of my employer.
