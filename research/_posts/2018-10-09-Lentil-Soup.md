@@ -1,6 +1,6 @@
 ---
 title: Waiter, there is a fossil in my soup...
-image: /assets/img/research/Numm2.JPG
+image: /assets/img/research/LentilSoup/LentilSoup_Cover.png
 description: >
   Nummulites are the not-so-micro microfossils.
 ---
@@ -17,9 +17,11 @@ The same limestone - chock full of nummulites - was also used for the constructi
 
 So if you have a lentil soup in your garden, please clean up after yourself so that the scientists of the future have it easier and can cross out at least one hypothesis.
 
-<br><img src="/assets/img/research/Numm1.JPG" alt="Numm1" style="width:700px">
+<br><img src="/assets/img/research/LentilSoup/Numm1.JPG" alt="Numm1" style="width:700px"><br>
 
 It is common that nummulite tests will split in half along the long axis so that all the chambers and complex chamberlets become visible (see in figure above).
+
+<br><img src="/assets/img/research/LentilSoup/Numm2.JPG" alt="Numm2" style="width:700px"><br>
 
 If you have an intact nummulite test and want to split in half as on the photo above, you can try the following: 
 
