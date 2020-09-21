@@ -18,7 +18,7 @@ Find optimal AirBnB website settings that lead to smart booking decisions. What 
 	E. Which website options influence the price? (Regression problem: idenfying predictor variables)
 	
 
-<br><img src="\assets\img\research\Berlin_AirBnB\large-berlin-districts-map.jpg" alt="Berlin Map" style="width:640px">
+<br><img src="\assets\img\research\Berlin_AirBnB\large-berlin-districts-map.jpg" alt="Berlin Map" style="width:640px"><br>
 Image Source: <a href="https://www.mapsland.com/europe/germany/berlin/large-berlin-districts-map" target="_blank">mapsland.com</a><br>
 
 
