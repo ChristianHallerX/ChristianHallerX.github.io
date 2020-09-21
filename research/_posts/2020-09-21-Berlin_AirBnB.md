@@ -23,7 +23,11 @@ Image Source: <a href="https://www.mapsland.com/europe/germany/berlin/large-berl
 
 
 ## Data Source
-The Berlin data are very recent and were obtained from <a href="http://insideairbnb.com/get-the-data.html" target="_blank">Inside AirBnB</a>. **Download Date**: 17<sup>th</sup> September 2020. **Sraping Date**: 30<sup>th</sup> August 2020.
+The Berlin data are very recent and were obtained from <a href="http://insideairbnb.com/get-the-data.html" target="_blank">Inside AirBnB</a>.
+
+**Download Date**: 17<sup>th</sup> September 2020. 
+
+**Scraping Date**: 30<sup>th</sup> August 2020.
 
 The files loaded are the listings.csv (all active accommodation places for Berlin) and the calender.csv (availability of accommodations with date and price).
 
@@ -61,7 +65,7 @@ Listings in the *Shared room* category are cheaper than *Private rooms*. *Hotel 
 
 ### B. What is the room type breakdown?
 
-<br><img src="\assets\img\research\Berlin_AirBnB/room_types.png" alt="room price doughnut" style="width:720px">
+<br><img src="\assets\img\research\Berlin_AirBnB/room_types.png" alt="room price doughnut" style="width:640px">
 
 Figure summary:
 
@@ -73,7 +77,7 @@ The room distribution on AirBnB Berlin is relatively balanced between private ro
 <br><img src="\assets\img\research\Berlin_AirBnB\price_range_district.png" alt="price distribution by district" style="width:720px">
 
 
-<br><img src="\assets\img\research\Berlin_AirBnB\Berlin_price_map.png" alt="price map" style="width:720px">
+<br><img src="\assets\img\research\Berlin_AirBnB\Berlin_price_map.png" alt="price map" style="width:720px"><br>
 Image Source: <a href="https://www.mapsland.com/europe/germany/berlin/large-berlin-districts-map" target="_blank">modified after mapsland.com</a><br>
 
 Figure summary:
