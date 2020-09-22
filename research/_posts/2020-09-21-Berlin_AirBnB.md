@@ -5,7 +5,7 @@ description: >
   Explore AirBnB listings - what options drive the price?
 ---
 
-I am returning to Berlin for various occasions and will likely visit there again. My stays are a mix of Hotel rooms, hostels, and private rooms with AirBnB. Returning there, I would like to optimize my AirBnB booking and for that reason I am running an analysis on the current listings. The most touristy attractions including government institutions are located in 'Mitte'. My hypothesis is that listings are going to be most expensive in the center. Perhaps you can learn something from this too and optimize your spending. Caution: these findings are for Berlin specifically and may not carry over to other cities.
+I have been to Berlin for various occasions and will likely visit there again. My stays are a mix of hotel rooms, hostels, and private rooms with AirBnB. Returning there, I would like to optimize my AirBnB booking, and for that reason I am running an analysis on the current listings. The most touristy attractions, including government institutions, are located in 'Mitte' central district. My hypothesis is that listings are going to be most expensive in the center. Perhaps you can learn something from this, too and optimize your spending. Caution: these findings are for Berlin specifically and may not carry over to other cities.
 
 
 ## The purpose of this analysis:
