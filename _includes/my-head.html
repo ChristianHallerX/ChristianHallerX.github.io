@@ -11,3 +11,8 @@ Fill in `href`. You may have to adjust `rel`.
 -->
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 {% endcomment %}
+
+
+<meta property="og:url" content="https://christianhallerx.github.io/" />
+<meta property="og:image" content="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/Website_Preview.png"/>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
