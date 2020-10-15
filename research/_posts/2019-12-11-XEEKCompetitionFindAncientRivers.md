@@ -4,6 +4,10 @@ image: /assets/img/research/Xeek.png
 description: >
   Data Scientists and ML Researchers compete for the best geo-statistics algorithms on new competition platform.
 ---
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
 
 The Shell International Exploration and Production Inc. recently (November 2019) started a new webiste named XEEK <a href="https://www.xstarter.xyz/" target="_blank">https://www.xstarter.xyz/</a> with contests to predict facies from wireline logs via machine learning amongst many others. In many ways it is similar to Kaggle, but solution ways are not made public.
 

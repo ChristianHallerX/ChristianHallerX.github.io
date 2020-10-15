@@ -4,6 +4,10 @@ image: /assets/img/research/TAMUTAG.jpg
 description: >
   Regardless of your skill level, you can only benefit. Photo Credit: TAMU Datathon organizers.
 ---
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
 
 In the last couple of weeks, I attended two Hackathons and one Datathon. I recieved a lot of feedback on my endeavours and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students for other students. They are typically held on weekends in Spring and Fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
 
@@ -39,7 +43,7 @@ In order to prepare:
 
 Photo Credit: TAMU Datathon organizers
 
-## Types of challenges
+## Types of Challenges
 **Hackathons** have relatively open-ended tasks and give you a lot of freedom to what exactly you solve. Hackathon problems will require your creativity to create a solution. This means you have to be cognizant of problems society and individuals may have and an idea how to solve them with technology and software.
 
 However, **Datathon** and Data Science challenges are different. Often times sponsoring companies will contribute with their own data sets that pertain to their everyday business. Find out which companies are participating and you can estimate what kind of problems they want you to solve. For example, if a company that works with business contracts and a lot of text in general, then you might expect a Natural Language Processing challenge. Or an engineering company might present a problem involving predictive maintenance, and data received from IoT sensors.
@@ -53,7 +57,7 @@ Hackathons and Datathons allow you to form teams of up to four members. Few part
 
 Photo Credit: TAMU Datathon organizers
 
-## Technical knowledge
+## Technical Knowledge
 I reiterate: It does not matter how much or how little experience you have. You will learn new things regardless and you will be a worthwhile addition to your team. Joining a team that does **NOT** do what you already know will actually be an opportunity to expand your horizon. If you are not enrolled in a newly minted Data Science program at a university and are starting out from zero, I can recommend the following:
 - Learn **coding** in Python and/or R, the two most popular Data Science languages. Consider introductory and mostly free online courses on <a href="https://www.edx.org/" target="_blank">edX</a>, <a href="https://www.coursera.org/" target="_blank">Coursera</a>, <a href="https://www.udacity.com/" target="_blank">Udacity</a> or other (in person) bootcamps. See also: <a href="https://www.pcworld.com/article/3287981/best-python-courses.html" target="_blank">PCWorld Best Python Courses</a>.You do not need to become a wizard to wield powerful tools.
 - Get a deeper understanding of **statistics** than your undergrad 101 course. Data set exploration benefits from simple statistical tests and machine learning model evaluation relies heavily on statistics.

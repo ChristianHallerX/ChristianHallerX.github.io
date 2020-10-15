@@ -5,6 +5,11 @@ description: >
   Quantify the Burned Forest Area in Australia
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
 Fires ravaged the forested south of Australia in the past dry season and made global headlines in January 2020. I chose to compare Landsat imagery of the Australian Alps from last Spring and Summer, i.e. pre and post fire to assess the area of burnt forest. The selected tile Path 91 Row 85 covers the southwestern corner of the Australian Capital Territory (ACT) and the New South Wales/Victoria territory border. To achieve such an analysis, ca. 10 time slices of Landsat 8 imagery were requested from <a href="https://earthexplorer.usgs.gov/" target="_blank">USGS EarthExplorer</a> covering September 2019 and April 2020. Many slices were discarded due to high cloud coverage, smoke, and haze that would make classification ambiguous. Selected time slices were 09 September 2019 (Spring / pre-burn) and 23 January 2020 (Summer / post-burn).
 
 In the following I show how to train a classification model that quantifies the burnt area. The nexts steps will have to be completed twice, once for each seasonal image.

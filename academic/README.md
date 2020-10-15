@@ -5,14 +5,13 @@ description: >
 hide_description: true
 permalink: /academic/
 ---
-# Table of Contents
-{:.no_toc}
+
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
 <br>
-<img src="/assets/img/academic/0501.jpg" alt="Missing Image: Microscope" style="width:800px">
+<img src="/assets/img/academic/0501.jpg" alt="Microscope Photo" style="width:800px">
 
 ## Statement of Research
 
@@ -24,6 +23,9 @@ Microfossil-related proxy data is used to make inferences about age of strata (b
 
 To bring all the disciplines together in a meaningful way, it is inescapable to retrieve geological samples and ground-truth geophysical assumptions in context of modern analogues in contemporary sedimentary research. In my research, I strive to establish a better understanding of the shelf depositional realm and find ways to improve on estimates made in paleoenvironmental and bathymetric aspects in basin models.
 
+<br>
+<img src="/assets/img/academic/Grand.jpg" alt="grand" style="width:800px">
+
 ### Past and ongoing work
 
 Reconstructing histories of marginal marine and shelf processes is carried out to inform about future earth and ocean system developments to be expected. A significant portion of my work has dealt with such reconstructions. Employing tools such as age-depth models and microfacies analyses in challenging environments from coastal marine to shelf-edge, from engineering time scales to Neogene age, I, together with my coauthors have studied the siliciclastic and carbonate sedimentary, paleontological, paleoenvironmental, and paleoceanographic properties of such marine sediment records. We have identified strengths and weaknesses of performance of quantitative sea-level reconstructions using intertidal microfossils, i.e., their reliance on very-well assembled modern training sets particularly in regions of low tidal range such as the northern Gulf of Mexico. These findings are of significance to the efforts of improving the model accuracy in low tidal-range marsh regions of the world.
@@ -33,6 +35,10 @@ One of my ongoing coastal projects focuses on comparison of sites using multiple
 In my carbonate shelves-related work we have carried out comparative analyses of sub-tropical and tropical foraminiferal microfaunas of the (Western Australian) shelf, which were traced back to the Miocene, when the shelf-shaping Leeuwin Current was established. We have, for instance, discovered that the warm Western Australian Leeuwin Current is largely moderated by tectonic activity in the Indonesian archipelago and climate patterns, which makes it a driver of carbonate production. Additional effects attributed to the coastal current is suppression of upwelling and sea-surface productivity on the WA shelf that during glacials gives way to the Western Australian Current (part of the Indian Ocean gyre system) and intense productivity. We are interested in constraining the current’s history and its influence on Australian climate patterns such as the Monsoon rain season. Microfossil analysis yielded that the Leeuwin Current intensity varied strongly over time and reached a maximum around 1 Ma in the Pleistocene indicated by sponge spicules, when significant reef bodies, such as the Ningaloo Reef, that benefited from the warm water delivery, were established simultaneously. Our microfaunal analysis indicates that the onset of the Leeuwin Current was characterized by a switch from opportunistic foraminiferal assemblages to diverse mid- to inner-shelf and increasing sedimentation rates. Authigenic shelf infill with skeletal detritus and carbonate silt originating from the “Carbonate Factory” initiated shelf progradation visible on large scale in seismic data.
 
 Having spent multiple years as part of the marine sediment core research community, I now start establish a voice in directing community efforts to address scientific questions of societal relevance such as those outlined here. As with any geological coring effort, community collaboration is essential for successful sample recovery, storage at national repositories, and productive analysis through to publication. I thrive on this collaborative spirit, and hope to provide fellow researchers with experience and the opportunity to similarly participate in this supportive environment. My current research and four planned projects are outlined below.
+
+<br>
+<img src="/assets/img/academic/Volcanic_exp.jpg" alt="Volcanic Exp Photo" style="width:800px">
+
 
 ### Future Projects
  
@@ -66,6 +72,9 @@ Objective of this project is to compare causation, timing, and emplacement of WA
 Carbonate ramps, such as the WA shelf, are marginal marine settings in which carbonate organisms are dominant producers typically termed the “Carbonate Factory”. These carbonate provinces are studied as modern analogs for example in the Bahamas, which is a classic study location for classic carbonate ramp facies with constituents such as ooids, stromatolites, and coral reef organisms. Glass ramps are a new geological depositional model recognized in the recent decade that resemble carbonate ramps in overall geomorphic structure and temporally alternate with carbonate ramps. While glass ramps have been found to be common on inner ramp environments at certain times in the Phanerozoic, they are dominated by siliceous demosponges. The carbonate and glass ramp settings are defined by relative abundance of carbonate and siliceous sediment such as sponge spicules on a non-linear scale – likely with hysteresis (i.e., lagging behind changes in the effect causing it) and sudden switching behavior. However, a lack of full modern analogues, precludes a comparison with modern, deep-water siliceous sponge meadows and hence, glass ramps must have faced environmental challenges different from those of modern sponge meadows.
 
 A major setting for future inquiry is linking glass ramp intervals to the global processes that allowed them to flourish, sustain, and terminate. Causes must be examined in detail at outcrop/core, biofacies, and microfacies scales if generalized associations with environmental conditions (temperature, bathymetric context, etc.) may be established. Hypothesized are records of locally-oscillating biosiliceous and carbonate factories, which is still a new model that requires more scrutiny. Environmental stabilizing feedbacks, sensitivity to perturbations, and the thresholds of state switching are only loosely defined today.
+
+<br>
+<img src="/assets/img/academic/TinticSilver.jpg" alt="Tintic Silver Photo" style="width:800px">
 
 ## Teaching Concepts
 

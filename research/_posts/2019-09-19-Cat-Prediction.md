@@ -5,6 +5,11 @@ description: >
   Neural Networks can be used to effectifely classify images - unless...
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
 Image classification is nowadays a common job for neural networks. The RGB values of a photo are unrolled into a feature vector and the neurons will learn the label given to it.
 
 Cat photos are an all-time favorite. Can the computer learn how to distinguish cat photos from non-cat photos?

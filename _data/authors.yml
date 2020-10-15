@@ -3,38 +3,32 @@
 # Change `author1` to your shortname.
 author1:
   name:              Christian Haller
-  email:             
-  social:
-    github:          https://github.com/ChristianHallerX
-    linkedin:        https://www.linkedin.com/in/christian-haller/
-  
-  data_social:
-  github:
-    name: GitHub
-    icon: icon-github
+  email:             christian_haller@gmx.de
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  # about:             |
-  #  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
+  about:             |
+    Geoscientist & Machine Learning Dev
 
   # This photo will be used in the about section
   picture:
-    path:            https://ChristianHallerX.github.io/assets/icons/icon.png
+    path:            https://ChristianHallerX.github.io/assets/icons/icon-192x192.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            https://ChristianHallerX.github.io/assets/icons/icon-384x384.png
+      2x:            https://ChristianHallerX.github.io/assets/icons/icon-512x512.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    #twitter:         <username>
-     github:          ChristianHallerX
-    # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    linkedin:        christian-haller
+    github:          ChristianHallerX
+    researchgate:    Christian_Haller4
+    email:           christian_haller@gmx.de
+    # resume:          /resume/
+    # stackoverflow:   <number>
+    # rss:             <https://website.com>
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
@@ -58,32 +52,28 @@ author1:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-     linkedin:        christian-haller
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
+    # keybase:         <username>
 
 # Another author (optional)
-author2:
- # name:              <firtname> <lastname>
- # email:             <mail@domain.tld>
- # about:             |
- #   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
- #   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- #   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
- #   Open `_data/authors.yml` to edit this text.
- # picture:           https://placehold.it/128x128
- # twitter:           <username>
- # github:            <username>
- # accent_color:      '#268bd2'
- # accent_image:
- #   background:      '#202020'
- #   overlay:         false
+#     Open `_data/authors.yml` to edit this text.
+
+#   picture:           https://placehold.it/128x128
+#   twitter:           <username>
+#   github:            <username>

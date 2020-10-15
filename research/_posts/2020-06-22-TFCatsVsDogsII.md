@@ -5,6 +5,11 @@ description: >
   Cats Vs. Dogs computer vision with the TensorFlow API
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
 Given the somewhat mediocre performance of the <a href="https://christianhallerx.github.io/research/2020-06-02-TFCatsVsDogsI/" target="_blank">previous model</a> for Cats Vs Dogs, it seems warranted to implement new tools that promise performance gains. The classification model used previously suffered from overfitting. That means, the training set was learned very well, but probably so well, that the unknown data in the validation set could not be predicted precisely. If a model can only predict well what it has seen before means that it does not "generalize" well.
 
 To improve generalization on the Dogs Vs. Cats set, we can implement two extra measures. Transfer learning, image augmentation, and neuron dropout in some layers. Otherwise, we will keep the setup as before. If details are unclear, read up in Part I

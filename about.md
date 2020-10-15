@@ -1,14 +1,15 @@
 ---
 image: /assets/img/about/0342.jpg
+layout: about
+title:  About
 ---
-# About
 
-## Education:
+## Education
 * PhD in Marine Geology, University of South Florida, USA 2018. <a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download Dissertation</a>
 * MSc in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012
 * BSc in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009
 
-## Bio:
+## Bio
 
 Christian is a rising `Geologist` who knows how to talk to computers, and has a proficiency in one of the hottest subjects of our time: `Data Science`, and `Machine Learning` models.
 These models are used to analyze wireline logs and seismic data to simplify facies recognition, interpretation, and well-log correlation.
@@ -23,15 +24,15 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <b><u>Skills</u></b>
  </summary>
  <ul>
-  <li>Carbonate Geology</li>
-  <li>(Petroleum) Geoscience</li>
-  <li>Biostratigraphy</li>
   <li>Data Science</li>
-  <li>GIS</li>
   <li>Python</li>
   <li>R</li>
-  <li>Geologic Modeling</li>
+  <li>Data Modeling</li>
+  <li>Carbonate Geology</li>
+  <li>(Petroleum) Geoscience</li>
   <li>Seismic Interpretation</li>
+  <li>(Bio-)Stratigraphy</li>
+  <li>GIS</li>
   <li>Emerging Technologies</li>
  </ul>
 </details>
@@ -41,9 +42,9 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <b><u>Technical Interest</u></b>
  </summary>
  <ul>
+  <li>Machine Learning and Artificial Intelligence</li>
   <li>Applied Geoscience</li>
   <li>Exploration Geology</li>
-  <li>Machine Learning and Artificial Intelligence</li>
  </ul>
 </details>	
 
@@ -53,8 +54,7 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
  </summary>
  <ul>
   <li>GSA October 2020, Montreal/Online</li>
-  <li>AAPG Annual Conference and Exhibition 2020, Houston/Online</li>
-  
+  <li>TAMU Datathon October 2020, College Station/Online</li>
  </ul>
 </details>
 
@@ -63,6 +63,7 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <b><u>Past Events (abbreviated)</u></b>
  </summary>
   <ul>
+  <li>AAPG Annual Conference and Exhibition 2020, Houston/Online</li>
   <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>
   <li>ResTech 2020, Petryx</li>
   <li>GSA Northeastern/Southeastern 2020 Joint Section Meeting, Reston, Virginia CANCELLED</li>
@@ -89,7 +90,7 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
 
 <br>
 <img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike"><br>
-*Barrk Sandstone at Kakadu NP, NT, Australia / Snowdon, Wales, UK*
+*Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon, Wales, UK*
 <br>
 ## Disclaimer
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://christianhallerx.github.io/sitemap.xml

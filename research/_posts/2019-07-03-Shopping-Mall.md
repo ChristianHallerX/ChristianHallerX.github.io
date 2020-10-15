@@ -5,6 +5,12 @@ description: >
   Spatial analysis and clustering in Python.
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
+
 Shopping malls in the U.S. have received their greatest popularity in the 1970s and 1980s in the and since then investment has stagnated.
 
 Numbers of shopping malls exploded beyond the sustainable in many cities. Additionally, today’s brick-and-mortar businesses face the online competition.

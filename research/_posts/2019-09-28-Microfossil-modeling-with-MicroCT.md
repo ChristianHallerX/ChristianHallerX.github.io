@@ -5,6 +5,11 @@ description: >
   360° X-Ray Shots reveal Interior Volumes
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
 The MicroCT housed at the <a href="https://www.steinmann.uni-bonn.de/" target="_blank">Steinmann Institut für Geowissenschaften</a> can scan specimens from large to small (think *Brachiosaur* skull and friends).
 
 With a lower resolution limit of 2 micrometers, it is possible to get satisfactory details on microfossils, such as foraminifera in the size range 1-2 millimeters.
@@ -31,7 +36,7 @@ The 3D model can be manipulated and specific materials and volumes marked and me
 
 <br><img src="/assets/img/research/MicroCT/CT2.png" alt="CT2" style="width:640px"><br>
 
-## Play on Youtube
+## Videos
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ahsxIYM6Xj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,103 +1,219 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
-# If you don't have a JSON Resume you can just edit this YAML file instead.
-# See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "/assets/icons/icon.png"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "CHRISTIAN HALLER, PhD"
+  # label: "Title"
+  picture: "/assets/icons/icon-512x512.png"
+  email: "christian_haller@gmx.de"
+  # phone: "00000000"
+  website: "https://christianhallerx.github.io/"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
-  location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    Quantitative scientist with 7+ years of experience of leveraging a broad stack of Programming,<br>
+    Statistical Analyses, and Machine Learning modeling techniques to make inferences and reveal valuable insights within huge volumes of numeric and textual data.
+    Working independently with minimal guidance and in a team.<br>
+    Over 15 scientific first-author publications.<br>
+  # location:
+  #   address: "2712 Broadway St"
+  #   postalCode: "CA 94115"
+  #   city: "San Francisco"
+  #   countryCode: "US"
+  #   region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "Github"
+      username: "ChristianHallerX"
+      url: "https://github.com/ChristianHallerX"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Christian Haller"
+      url: "https://www.linkedin.com/in/christian-haller/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "XXXX"
+    position: "Title"
+    website: "https://bla.com"
+    startDate: "2020-02-03"
     endDate: ""
-    summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+    #summary: >
     highlights:
-      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Bullet Point"
+      
+  - company: "XXXX"
+    position: "Title"
+    website: "https://bla.com"
+    startDate: "2019-06-24"
+    endDate: "2019-08-30"
+    summary:
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - company: "XXXXX"
+    position: "Title"
+    website: "https://bla.com"
+    startDate: "2019-01-03"
+    endDate: "2019-02-28"
+    #summary: >
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - company: "XXXX"
+    position: "Title"
+    website: "https://bla.com"
+    startDate: "2018-07-08"
+    endDate: "2018-08-24"
+    # summary: >
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "XXXXX"
+    position: "Title"
+    website: "https://bla.com"
+    startDate: "2018-03-02"
+    endDate: "2018-12-21"
+    #summary: >
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - organization: "XXXX"
+    position: "Title"
+    website: "https://bla.com"
+    startDate: "2014-03-02"
+    endDate: "2014-12-18"
+    #summary: >
+    highlights:
+    
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "Uni X"
+    area: "Subject"
+    studyType: "Degree Type"
+    startDate: "2014-03-02"
+    endDate: "2020-02-21"
+    gpa: "4.0 (major 4.28) / 4.5"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+      - "Course"
+      - "Course"
+      - "Course"
+      - "Course"
+      - "Course"
+      - "Course"
+  - certificate: "Certificate Title"
+    date: "2019-11-22"
+    
+projects:
+  - title: "Project Name"
+    startDate: "2018-08-01"
+    endDate: "2019-10-31"
+    # summary: ""
+    url: "https://bla.com"
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - title: "Project Name"
+    startDate: "2019-10-01"
+    endDate: "2019-10-31"
+    # summary: ""
+    url: "https://bla.com"
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - title: "Project Name"
+    startDate: "2018-03-02"
+    endDate: "2018-06-22"
+    # summary: ""
+    url: "https://bla.com"
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - title: "Award Name"
+    awarder: "Organization Name"
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - title: "Award Name"
+    awarder: "Organization Name"
+    highlights:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - title: "Award Name"
+    date: "2018-11-17"
+    awarder: "Organization Name"
+    summary: ""
+    
+  - title: "Award Name"
+    date: "2017-12-09"
+    awarder: "Organization Name"
+    summary: ""
+    
+  - title: "Award Name"
+    date: "2017-09-09"
+    awarder: "Organization Name"
+    summary: ""
+# publications:
+#   - name: "Video compression for 3d media"
+#     publisher: "Hooli"
+#     releaseDate: "2014-10-01"
+#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Web Development"
+  - name: "Skill Name"
+    level: "Advanced"
+    keywords:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - name: "Skill Name"
+    level: "Advanced"
+    
+  - name: "Skill Name"
+    level: "Beginner"
+    keywords:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+      
+  - name: "Skill Name"
     level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Bullet Point"
+      - "Bullet Point"
+      
 languages:
-  - language: "English"
+  - language: "Language 1"
     fluency: "Native speaker"
+  - language: "Language 2"
+    fluency: "Fluent"
 interests:
-  - name: "Wildlife"
+  - name: "Activity"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+  - name: "Reading"
+    keywords:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+  - name: "Interest 3"
+    keywords:
+      - "Bullet Point"
+      - "Bullet Point"
+      - "Bullet Point"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
+
+# <https://jsonresume.org/>

@@ -1,14 +1,12 @@
 ---
 title: Photography
-description: >
-  The Photography Section.
-hide_description: true
 permalink: /photography/
+hide_description: false
+description: >
+  Pictures captured in my life.
 ---
 
-Pictures captured in my life.
-
-<img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:400px">
+<img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:800px">
 
 ## Geology
 

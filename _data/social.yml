@@ -1,4 +1,8 @@
 # This file contains meta data for various social media sites
+researchgate:
+  name: ResearchGate
+  icon: icon-researchgate
+  prepend: "https://www.researchgate.net/profile/"
 email:
   name: Email
   icon: icon-mail
@@ -206,3 +210,7 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+resume:
+  name: Resume
+  icon: icon-profile
+ 

@@ -5,6 +5,10 @@ description: >
   Implement an NLP model with a chat GUI
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
 
 A chatbot is smart code that is capable of communicating similar to a human.
 

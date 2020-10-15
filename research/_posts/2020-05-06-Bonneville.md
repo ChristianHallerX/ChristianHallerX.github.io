@@ -5,6 +5,11 @@ description: >
   Reconstructing the Great Salt Lake's giant ancestor
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
 The Western United States is home to several terminal lakes with no outflow and evaporite deposition such as carbonates and salts (Vennin et al., 2018, Harris et al., 2013). Approximately 15,000 years ago, lakes in the Great Basin of the western United States achieved their maximum late Pleistocene extents. Three of those lake systems stand out in terms of surface area: Lake Lahontan with a surface area of 22,300 km<sup>2</sup>, Lake Bonneville with a surface area of 51,300 km<sup>2</sup>, and Lake Missoula with 7,770 km<sup>2</sup>. These gigantic freshwater bodies, which had surface areas approximately 10 times their reconstructed mean-historical values, have been the subject of intensive scientific research since Russell’s seminal study of Lake Lahontan (Russell, 1885) and Gilbert’s seminal study of Lake Bonneville (Gilbert, 1890).
 Three main questions have occupied the minds of present-day paleoclimatologists working in these basins: (1) what caused the lakes to grow so large, (2) what was the record of lake-level change in each basin during the last glacial period, and (3) were lake-size changes linked to abrupt changes in the climate of the North Atlantic signaled by Dansgaard-Oeschgerand Heinrich events (Dansgaard, 1993).
 
