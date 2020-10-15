@@ -4,9 +4,10 @@ title:  Welcome
 cover:  true
 ---
 
-*Website updates Oct 2020: Darkmode; Table of Contents in blog posts; Search function; Improved look*
+*Website updates Oct 2020: Hydejack 9 functionality; Darkmode/Lightmode switch; Table of Contents in blog posts; Search function; Improved look*
 
 Content talks! My website is about my work, my research, and what I am passionate about.
+
 
 I am looking to collaborate on open source projects!
 
@@ -15,13 +16,14 @@ I am looking to collaborate on open source projects!
 - Optimizing well-log classifictions.
 - Preparing for the Datathon/Hackathon season. All online? Ugh!
 - Should I train a Deep Racer???
+- Besides the blog entries, look into technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects" target="_blank">GitHub Repository "Data Science Projects"</a> for latest work.
 	
 	
 ### Learning
 
 - Deployment of Tensorflow models to edge devices. Very promising, so far.
 - Advanced Object-Oriented Programming in Python.
-- Dash
+- To Dash or not to Dash.
 
 
 ### Reading
