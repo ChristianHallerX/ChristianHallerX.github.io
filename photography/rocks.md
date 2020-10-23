@@ -3,10 +3,9 @@ layout: page
 title: Rocks
 description: >
   Take a picture after sketching in your field book!
-hide_description: true
+hide_description: false
 ---
 
-## Take a picture after sketching in your field book!
 
 ![Playa Road](/assets/img/photography/rocks/0194.jpg "Playa Road")
 

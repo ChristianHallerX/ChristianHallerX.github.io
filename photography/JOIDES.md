@@ -3,10 +3,10 @@ layout: page
 title: JOIDES Resolution
 description: >
   What to expect when drilling into a subtropical carbonate ramp.
-hide_description: true
+  Ooids, corals, bryozoa, paleoceanography, Australian dust, mass transport, and H2S.
+hide_description: false
 ---
 
-## Making geologic disciveries on a drillship: ooids, corals, bryozoa, paleoceanography, Australian dust, shelf collapse, and H2S (eww)!
 
 ![Freemantle](/assets/img/photography/JOIDES/8891.jpg "Freemantle")
 

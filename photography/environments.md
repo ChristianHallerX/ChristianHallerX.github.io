@@ -3,10 +3,9 @@ layout: page
 title: Environments
 description: >
   Metropolitan life and Central Florida landscapes.
-hide_description: true
+hide_description: false
 ---
 
-## Metropolitan environments and Central Florida landscapes.
 
 ![Skyway](/assets/img/photography/environments/4281.jpg "Skyway")
 

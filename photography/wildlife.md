@@ -3,10 +3,10 @@ layout: page
 title: Wildlife
 description: >
   Who's crawling and flapping?
-hide_description: true
+hide_description: false
 ---
 
-## Who's crawling and flapping?
+
 
 ![Takeoff](/assets/img/photography/wildlife/0296.jpg "Takeoff")
 

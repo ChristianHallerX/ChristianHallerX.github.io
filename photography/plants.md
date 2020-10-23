@@ -3,10 +3,9 @@ layout: page
 title: Plants
 description: >
   A closer look at plants in FL. Find the odd man out.
-hide_description: true
+hide_description: false
 ---
 
-## A closer look at plants in FL. Find the odd man out.
 
 ![Palm](/assets/img/photography/plants/0484.jpg "Palm")
 
