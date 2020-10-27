@@ -32,9 +32,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  Geoscientist <br>
-  & <br>
-  Machine Learning Dev
+  Geoscientist & Machine Learning Dev
 
 # A list of keywords for your blog
 keywords:              [geology,geoscience,geophysics,geochemistry,paleontology,data science,data analytics]
@@ -55,7 +53,7 @@ author:
     github:          ChristianHallerX
     researchgate:    Christian_Haller4
     email:           christian_haller@gmx.de
-    cv:              "https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing"
+    cv:              https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing
 
 # Add links to the sidebar.
 menu:
