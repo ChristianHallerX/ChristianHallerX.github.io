@@ -1,6 +1,6 @@
 # This file contains meta data for various social media sites
-custom-resume:
-  name: Custom Resume
+cv:
+  name: Curriculum Vitae (CV)
   icon: icon-profile
 researchgate:
   name: ResearchGate
