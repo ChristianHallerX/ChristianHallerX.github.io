@@ -1,4 +1,7 @@
 # This file contains meta data for various social media sites
+custom-resume:
+  name: Custom Resume
+  icon: icon-profile
 researchgate:
   name: ResearchGate
   icon: icon-researchgate
@@ -213,4 +216,3 @@ download:
 resume:
   name: Resume
   icon: icon-profile
- 
