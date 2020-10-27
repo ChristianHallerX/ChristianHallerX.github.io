@@ -1,8 +1,8 @@
 ---
 title: Academic Interests
 description: >
-  The Academic Section.
-hide_description: true
+  Plans for future academic research endeavors and engagement.
+hide_description: false
 permalink: /academic/
 ---
 

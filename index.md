@@ -35,5 +35,9 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 - M. Crichton & R. Preston (2011) Micro: A Novel
 
 
+## Disclaimer
+
+Opinions expressed are solely my own and do not express the views or opinions of my employer.
+
 ### Latest Research Posts
 <!--posts-->

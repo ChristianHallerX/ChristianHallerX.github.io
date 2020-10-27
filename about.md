@@ -2,16 +2,24 @@
 image: /assets/img/about/0342.jpg
 layout: about
 title:  About
+description: >
+  Who is Christian Haller?
 ---
 
-## Education
-* PhD in Marine Geology, University of South Florida, USA 2018. <a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download Dissertation</a>
-* MSc in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012
-* BSc in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009
+
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+
+<br>
+<img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike"><br>
+*Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon, Wales, UK*
+<br>
+
 
 ## Bio
 
-Christian is a rising `Geologist` who knows how to talk to computers, and has a proficiency in one of the hottest subjects of our time: `Data Science`, and `Machine Learning` models.
+Christian is a rising `Geoscientist` with a strong research background and knows how to talk to computers. He has a proficiency in one of the hottest subjects of our time: `Data Science`, and `Machine Learning` models.
 These models are used to analyze wireline logs and seismic data to simplify facies recognition, interpretation, and well-log correlation.
 As digital scientist and geologist, he soaked up Dr. Andrew Ng's (Standord University) lectures and papers like a sponge, and is now specializing in creating models that predict our subsurface more and more precisely.
 During his time in academia, Christian has sailed on geological offshore expeditions (scientific drilling) and published various technical papers.
@@ -19,50 +27,54 @@ During his time in academia, Christian has sailed on geological offshore expedit
 Outside his technical roles, Christian is a keen computer science nerd, photographer and mountain biker - with a broad interest in emerging tech, economics, and management. While working in the laboratory and computer he already listened to "The Martian" over a hundred times and regularly tunes into technology podcasts. In his downtime he and his partner pursue their passion for backpacking such as camping in the Australian Outback, the Black Forest, or the Northeast Kingdom.
 
 
-<details>
- <summary>
-  <b><u>Skills</u></b>
- </summary>
- <ul>
-  <li>Data Science</li>
-  <li>Python</li>
-  <li>R</li>
-  <li>Data Modeling</li>
-  <li>Carbonate Geology</li>
-  <li>(Petroleum) Geoscience</li>
-  <li>Seismic Interpretation</li>
-  <li>(Bio-)Stratigraphy</li>
-  <li>GIS</li>
-  <li>Emerging Technologies</li>
- </ul>
-</details>
+## Education
+
+* PhD in Marine Science (Geology), University of South Florida, USA 2018. <a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download Dissertation</a>.
+* MSc in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012.
+* BSc in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009.
+
+
+## Curriculum Vitae
+
+<a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">Unabridged CV</a>
+
+Note: Click `File` -> `Download` for a copy.
+
+
+## Details
 
 <details>
  <summary>
   <b><u>Technical Interest</u></b>
  </summary>
  <ul>
+  <li>Data Science</li>
   <li>Machine Learning and Artificial Intelligence</li>
   <li>Applied Geoscience</li>
   <li>Exploration Geology</li>
  </ul>
 </details>	
+<br>
+
 
 <details>
  <summary>
   <b><u>Upcoming Events</u></b>
  </summary>
  <ul>
-  <li>GSA October 2020, Montreal/Online</li>
-  <li>TAMU Datathon October 2020, College Station/Online</li>
+  <li>AWS re:Invent 2020</li>
+  <li>GSA Annual Meeting October 2020, Montreal/Online</li>
  </ul>
 </details>
+<br>
+
 
 <details>
  <summary>
   <b><u>Past Events (abbreviated)</u></b>
  </summary>
   <ul>
+  <li>TAMU Datathon October 2020, College Station/Online</li>
   <li>AAPG Annual Conference and Exhibition 2020, Houston/Online</li>
   <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>
   <li>ResTech 2020, Petryx</li>
@@ -87,11 +99,3 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
   <li>Mississippi-Alabama Bays and Bayous 2016, Biloxi, Mississippi; <a href="https://www.researchgate.net/publication/335988851_Nearshore_and_intertidal_modern_foraminifer_biofacies_across_the_salt-marshes_of_the_Eastern_Mississippi_Sound_USA" style="color:#FF0000;" target="_blank"> See contribution</a></li>
   </ul>
 </details>
-
-<br>
-<img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike"><br>
-*Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon, Wales, UK*
-<br>
-## Disclaimer
-
-Opinions expressed are solely my own and do not express the views or opinions of my employer.
