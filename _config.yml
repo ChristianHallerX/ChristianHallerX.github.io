@@ -58,7 +58,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Project Blog
-    url:               /project_blog/
+    url:               /projectblog/
   - title:             Academic Interests
     url:               /academic/
   - title:             About
