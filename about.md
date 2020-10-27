@@ -36,7 +36,7 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
 
 ## Curriculum Vitae
 
-<a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">Unabridged CV</a>
+<a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">Full Length CV</a>
 
 Note: Click `File` -> `Download` for a copy.
 
