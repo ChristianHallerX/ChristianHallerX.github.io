@@ -1,6 +1,6 @@
 ---
 title: Airgun Release in the Name of Geophysics!
-image: /assets/img/research/Airgun_Release/Airgun_Release_Cover.png
+image: /assets/img/research/Airgun_Release/Airgun_Release_Cover.jpg
 description: >
   Seismic surveying offshore requires an airgun as pressure source.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Cats vs. Dogs in TensorFlow Part II
-image: /assets/img/research/CatsVsDogsII/CatsVsDogsPartII_Cover.png
+image: /assets/img/research/CatsVsDogsII/CatsVsDogsPartII_Cover.jpg
 description: >
   Cats Vs. Dogs computer vision with the TensorFlow API
 ---

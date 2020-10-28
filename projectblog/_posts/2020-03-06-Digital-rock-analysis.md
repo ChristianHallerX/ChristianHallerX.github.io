@@ -1,6 +1,6 @@
 ---
 title: Digital Rocks
-image: /assets/img/research/DigitalRock/berea0.png
+image: /assets/img/research/DigitalRock/digitalrock_cover.jpg
 description: >
   Rock analysis is not only an analog process in the laboratory anymore.
 ---

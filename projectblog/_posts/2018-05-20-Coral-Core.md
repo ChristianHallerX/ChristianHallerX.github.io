@@ -1,6 +1,6 @@
 ---
 title: Freshly Drilled Coral Cores ... from the Florida Reef Tract
-image: /assets/img/research/Coral_Core/Coral_Cores_Cover.png
+image: /assets/img/research/Coral_Core/Coral_Cores_Cover.jpg
 description: >
   Coral skeletons are drilled for geochemical studies.
 ---

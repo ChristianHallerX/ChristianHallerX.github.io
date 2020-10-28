@@ -1,6 +1,6 @@
 ---
 title: Seismic Interpretation ... the Art and Science
-image: /assets/img/research/SeismicInterpretation/SeismicInterpretation_Cover.png
+image: /assets/img/research/SeismicInterpretation/SeismicInterpretation_Cover.jpg
 description: >
   The final step in the work with seismic data is seismic interpretation.
 ---

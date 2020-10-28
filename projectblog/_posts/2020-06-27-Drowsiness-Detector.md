@@ -1,6 +1,6 @@
 ---
 title: Falling Asleep? Detect Closed Eyes in Real Time
-image: /assets/img/research/Drowsy/DrowsinessDetection_Cover.png
+image: /assets/img/research/Drowsy/DrowsinessDetection_Cover.jpg
 description: >
   A drowsiness detector to try out on yourself
 ---

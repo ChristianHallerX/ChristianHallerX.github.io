@@ -1,6 +1,6 @@
 ---
 title: LIDAR to Digtital Elevation Models
-image: /assets/img/research/GIS1/Cover_GIS1.png
+image: /assets/img/research/GIS1/GIS1_Cover.jpg
 description: >
   Environmental analysis in ArcGIS
 ---

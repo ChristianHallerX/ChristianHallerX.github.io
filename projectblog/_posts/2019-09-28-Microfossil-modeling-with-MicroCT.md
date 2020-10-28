@@ -1,6 +1,6 @@
 ---
 title: Microfossil Modeling with MicroCT
-image: /assets/img/research/MicroCT/MicroCT_Cover.png
+image: /assets/img/research/MicroCT/MicroCT_Cover.jpg
 description: >
   360° X-Ray Shots reveal Interior Volumes
 ---

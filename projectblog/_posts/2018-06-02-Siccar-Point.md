@@ -1,6 +1,6 @@
 ---
 title: Siccar Point and Hutton's Unconformity
-image: /assets/img/research/Siccar_Point/Siccar_Point_Cover.png
+image: /assets/img/research/Siccar_Point/Siccar_Point_Cover.jpg
 description: >
   Siccar Point is one of geology's iconic locations.
 ---

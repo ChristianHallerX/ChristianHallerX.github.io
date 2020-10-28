@@ -1,6 +1,6 @@
 ---
 title: How to train your NLP chatbot. Spoiler... NLTK
-image: /assets/img/research/MedInfo/MedInfo_Cover.png
+image: /assets/img/research/MedInfo/MedInfo_Cover.jpg
 description: >
   Implement an NLP model with a chat GUI
 ---

@@ -1,6 +1,6 @@
 ---
 title: Smart AirBnB booking in Berlin
-image: /assets/img/research/Berlin_AirBnB/Berlin_AirBnB_Cover.png
+image: /assets/img/research/Berlin_AirBnB/Berlin_AirBnB_Cover.jpg
 description: >
   Explore AirBnB listings - what options drive the price?
 ---

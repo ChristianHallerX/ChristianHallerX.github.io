@@ -1,6 +1,6 @@
 ---
 title: Landsat Imagery Classification
-image: /assets/img/research/GIS3/Cover_GIS3.png
+image: /assets/img/research/GIS3/GIS3_Cover.jpg
 description: >
   Quantify the Burned Forest Area in Australia
 ---

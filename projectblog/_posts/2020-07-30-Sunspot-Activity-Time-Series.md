@@ -1,6 +1,6 @@
 ---
 title: Time Series Modeling - Sunspot Activity
-image: /assets/img/research/Sunspot/Sunspot_Cover.png
+image: /assets/img/research/Sunspot/Sunspot_Cover.jpg
 description: >
   Sunspots have a scientific record reaching back to 1749
 ---

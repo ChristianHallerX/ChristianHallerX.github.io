@@ -1,6 +1,6 @@
 ---
 title: How big was paleo Lake Bonneville?
-image: /assets/img/research/Bonneville/Bonneville_Article_Cover.png
+image: /assets/img/research/Bonneville/Bonneville_Cover.jpg
 description: >
   Reconstructing the Great Salt Lake's giant ancestor
 ---

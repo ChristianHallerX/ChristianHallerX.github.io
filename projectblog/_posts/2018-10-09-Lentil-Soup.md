@@ -1,6 +1,6 @@
 ---
 title: Waiter, there is a fossil in my soup...
-image: /assets/img/research/LentilSoup/LentilSoup_Cover.png
+image: /assets/img/research/LentilSoup/LentilSoup_Cover.jpg
 description: >
   Nummulites are the not-so-micro microfossils.
 ---

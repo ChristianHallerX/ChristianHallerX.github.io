@@ -1,6 +1,6 @@
 ---
 title: Don’t wait for hours (when Deep Learning training)
-image: assets/img/research/Dont_Wait_For_Hours/robot.jpg
+image: assets/img/research/Dont_Wait_For_Hours/Dont_Wait_For_Hours_Cover.jpg
 description: >
   Consider making use of your GPU for massive efficiency gains.
 ---

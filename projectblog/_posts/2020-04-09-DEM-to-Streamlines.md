@@ -1,6 +1,6 @@
 ---
 title: DEM to Streamlines using the Model Builder
-image: /assets/img/research/GIS2/Cover_GIS2.png
+image: /assets/img/research/GIS2/GIS2_Cover.jpg
 description: >
   Automate the Boring Stuff
 ---

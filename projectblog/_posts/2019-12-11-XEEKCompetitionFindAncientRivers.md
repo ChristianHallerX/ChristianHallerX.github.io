@@ -1,6 +1,6 @@
 ---
 title: Getting started with the XEEK Machine Learning contest
-image: /assets/img/research/Xeek.png
+image: /assets/img/research/Xeek/Xeek_Cover.jpg
 description: >
   Data Scientists and ML Researchers compete for the best geo-statistics algorithms on new competition platform.
 ---
@@ -9,7 +9,7 @@ description: >
 
 ## Introduction
 
-The Shell International Exploration and Production Inc. recently (November 2019) started a new webiste named XEEK <a href="https://www.xstarter.xyz/" target="_blank">https://www.xstarter.xyz/</a> with contests to predict facies from wireline logs via machine learning amongst many others. In many ways it is similar to Kaggle, but solution ways are not made public.
+The Shell International Exploration and Production Inc. recently (November 2019) started a new webiste named XEEK <a href="https://xeek.ai/challenges" target="_blank">(https://xeek.ai/challenges)</a> with contests to predict facies from wireline logs via machine learning amongst many others. In many ways it is similar to Kaggle, but solution ways are not made public.
 
 Third-party, business-hosted, competitions for Machine Learning (ML) solutions have been around for a while on <a href="https://www.kaggle.com/" target="_blank">https://www.kaggle.com/</a>, but geology-related problems used to be relatively rare. This is changing now with XEEK.
 
@@ -17,7 +17,7 @@ Kaggle is known as not only hosting ML challenges, but also practice material. E
 
 Why should you consider this except for the prize money? Well, Data Science and Machine Learning is a relatively new field with limited formal degrees available from universities. Few people have experience and most wearing that hat are cross-trained. That makes it much more important to show what you *really* can do and present a portfolio of problems you have worked with.
 
-If you are having trouple getting started, in addition to the problem description on the <a href="https://www.xstarter.xyz/challenge-details/gamma-log-facies-identification" target="_blank">contest site</a>, there is a file already available that explains how we can use machine learning to label Gamma Ray geometries from gamma ray logging tool (GR). The tutorial notebooks set you up to give you hands-on material to try it for yourself and at the end define the process to get the desired output file that you will submit. The main job for the participant is to try out their own approach and iteratively hone it for the duration of the contest.
+If you are having trouple getting started, in addition to the problem description on the <a href="https://xeek.ai/challenges/gamma-log-facies/overview" target="_blank">contest site</a>, there is a file already available that explains how we can use machine learning to label Gamma Ray geometries from gamma ray logging tool (GR). The tutorial notebooks set you up to give you hands-on material to try it for yourself and at the end define the process to get the desired output file that you will submit. The main job for the participant is to try out their own approach and iteratively hone it for the duration of the contest.
 
 As I have not worked with a lot of demographic or IoT data, but not necessarily had access to large data sets of proprietary borehole data, I would like to take you on a journey how I dug my way into the topic.
 
@@ -42,7 +42,7 @@ To be clear, Jupyter Notebooks are not only necessary and useful for XEEK or Kag
 
 Visitors can “fork” the repository (i.e., taking a copy) and modify the contents after their own liking.
 
-<br><img src="/assets/img/research/XEEKoctocat.png" alt="XEEKdataset" style="width:480px">
+<br><img src="/assets/img/research/Xeek/XEEKoctocat.png" alt="Octocat" style="width:480px">
 
 Source: <a href="https://myoctocat.com/" target="_blank">https://myoctocat.com/</a>
 
@@ -68,7 +68,7 @@ The whole proceedure to step through will look like this:
 
 3. Predict on on Test Set, save to .csv, send to XEEK (385,000 samples, scored by XEEK)
 
-<br><img src="/assets/img/research/XEEKdataset.png" alt="XEEKdataset" style="width:1024px">
+<br><img src="/assets/img/research/Xeek/XEEKdataset.png" alt="XEEKdataset" style="width:1024px">
 
 
 ### Machine Learning

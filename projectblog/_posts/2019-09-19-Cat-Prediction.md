@@ -1,6 +1,6 @@
 ---
 title: Cat Prediction
-image: /assets/img/research/Cat_pred.png
+image: /assets/img/research/Cat_Prediction/Cat_Pred_Cover.jpg
 description: >
   Neural Networks can be used to effectifely classify images - unless...
 ---

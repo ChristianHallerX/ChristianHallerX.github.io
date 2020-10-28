@@ -1,6 +1,6 @@
 ---
 title: Rock Permeability Prediction (Data Science)
-image: https://img.youtube.com/vi/KxkD8paGVYs/sddefault.jpg
+image: /assets/img/research/Rock_Permeability/Rock_Permeability_Cover.jpg
 description: >
   Complex statistical modeling made easy in Python.
 ---
