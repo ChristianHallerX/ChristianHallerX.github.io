@@ -127,7 +127,7 @@ tdrapstine / pickthis.io<br>
 </details>
 <br>
 
-### Thurst faults
+### Thrust faults
 
 **Task:** Pick the thrust fault planes.
 
