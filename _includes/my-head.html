@@ -12,8 +12,13 @@ Fill in `href`. You may have to adjust `rel`.
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 {% endcomment %}
 
-<meta property="og:url" content="https://www.christianhaller.me"/>
-<meta property="og:image" content="/assets/img/Website_Preview.png"/>
-<meta property="og:image:width" content="637"/>
-<meta property="og:image:height" content="403"/>
+
+<meta property="og:url" content="https://christianhaller.me" />
+<meta property="og:image" content="https://christianhaller.me/assets/img/Website_Preview.png" />
+<meta property="og:image:url" content="https://christianhaller.me/assets/img/Website_Preview.png" />
+<meta property="og:type" content="website" />
+
+<meta property="og:image:width" content="637" />
+<meta property="og:image:height" content="403" />
+
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
