@@ -29,4 +29,4 @@ description: >
 [LinkedIn]: https://www.linkedin.com/in/christian-haller/
 [GitHub]: https://github.com/ChristianHallerX/
 [ResearchGate]: https://www.researchgate.net/profile/Christian_Haller4/
-[E-Mail]: mailto:christian_haller&#64;gmx.de
+[E-Mail]: mailto:chris&#64;christianhaller.me

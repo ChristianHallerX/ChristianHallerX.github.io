@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name:              Christian Haller
-  email:             christian_haller@gmx.de
+  email:             chris@christianhaller.me
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
