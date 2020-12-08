@@ -33,7 +33,7 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 - M. Crichton & R. Preston (2011) Micro: A Novel
 
 
-### Testimonials
+### Quotes
 
 <img src="/assets/img/testimonials/mg_round.png" alt="Michael Guo" style="width:180px">
 <br>
@@ -54,7 +54,7 @@ He is a highly competent scientist and will make an excellent addition to a rese
 {:.lead}
 
 <a href="https://www.linkedin.com/in/kathryn-smith-9465ab84/" target="_blank">Kathryn Smith</a>, Ecologist @ <a href="https://www.usgs.gov/" target="_blank">US Geological Survey</a>
-<br>
+
 <br>
 <br>
 
