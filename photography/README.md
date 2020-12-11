@@ -6,6 +6,9 @@ description: >
   Pictures captured in my life.
 ---
 
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
 <img src="/assets/img/photography/Snapping.jpg" alt="Snapping" style="width:800px">
 
 ## Geology
@@ -30,9 +33,16 @@ description: >
 * [Environments]{:.heading.flip-title} --- Florida's metropolitan and nature landscapes.
 {:.related-posts.faded}
 
+## Europe
+
+* [Black Forest]{:.heading.flip-title} --- Into the woods and over the mountains.
+{:.related-posts.faded}
+
+
 [JOIDES Resolution]: JOIDES.md
 [Rocks]: rocks.md
 [Wildlife]: wildlife.md
 [Colorful Microfossils]: colorful-microfossils.md
 [Plants]: plants.md
 [Environments]: environments.md
+[Black Forest]: blackf.md
