@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 For this project we will examine making time series predictions using sunspot records. Sunspots are dark spots on the sun, associated with lower temperature but also marked by intense magnetic activity. They play host to solar flares and hot gassy ejections from the sun’s corona. 
@@ -40,7 +43,7 @@ An important constructor argument for all keras RNN layers is the return_sequenc
 
 ## Module Imports
 
-<pre><code>
+~~~python
 import kaggle #api token file required
 import os
 import shutil
@@ -50,8 +53,7 @@ import csv
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
-</code></pre>
+~~~
 
 
 
@@ -59,7 +61,7 @@ import matplotlib.pyplot as plt
 
 Most conveniently use the Kaggle API for downloading this challenge data set. You will need a Kaggle account and save the API credentials in a specific folder.
 
-<pre><code>
+~~~python
 !kaggle datasets download -d robervalt/sunspots
 
 # target folder
@@ -71,8 +73,7 @@ shutil.move(f'{os.getcwd()}\\sunspots.zip', local_zip)
 zip_ref = zipfile.ZipFile(local_zip, 'r')
 zip_ref.extractall(f'{os.getcwd()}\\data')
 zip_ref.close()
-
-</code></pre>
+~~~
 
 
 
@@ -82,17 +83,16 @@ zip_ref.close()
 
 Pandas dataframes allow for very neat, tabular representation of csv files.
 
-<pre><code>
+~~~python
 pd.read_csv(f'{os.getcwd()}\\data\\sunspots.csv')
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/pandastable.png" alt="pandas graph" style="width:480px"><br>
 
 However, for the remainder of the project we will use Numpy arrays.
 The lines of the csv are read line-by-ine with an iterator. The column headers need to be skipped. We need the running index as time monthly steps and the sunspot counts. Note that the data gets cast into integer and floats.
 
-<pre><code>
+~~~python
 time_step = []
 sunspots = []
 
@@ -102,14 +102,13 @@ with open(f'{os.getcwd()}\\Data\\sunspots.csv') as csvfile:
   for row in reader:
     sunspots.append(float(row[2]))
     time_step.append(int(row[0]))
-
-</code></pre>
+~~~
 
 
 For plotting up data later on, define a function that accepts time steps and sun spot values.
  
  
-<pre><code>
+~~~python
 def plot_series(time, series, format="-", start=0, end=None, label=None):
     myplot = plt.plot(time[start:end], series[start:end], format, label=label)
     plt.xlabel("Time (Months)")
@@ -117,19 +116,17 @@ def plot_series(time, series, format="-", start=0, end=None, label=None):
     if label != None:
         plt.legend()
     plt.grid(True)
-
-</code></pre>
+~~~
 
 Before plotting, the data gets converted to Numpy arrays.
 
-<pre><code>
+~~~python
 series = np.array(sunspots)
 time = np.array(time_step)
 
 plt.figure(figsize=(15, 9))
 plot_series(time, series)
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/activity_graph.png" alt="sunspot activity dataset graph" style="width:640px"><br>
 
@@ -139,7 +136,7 @@ plot_series(time, series)
 
 Now that the data set is available as a single chunk of 3251 samples, we want to sub-divide it into a train set and a viladation set. With ther split time set at 3000, the largest chunk will go into training.
 
-<pre><code>
+~~~python
 split_time = 3000
 time_train = time[:split_time]
 x_train = series[:split_time]
@@ -150,18 +147,16 @@ x_valid = series[split_time:]
 window_size = 30
 batch_size = 32
 shuffle_buffer_size = 1000
-
-</code></pre>
+~~~
 
 Graphing helps us understanding the split better.
 
-<pre><code>
+~~~python
 plt.figure(figsize=(15, 9))
 plt.title("Train/Test Split")
 plot_series(time_train, x_train, label="training set")
 plot_series(time_valid, x_valid, label="validation set")
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/split.png" alt="split graph" style="width:640px"><br>
 
@@ -169,7 +164,7 @@ plot_series(time_valid, x_valid, label="validation set")
 For training a time series, the algorithm takes in a snippet of samples and predicts the next point coming afterwards. The windowing helper-function does this with our desired window size.
 The longer the window size, the more history can be learned to forecast the value that comes next. The window_size value influences the model performance and requires optimizing for the sunspot cycles.
 
-<pre><code>
+~~~python
 def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     series = tf.expand_dims(series, axis=-1)
     ds = tf.data.Dataset.from_tensor_slices(series)
@@ -178,12 +173,11 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     ds = ds.shuffle(shuffle_buffer)
     ds = ds.map(lambda w: (w[:-1], w[1:]))
     return ds.batch(batch_size).prefetch(1)
-
-</code></pre>
+~~~
 
 To demonstrate how the windowed_dataset function and the window_size parameter are slicing the data set, have a closer look at the graph below.
 
-<pre><code>
+~~~python
 window_size = 64
 
 def plot_split(array, window_size):
@@ -195,8 +189,7 @@ plt.title("Windows")
 
 for series_window,time_window in zip(plot_split(series,window_size), plot_split(time,window_size)):
     plot_series(time_window, series_window)
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/windows.png" alt="windows graph" style="width:640px"><br>
 
@@ -207,7 +200,7 @@ Next task is finding a learning rate that delivers the least loss. With a callba
 
 The Huber loss makes it necessary to work with larger outputs. That is why the lambda layer was chosen to multiply the output layer's results by 400. I decided to use the Mean Absolute Error (MAE) as a metric that does not punish for large errors as severely as the Mean Squared Error (MSE)
 
-<pre><code>
+~~~python
 tf.keras.backend.clear_session()
 tf.random.set_seed(51)
 np.random.seed(51)
@@ -239,20 +232,18 @@ model.compile(loss=tf.keras.losses.Huber(),
               metrics=["mae"])
 
 history = model.fit(train_set, epochs=100, callbacks=[lr_schedule], verbose=0)
-
-</code></pre>
+~~~
 
 All the epoch's metrics are saved in the history variable and can be visualized. The graph helps us find a learning rate with lowest loss and assure it is in an area of low volatility. A learning rate of 10e-5 is a safe pick.
 
-<pre><code>
+~~~python
 # pick lr from graph
 plt.semilogx(history.history["lr"], history.history["loss"])
 plt.axis([1e-8, 1e-4, 0, 60])
 plt.title('Learing Rate Optimization')
 plt.xlabel("Learing Rate")
 plt.ylabel("Loss")
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/lroptimization.png" alt="lr optimization graph" style="width:480px"><br>
 
@@ -262,7 +253,7 @@ plt.ylabel("Loss")
 
 Plug in the new learning rate, remove the learning rate scheduler callback, and increase epochs. The network design remains the same as before.
 
-<pre><code>
+~~~python
 tf.keras.backend.clear_session()
 tf.random.set_seed(51)
 np.random.seed(51)
@@ -289,13 +280,12 @@ model.compile(loss=tf.keras.losses.Huber(),
               metrics=["mae"])
 
 history = model.fit(train_set,epochs=500, verbose=0)
-
-</code></pre>
+~~~
 
 
 Visualize the training progress.
 
-<pre><code>
+~~~python
 import matplotlib.image  as mpimg
 import matplotlib.pyplot as plt
 
@@ -320,8 +310,7 @@ plt.xlabel("Epochs")
 plt.ylabel("Loss")
 plt.legend(["Loss"])
 plt.figure()
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/history.png" alt="history graphs" style="width:480px"><br>
 
@@ -330,7 +319,7 @@ plt.figure()
 
 Define a helper function for forecasting, call it, and plot a zoom-in of one of the cycles. Here, we see the last sun-spot cycle and how the model (orange) at least visually matches the training/validation (blue) data quite well.
 
-<pre><code>
+~~~python
 def model_forecast(model, series, window_size):
     ds = tf.data.Dataset.from_tensor_slices(series)
     ds = ds.window(window_size, shift=1, drop_remainder=True)
@@ -346,17 +335,15 @@ plt.figure(figsize=(10, 6))
 plt.title("Forecast")
 plot_series(time_valid, x_valid, label='validation set')
 plot_series(time_valid, rnn_forecast, label='forecast')
-
-</code></pre>
+~~~
 
 <br><img src="/assets/img/research/Sunspot/forecast.png" alt="forecast graph" style="width:640px"><br>
 
 Of course, a quantitative comparison is more accurate in describing the model's fit to the validation set.
 
-<pre><code>
+~~~python
 print('Mean Absolute Error (MAE): ',tf.keras.metrics.mean_absolute_error(x_valid, rnn_forecast).numpy())
-
-</code></pre>
+~~~
 
 **Mean Absolute Error (MAE):  14.52463**
 

@@ -1,16 +1,3 @@
-<!--
-Clap Button.
--->
-<script type="module">
-  document.getElementById('_pushState').addEventListener('load', (e) => {
-    const main = document.querySelector('main');
-    const clapBtn = document.createElement('clap-button');
-    const dingbat = main.querySelector('.dingbat');
-    if (dingbat) dingbat.parentNode.replaceChild(clapBtn, dingbat);
-    else if (!main.querySelector('clap-button')) { clapBtn.hidden = true; main.appendChild(clapBtn) };
-  });
-</script>
-
 {% comment %}
 <!--
 Example code for using Matamo as alternative analytics solution.

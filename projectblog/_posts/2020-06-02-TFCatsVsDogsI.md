@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 In a previous post about computer vision I wrote how to make binary predictions if a photo contains a cat or no cat <a href="https://christianhallerx.github.io/research/2019-09-19-Cat-Prediction/" target="_blank">Article "Cat Prediction"</a>. This was a much simpler classifier built from ground up. However, not many users would still programm everything from scratch today. It is much easier to make use of a Deep Learning API such as PyTorch, Keras, TensorFlow etc.
@@ -35,20 +38,19 @@ Let's start by downloading our example data, a .zip of 2,000 JPG pictures of cat
 The 2,000 images used in this exercise are excerpted from the "Dogs vs. Cats" dataset available on Kaggle, which contains 25,000 images. Here, we use a subset of the full dataset to decrease training time for practial purposes.
 
 
-<pre><code>
+~~~python
 import os
 import wget
 
 url = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
 wget.download(url, out=f'{os.getcwd()}\\Data\\cats_and_dogs_filtered.zip')
-
-</code></pre>
+~~~
 
 
 The following code will use the OS library to use Operating System libraries, giving you access to the working directory, and the zipfile library allowing you to unzip the data.
 
 
-<pre><code>
+~~~python
 import zipfile
 
 local_zip = f'{os.getcwd()}\\Data\\cats_and_dogs_filtered.zip'
@@ -57,8 +59,7 @@ zip_ref = zipfile.ZipFile(local_zip, 'r')
 
 zip_ref.extractall(f'{os.getcwd()}\\Data')
 zip_ref.close()
-
-</code></pre>
+~~~
 
 
 The contents of the .zip are extracted to the base directory \\Data\\cats_and_dogs_filtered, which contains train and validation subdirectories for the training and validation datasets, which in turn each contain cats and dogs subdirectories.
@@ -70,7 +71,7 @@ The practical thing about TensorFlow: We do not explicitly label the images as c
 First we have to define the paths to all these directories:
 
 
-<pre><code>
+~~~python
 base_dir = f'{os.getcwd()}\\Data\\cats_and_dogs_filtered'
 
 train_dir = os.path.join(base_dir, 'train')
@@ -83,56 +84,51 @@ train_dogs_dir = os.path.join(train_dir, 'dogs')
 # Directory with our validation cat/dog pictures
 validation_cats_dir = os.path.join(validation_dir, 'cats')
 validation_dogs_dir = os.path.join(validation_dir, 'dogs')
-
-</code></pre>
+~~~
 
 
 Now, let's see what the file names look like in the cats and dogs train directories (file naming conventions are the same in the validation directory):
 
-<pre><code>
+~~~python
 train_cat_fnames = os.listdir( train_cats_dir )
 train_dog_fnames = os.listdir( train_dogs_dir )
 
 print(train_cat_fnames[:10])
 print(train_dog_fnames[:10])
-
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 ['cat.0.jpg', 'cat.1.jpg', 'cat.10.jpg', 'cat.100.jpg', 'cat.101.jpg', 'cat.102.jpg', 'cat.103.jpg', 'cat.104.jpg', 'cat.105.jpg', 'cat.106.jpg']
 ['dog.0.jpg', 'dog.1.jpg', 'dog.10.jpg', 'dog.100.jpg', 'dog.101.jpg', 'dog.102.jpg', 'dog.103.jpg', 'dog.104.jpg', 'dog.105.jpg', 'dog.106.jpg']
-
-</code></pre>
+~~~
 
 Let's find out the total number of cat and dog images in the train and validation directories:
 
 
-<pre><code>
+~~~python
 print('total training cat images :', len(os.listdir(      train_cats_dir ) ))
 print('total training dog images :', len(os.listdir(      train_dogs_dir ) ))
 
 print('total validation cat images :', len(os.listdir( validation_cats_dir ) ))
 print('total validation dog images :', len(os.listdir( validation_dogs_dir ) ))
-
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 total training cat images : 1000
 total training dog images : 1000
 total validation cat images : 500
 total validation dog images : 500
-
-</code></pre>
+~~~
 
 For both cats and dogs, we have 1,000 training images and 500 validation images.
 
 Now let's take a look at a few pictures to get a better sense of what the cat and dog datasets look like. First, configure the matplot parameters:
 
-<pre><code>
+~~~python
 %matplotlib inline
 
 import matplotlib.image as mpimg
@@ -143,12 +139,11 @@ nrows = 4
 ncols = 4
 
 pic_index = 0 # Index for iterating over images
-
-</code></pre>
+~~~
 
 Now, display a batch of eight cat and eight dog pictures. Each time this code is called, a new set of pictures will appear.
 
-<pre><code>
+~~~python
 # Set up matplotlib fig, and size it to fit 4x4 pics
 
 fig = plt.gcf()
@@ -173,8 +168,7 @@ for i, img_path in enumerate(next_cat_pix+next_dog_pix):
   plt.imshow(img)
 
 plt.show()
-
-</code></pre>
+~~~
 
 **Result:**
 
@@ -193,7 +187,7 @@ First of all, we need to import TensorFlow and best check for the installed vers
 This simple neural network will start with images of the size 150 x 150 pixels and three color values (RGB). It will contain three convolutional layers followed by pooling layers, which reduce the number of pixels. Then the 2D images will be flattened out to a single row of pixels that become neurons. After that, a fully connected layer (dense) with ReLu and then already the output layer with a single neuron that will indicate 1 or 0 for cat or dog. Activation for that final neuron will be a sigmoid function.
 
 
-<pre><code>
+~~~python
 import tensorflow as tf
 print("TensorFlow version: ",tf.__version__)
 
@@ -217,19 +211,17 @@ model = tf.keras.models.Sequential([
 	# Only 1 output neuron. It will contain a value from 0-1 where 0 for 1 class ('cats') and 1 for the other ('dogs')
 	tf.keras.layers.Dense(1, activation='sigmoid')  
 	])
-
-</code></pre>
+~~~
 
 The model layout can be shown by calling the summary method.
 
-<pre><code>
+~~~python
 model.summary()
-
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -256,22 +248,21 @@ Total params: 9,494,561
 Trainable params: 9,494,561
 Non-trainable params: 0
 __________________________
-
-</code></pre>
+~~~
 
 The "output shape" column shows how the size of the feature map evolves in each successive layer. The convolution layers reduce the size of the feature maps by a bit due to lack of padding, and each pooling layer halves the dimensions.
 
 Next, we will set more model configurations. We will train the model with the binary_crossentropy loss, because it is a binary classification problem (cat,dog) and our final activation is a sigmoid. We will use the rmsprop optimizer with a learning rate of 0.001. During training, we will want to monitor classification "accuracy".
 
 
-<pre><code>
+~~~python
 from tensorflow.keras.optimizers import RMSprop
 
 model.compile(optimizer=RMSprop(lr=0.001),
               loss='binary_crossentropy',
               metrics = ['accuracy'])
 			  
-</code></pre>
+~~~
 
 
 ## Step 3: Pre-Processing - Image Data Generator
@@ -284,7 +275,7 @@ Statistical modeling data should usually be normalized to make it more amenable 
 In Keras this can be done via the `keras.preprocessing.image.ImageDataGenerator` class using the rescale parameter. This ImageDataGenerator class allows you to instantiate generators of augmented image batches (and their labels) via `.flow(data, labels)` or `.flow_from_directory(directory)`. These generators can then be used with the Keras model methods that accept data generators as inputs: `fit`, `evaluate_generator`, and `predict_generator`.
 
 
-<pre><code>
+~~~python
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # All images will be rescaled by 1./255.
@@ -306,7 +297,7 @@ validation_generator =  test_datagen.flow_from_directory(validation_dir,
                                                          class_mode  = 'binary',
                                                          target_size = (150, 150))
 														 
-</code></pre>
+~~~
 
 
 ## Step 4: Training
@@ -319,7 +310,7 @@ The Loss and Accuracy are a great indication of progress of **Training**. It's m
 
 The **Validation** Accuracy is the measurement with the data that has not been used in training. As expected this would be a bit lower.
 
-<pre><code>
+~~~python
 history = model.fit(train_generator,
 					validation_data=validation_generator,
 					steps_per_epoch=100,
@@ -327,11 +318,11 @@ history = model.fit(train_generator,
 					validation_steps=50,
 					verbose=2)
 					
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 Epoch 1/15
 100/100 - 17s - loss: 0.7927 - accuracy: 0.5525 - val_loss: 0.6704 - val_accuracy: 0.6120
 Epoch 2/15
@@ -362,8 +353,7 @@ Epoch 14/15
 100/100 - 7s - loss: 0.0469 - accuracy: 0.9855 - val_loss: 1.7934 - val_accuracy: 0.7110
 Epoch 15/15
 100/100 - 7s - loss: 0.0430 - accuracy: 0.9890 - val_loss: 2.0219 - val_accuracy: 0.7080
-
-</code></pre>
+~~~
 
 ## Step 5: Visualizing Intermediate Representations (Optional)
 
@@ -371,7 +361,7 @@ To get a feel for what kind of features the convolutional network has learned, o
 
 Let's pick a random cat or dog image from the training set, and then generate a figure where each row is the output of a layer, and each image in the row is a specific filter in that output feature map. Rerun this cell to generate intermediate representations for a variety of training images.
 
-<pre><code>
+~~~python
 import numpy as np
 import random
 from   tensorflow.keras.preprocessing.image import img_to_array, load_img
@@ -441,8 +431,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.title ( layer_name )
     plt.grid  ( False )
     plt.imshow( display_grid, aspect='auto', cmap='viridis' )
-	
-</code></pre>
+~~~
 
 **Result:**
 
@@ -458,7 +447,7 @@ The photos are in the upload_cats_and_dogs folder and were re-named by me to ind
 <img src="/assets/img/research/CatsVsDogsI/upload.png" alt="upload.png MISSING" style="width:720px"><br>
 
 
-<pre><code>
+~~~python
 import numpy as np
 from keras.preprocessing import image
 
@@ -484,13 +473,12 @@ for fn in uploaded_filenames:
     
   else:
     print(fn + " is a cat")
-	
-</code></pre>
+~~~
 
 
 **Result:**
 
-<pre><code>
+~~~python
 [0.]
 cat_bamboo.jpg is a cat (correct)
 [1.]
@@ -511,8 +499,7 @@ dog_paddleboard.jpg is a dog (correct)
 dog_pughat.jpg is a dog (correct)
 [1.]
 kittens_basket.jpg is a dog (false)
-
-</code></pre>
+~~~
 
 The pictures I uploaded were not predicted entirely correctly. All the dogs were correctly classified as "dog", but only two out of five cats were classified "cat".
 
@@ -522,7 +509,7 @@ The pictures I uploaded were not predicted entirely correctly. All the dogs were
 Let's plot the Training/Validation accuracy and loss as collected during training:
 
 
-<pre><code>
+~~~python
 #-----------------------------------------------------------
 # Retrieve a list of list results on training and test data
 # sets for each training epoch
@@ -548,8 +535,7 @@ plt.figure()
 plt.plot  ( epochs,     loss )
 plt.plot  ( epochs, val_loss )
 plt.title ('Training and validation loss'   )
-
-</code></pre>
+~~~
 
 **Result:**
 

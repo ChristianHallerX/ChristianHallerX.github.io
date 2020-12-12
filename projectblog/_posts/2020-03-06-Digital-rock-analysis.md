@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 The need for small-scale analysis of rocks is a common necessity in academia and industry. Digital analysis is precise and manipulation in a computer is non-destructive to the sample. This is an important consideration if the sample is rare or was expensive to obtain.

@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 For this ML/DL project, we will implement a relatively simple drowsiness-detection tool. Drowsiness detection can be done by measuring if someone's eyes were closed longer than blinking and may be a life-saver in many instances. For example while driving a vehicle for long hours or at night (<a href="https://en.wikipedia.org/wiki/Driver_drowsiness_detection" target="_blank">Wikipedia: Driver drowsiness detection</a>, <a href="https://www.nytimes.com/2017/03/16/automobiles/wheels/drowsy-driving-technology.html" target="_blank">NYTimes: Sleepy Behind the Wheel? Some Cars Can Tell</a>). Other use cases are more recent applications such as virtual school classes. In either case, we hope people are wide awake during these activities.
@@ -31,44 +34,41 @@ Give it a go!
 
 If you want to follow along and try it out yourself, download the **<a href="https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Drowsiness_detection_main.ipynb" target="_blank">Jupyter notebook</a>**. Check if your environment has all the packages installed. The necessary data files for this project are available from **<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Data/drowsiness_data" target="_blank">this folder</a>**. Make sure the paths in the notebook point to the correrct local directories. And of course, you will need a video camera or webcam plugged into your computer.
 
-## Step 1: Imports
+## Imports
 
 Call all the libraries we need for this project 
 
-<pre><code>
+~~~python
 import cv2
 import os
 from keras.models import load_model
 import numpy as np
 from pygame import mixer
+~~~
 
-</code></pre>
-
-## Step 2: Alarm Setup
+## Alarm Setup
 
 Load the wav file you want to play on detection.
 
-<pre><code>
+~~~python
 mixer.init()
 sound = mixer.Sound(f'{os.getcwd()}\\Data\\drowsiness_data\\Electronic_Chime-KevanGC-495939803.wav')
 
 sound.play()
+~~~
 
-</code></pre>
 
-
-## Step 3: Load OpenCV Haar kernels used to detect facial landmarks
+## Load OpenCV Haar kernels used to detect facial landmarks
 The “haar cascade" xml files are needed to detect objects from the image. In this case, the kernels are tuned to detect the face and eyes of the person.
 
-<pre><code>
+~~~python
 face = cv2.CascadeClassifier(f'{os.getcwd()}\\Data\\drowsiness_data\\haarcascade_frontalface_alt.xml')
 leye = cv2.CascadeClassifier(f'{os.getcwd()}\\Data\\drowsiness_data\\haarcascade_lefteye_2splits.xml')
 reye = cv2.CascadeClassifier(f'{os.getcwd()}\\Data\\drowsiness_data\\haarcascade_righteye_2splits.xml')
+~~~
 
-</code></pre>
 
-
-## Step 4: Load the CNN model and start video stream
+## Load the CNN model and start video stream
 
 The inference happens in an infinite while-loop that grabs a frame from the webcam feed, identifies the face and eyes, runs a classifier on the eyes, and then calculates a "drowsiness-score".
 
@@ -79,7 +79,7 @@ Effectively, the score will increase with closed eyes and is a measure for *how 
 The threshold that has to be reached before sounding the alarm prevents the model from predicting simple blinking as drowsiness. Futhermore, both eyes need to be closed at the same time.
 
 
-<pre><code>
+~~~python
 model = load_model(f'{os.getcwd()}\\Data\\drowsiness_data\\cnncat2.h5')
 path = os.getcwd()
 
@@ -98,18 +98,17 @@ threshold = 6
 thicc = 2
 rpred = [99]
 lpred = [99]
+~~~
 
-</code></pre>
 
-
-### Step 5: Start prediction cycle
+## Start prediction cycle
 
 When executing the next cell, a window with the video capture will pop up.
 
 Quit by hitting 'q'. To re-start, open the video capture again (execute cell above).
 
 
-<pre><code>
+~~~python
 # Infinite loop of capturing, infering, and scoring
 while(True):
     ret, frame = cap.read()
@@ -199,8 +198,7 @@ while(True):
 # close stream capture and close window
 cap.release()
 cv2.destroyAllWindows()
-					
-</code></pre>
+~~~
 
 ## Result
 
@@ -225,9 +223,9 @@ cv2.destroyAllWindows()
 
 - Videos
 
-<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/video/Drowsy/Drowsiness1.gif" alt="Screen 3" style="width:640px">
+<img src="/assets/video/Drowsy/Drowsiness1.gif" alt="gif 1" style="width:640px">
 
-<img src="https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/video/Drowsy/Drowsiness2.gif" alt="Screen 3" style="width:640px">
+<img src="/assets/video/Drowsy/Drowsiness2.gif" alt="gif 2" style="width:640px">
 
 
 

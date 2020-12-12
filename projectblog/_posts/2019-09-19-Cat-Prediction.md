@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 Image classification is nowadays a common job for neural networks. The RGB values of a photo are unrolled into a feature vector and the neurons will learn the label given to it.

@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 Digital Elevation Models (DEMs) are often the most basic data available about the land surface elevation and are base for many following analysis products. DEMs come in form of greyscale raster files with the elevation (Z) direction encoded in the color value. From many parts of the world these DEM datasets are already available as georeferenced raster files. However, how are they generated?

@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 Given the somewhat mediocre performance of the <a href="https://christianhallerx.github.io/research/2020-06-02-TFCatsVsDogsI/" target="_blank">previous model</a> for Cats Vs Dogs, it seems warranted to implement new tools that promise performance gains. The classification model used previously suffered from overfitting. That means, the training set was learned very well, but probably so well, that the unknown data in the validation set could not be predicted precisely. If a model can only predict well what it has seen before means that it does not "generalize" well.
@@ -34,19 +37,18 @@ Using the Inception V3 transfer learning enables us to "step on the shoulders of
 Here, we will download the weights as an .h5 file.
 
 
-<pre><code>
+~~~python
 import os
 import wget
 
 url = 'https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5'
 wget.download(url, out=f'{os.getcwd()}\\Data\\inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5')
-
-</code></pre>
+~~~
 
 
 Next, we also have to set up the network itself as the authors of Inception V3 designed it. Luckily, keras has this model already built in in its library. We only have to import it and then fill in the weights from the .h5 file. While training on the cats vs. dogs images, we do NOT want to re-train the entire Inception V3 network. Hence, we set `layer.trainable = False`
 
-<pre><code>
+~~~python
 from tensorflow.keras import layers
 from tensorflow.keras import Model
 from tensorflow.keras.applications.inception_v3 import InceptionV3
@@ -65,20 +67,18 @@ pre_trained_model.load_weights(local_weights_file)
 # make pre-trained model read-only
 for layer in pre_trained_model.layers:
   layer.trainable = False
-
-</code></pre>
+~~~
 
 Let's have a look at the layers of the pre-trained model:
 
-<pre><code>
+~~~python
 # the Inception V3 is very deep
 pre_trained_model.summary()
-
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 Model: "inception_v3"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
@@ -133,27 +133,24 @@ Total params: 21,802,784
 Trainable params: 0
 Non-trainable params: 21,802,784
 __________________________________________________________________________________________________
-
-</code></pre>
+~~~
 
 In total, there are almost 100 layers of batch normalizations, 2d convolutions, activations etc. etc.... which makes ~ 22 million parameters.
 
 We will not use the original output of the network, but replace it with our own dense layers and output neurons. We will define the the last / output layer of the Inception network.
 
-<pre><code>
+~~~python
 # set layer "mixed 7" as end of pre-trained network 
 last_layer = pre_trained_model.get_layer('mixed7')
 print('last layer output shape: ', last_layer.output_shape)
 last_output = last_layer.output
-
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 last layer output shape:  (None, 7, 7, 768)
-
-</code></pre>
+~~~
 
 
 ## Step 2: Define Trainable Layers
@@ -163,7 +160,7 @@ As mentioned beforek, we will have to define layers that are attached to the end
 New is the droput. Droput layers are an additional tool for regularization and will delete random neurons. Many adjacent neurons are thought to be trained with similar values and contribute to overfitting. Setting the droput to 0.2 will make sure that 20% of all neurons in this layer will be canceled. The droput percentage is something to tweak.
 
 
-<pre><code>
+~~~python
 from tensorflow.keras.optimizers import RMSprop
 
 # Flatten the output layer to 1 dimension
@@ -181,20 +178,19 @@ model.compile(optimizer = RMSprop(lr=0.0001),
               loss = 'binary_crossentropy', 
               metrics = ['accuracy'])
 
-</code></pre>
+~~~
 
 
 ## Step 3: Download Dataset
 
 As in Part I, we have to download the Cats Vs. Dogs data set again and unzip it.
 
-<pre><code>
+~~~python
 url = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
 wget.download(url, out=f'{os.getcwd()}\\Data\\cats_and_dogs_filtered.zip')
+~~~
 
-</code></pre>
-
-<pre><code>
+~~~python
 import zipfile
 
 local_zip = f'{os.getcwd()}\\Data\\cats_and_dogs_filtered.zip'
@@ -203,8 +199,7 @@ zip_ref = zipfile.ZipFile(local_zip, 'r')
 
 zip_ref.extractall(f'{os.getcwd()}\\Data')
 zip_ref.close()
-
-</code></pre>
+~~~
 
 
 ## Step 4: Pre-Processing - Image Data Generator and Image Augmentation
@@ -212,7 +207,7 @@ zip_ref.close()
 As before, we define the train, validation, and paths to the two classes so we can feed them to the Image Data Generator and stream the files into the training process. Here, we will use new parameters for the ImageDataGenerator which will augment the images in the folder on-the-fly.
 On-the-fly means that the generator applies these augmentations during training without saving data to the hard drive. The modifications taking place are mainly distortions of existing images such as rotation, shearing, mirroring, lateral shifts, and zooms. In short, is a very handy way of vastly increasing the number of training examples without having to take more photos.
 
-<pre><code>
+~~~python
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Define our example directories and files
@@ -255,21 +250,20 @@ validation_generator =  test_datagen.flow_from_directory( validation_dir,
                                                           class_mode  = 'binary', 
                                                           target_size = (150, 150))
 					
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 Found 2000 images belonging to 2 classes.
 Found 1000 images belonging to 2 classes.
-
-</code></pre>
+~~~
 
 ## Step 5: Train Model
 
 As previously, we pass the image generators for tain and validation to our model and start it!
 
-<pre><code>
+~~~python
 history = model.fit(
             train_generator,
             validation_data = validation_generator,
@@ -278,11 +272,11 @@ history = model.fit(
             validation_steps = 50,
             verbose = 2)
 	
-</code></pre>
+~~~
 
 **Result:**
 
-<pre><code>
+~~~python
 Epoch 1/20
 100/100 - 27s - loss: 0.4954 - accuracy: 0.7655 - val_loss: 0.6056 - val_accuracy: 0.8500
 Epoch 2/20
@@ -323,8 +317,7 @@ Epoch 19/20
 100/100 - 15s - loss: 0.2321 - accuracy: 0.9060 - val_loss: 0.3551 - val_accuracy: 0.9670
 Epoch 20/20
 100/100 - 15s - loss: 0.2470 - accuracy: 0.9000 - val_loss: 0.4488 - val_accuracy: 0.9500
-
-</code></pre>
+~~~
 
 
 ## Step 6: Evaluate the Training and Validation Accuracy
@@ -332,7 +325,7 @@ Epoch 20/20
 Finally we can check what the new implemented tools did to improve the model by plotting the training history. Remember, in the old model Training Accuracy rose to almost 100% after 15 epochs, while the Validation Accuracy stagnated near ~70%.
 
 
-<pre><code>
+~~~python
 from matplotlib import pyplot as plt
 
 #-----------------------------------------------------------
@@ -362,8 +355,7 @@ plt.plot  ( epochs,     loss, label='Training Loss' )
 plt.plot  ( epochs, val_loss, label='Validation Loss' )
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 plt.title ('Training and validation loss'   )
-	
-</code></pre>
+~~~
 
 
 **Result:**

@@ -7,6 +7,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 The Shell International Exploration and Production Inc. recently (November 2019) started a new webiste named XEEK <a href="https://xeek.ai/challenges" target="_blank">(https://xeek.ai/challenges)</a> with contests to predict facies from wireline logs via machine learning amongst many others. In many ways it is similar to Kaggle, but solution ways are not made public.

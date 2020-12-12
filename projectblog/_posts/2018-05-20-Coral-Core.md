@@ -5,6 +5,9 @@ description: >
   Coral skeletons are drilled for geochemical studies.
 ---
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 The coral reef workgroup came back with Florida Keys cores and I took the opportunity to have a look at them before go into the laboratory for processing.
 
 Looking closely, you can trace the coral polyp growth direction and even the transition from living coral to clean skeleton. Insight: the living part of the coral is only a thin outer skin. Further down the core individual polyp cavities become rock porosity.

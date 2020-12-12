@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 A chatbot is smart code that is capable of communicating similar to a human.
@@ -59,7 +62,7 @@ Give it a go and talk with the chatbot yourself!
 
 Call all the libraries we need for this project 
 
-<pre><code>
+~~~python
 import nltk
 from nltk.stem import WordNetLemmatizer
 import pickle
@@ -70,21 +73,19 @@ import random
 import os
 
 lemmatizer = WordNetLemmatizer()
-
-</code></pre>
+~~~
 
 
 ## Step 2: Load Files
 
 Loading words, model, and replies into objects.
 
-<pre><code>
+~~~python
 intents = json.loads(open(f'{os.getcwd()}\\Data\\chatbot_data\\intents.json').read())
 words = pickle.load(open(f'{os.getcwd()}\\Data\\chatbot_data\\words.pkl','rb'))
 classes = pickle.load(open(f'{os.getcwd()}\\Data\\chatbot_data\\classes.pkl','rb'))
 model = load_model(f'{os.getcwd()}\\Data\\chatbot_data\\chatbot_model.h5')
-
-</code></pre>
+~~~
 
 
 ## Step 3: Preprocessing the input - Some helper functions
@@ -92,7 +93,7 @@ model = load_model(f'{os.getcwd()}\\Data\\chatbot_data\\chatbot_model.h5')
 For class prediction, we need to provide input in the same way as we did for training. These helper functions perform text preprocessing when the user clicked "Send" and then predict the class.
 
 
-<pre><code>
+~~~python
 def clean_up_sentence(sentence):
     
     # tokenize input pattern - split words into array
@@ -140,15 +141,14 @@ def predict_class(sentence, model):
         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
     
     return return_list
-
-</code></pre>
+~~~
 
 
 ## Step 4: Selecting a response
 
 After predicting the class (tag) of the user input, these functions select a random response from the list of intent (i.e. from intents.json file).
 
-<pre><code>
+~~~python
 def getResponse(ints, intents_json):
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
@@ -162,8 +162,7 @@ def chatbot_response(text):
     ints = predict_class(text, model)
     res = getResponse(ints, intents)
     return res
-
-</code></pre>
+~~~
 
 
 ## Step 5: GUI
@@ -178,7 +177,7 @@ Tasks of the GUI are: (1) Accept the input message from the user and then (2) us
 <br><img src="/assets/img/research/MedInfo/guidescription.png" alt="gui description" style="width:640px"><br>
 
 
-<pre><code>
+~~~python
 import tkinter
 from tkinter import *
 
@@ -212,15 +211,14 @@ def send():
 def clear_search(event):
     EntryBox.delete("0.0",END)
     EntryBox.config(foreground="black", font=("Verdana", 12))
-
-</code></pre>
+~~~
 
 ### Execute this Cell to start the chatbot GUI
 
 Here, everything comes together. The different objects on the screen are defined and what functions are executed when they are interacted with. The ChatLog text field's state is always set to "Normal" for text inserting and afterwards set to "Disabled" so the user cannot interact with it.
 
 
-<pre><code>
+~~~python
 base = Tk()
 base.title("MedInfo")
 base.geometry("400x500")
@@ -261,3 +259,4 @@ EntryBox.place(x=6, y=401, height=90, width=265)
 SendButton.place(x=282, y=401, height=90)
 
 base.mainloop()
+~~~

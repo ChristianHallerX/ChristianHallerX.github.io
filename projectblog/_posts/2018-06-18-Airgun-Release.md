@@ -5,6 +5,9 @@ description: >
   Seismic surveying offshore requires an airgun as pressure source.
 ---
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 Seismic surveying offshore requires an airgun as pressure source.
 
 The device has a pressure chamber, which is continuously loaded and released in an instant.

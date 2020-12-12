@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 A Python Machine Learning project for a small geological dataset.
@@ -18,8 +21,8 @@ This project was developed together with `Advanced Data Science with IBM` on Cou
 
 ## Video
 
-<a href="http://www.youtube.com/watch?v=KxkD8paGVYs" target="_blank"><img src="http://img.youtube.com/vi/KxkD8paGVYs/0.jpg" alt="Rock Permeability Prediction (Data Science)" width="240" height="180" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KxkD8paGVYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GitHub Repository
 
-<a href="https://github.com/ChristianHallerX/Adv_Data_Science_Cap" target="_blank">https://github.com/ChristianHallerX/Adv_Data_Science_Cap)</a>
+<a href="https://github.com/ChristianHallerX/DataScienceProjects/tree/master/RockPermeabilityPrediction" target="_blank">BP Reservoir Permeability -- Measurements on rock samples for rock permeability</a>

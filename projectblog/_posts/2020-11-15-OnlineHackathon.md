@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 This year has brought many changes to the workplace, academia, and how we spend our spare time. Many events that would be held in person are now online. This has its perks but also challenges.
 
 I decided to sign up for the 2020 TAMU Datathon at Texas A&M, since I had a great experience last year. And yes, I was accepted again, knowing that the participant pool was doubled since there were no more physical space constraints how many people could be crammed into a hall safely.

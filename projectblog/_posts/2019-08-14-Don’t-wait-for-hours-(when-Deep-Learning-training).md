@@ -8,6 +8,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 When analyzing large data sets and building machine learning models, you will inevitably come across the question of how you want to write your code and then where to execute it. This is an especially important question when you are starting out with your endeavors and learning how the modeling is all done nowadays. Computational power is not part of that question and neither that important for toy examples.

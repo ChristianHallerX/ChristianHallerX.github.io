@@ -5,6 +5,9 @@ description: >
  Feature on student and early career research in SEPM
 ---
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 I'm very honored to have been featured in an SEPM Research Spotlight.
 
 Read more in link below.

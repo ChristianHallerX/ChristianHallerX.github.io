@@ -7,6 +7,9 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+<br>
+<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
+
 ## Introduction
 
 In the last couple of weeks, I attended two Hackathons and one Datathon. I recieved a lot of feedback on my endeavours and I want to share my experience with you. As an aspiring Data Scientist, you may have heard of such events and may be curious what they are all about. First off, they are both very similar and present you with different tasks. They are usually hosted by university departments and organized by their students for other students. They are typically held on weekends in Spring and Fall and run for exactly 24 hours from Saturday morning till the same time on Sunday.
