@@ -10,5 +10,6 @@ no_excerpt:      false
 hide_image:      false
 featured:        false
 description:     >
-  I have (co-)authored a number of technical articles and research papers over the years on geoscientific modeling and related fields. Here are some highlights:
+  I have (co-)authored a number of technical papers over the years on geoscientific modeling and related fields.<br>
+  Here are some highlights:
 ---

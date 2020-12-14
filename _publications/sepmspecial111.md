@@ -9,4 +9,4 @@ featured:    false
 
 SEPM Special Publication No. 111 Geologic Problem Solving with Microfossils IV
 
-<a href="https://www.doi.org/10.2110/sepmsp.111.05" target="_blank">DOI</a> / <a href="https://www.researchgate.net/publication/335989163_RECENT_OUTER-SHELF_FORAMINIFERAL_ASSEMBLAGES_ON_THE_CARNARVON_RAMP_AND_NORTHWESTERN_SHELF_OF_WESTERN_AUSTRALIA" target="_blank">ResearchGate</a>
+DOI: <a href="https://www.doi.org/10.2110/sepmsp.111.05" target="_blank">https://www.doi.org/10.2110/sepmsp.111.05</a> / <a href="https://www.researchgate.net/publication/335989163_RECENT_OUTER-SHELF_FORAMINIFERAL_ASSEMBLAGES_ON_THE_CARNARVON_RAMP_AND_NORTHWESTERN_SHELF_OF_WESTERN_AUSTRALIA" target="_blank">ResearchGate (full-text)</a>
