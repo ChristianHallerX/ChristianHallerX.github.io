@@ -19,12 +19,15 @@ description: >
 
 ## Bio
 
-Christian is a rising `Geoscientist` with a strong research background and knows how to talk to computers. He has a proficiency in one of the hottest subjects of our time: `Data Science`, and `Machine Learning` models.
-These models are used to analyze wireline logs and seismic data to simplify facies recognition, interpretation, and well-log correlation.
-As digital scientist and geologist, he soaked up Dr. Andrew Ng's (Standord University) lectures and papers like a sponge, and is now specializing in creating models that predict our subsurface more and more precisely.
-During his time in academia, Christian has sailed on geological offshore expeditions (scientific drilling) and published various technical papers.
+Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming background.
+He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
+These models are useful to analyze data to simplify class recognition, automate interpretation, and discern cause-and-effect correlation.
+Furthermore, Christian creates, runs, and improves complex prediction systems in order to support organizations whose research and success metrics depend on accurate prediction.
+During his time in academia, Christian has sailed on offshore expeditions (scientific drilling) and published various technical papers.
 
-Outside his technical roles, Christian is a keen computer science nerd, photographer and mountain biker - with a broad interest in emerging tech, economics, and management. While working in the laboratory and computer he already listened to "The Martian" over a hundred times and regularly tunes into technology podcasts. In his downtime he and his partner pursue their passion for backpacking such as camping in the Australian Outback, the Black Forest, or the Northeast Kingdom.
+Outside his technical roles, Christian is a keen photographer and mountain biker - with a broad interest in emerging tech, economics, and management.
+His favorite book is "The Martian", which he read over a dozen times.
+In his downtime he and his partner pursue their passion for backpacking such as camping in the Australian Outback, the Black Forest, or the Northeast Kingdom.
 
 
 ## Education
@@ -38,7 +41,8 @@ Outside his technical roles, Christian is a keen computer science nerd, photogra
 
 <a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">Full Length CV</a>
 
-Note: Click `File` -> `Download` for a copy.
+In Google Docs, click `File` -> `Download` for a PDF copy.
+{:.note}
 
 
 ## Details
@@ -51,7 +55,6 @@ Note: Click `File` -> `Download` for a copy.
   <li>Data Science</li>
   <li>Machine Learning and Artificial Intelligence</li>
   <li>Applied Geoscience</li>
-  <li>Exploration Geology</li>
  </ul>
 </details>	
 <br>
@@ -63,7 +66,6 @@ Note: Click `File` -> `Download` for a copy.
  </summary>
  <ul>
   <li>AWS re:Invent 2020</li>
-  <li>GSA Annual Meeting October 2020, Montreal/Online</li>
  </ul>
 </details>
 <br>
@@ -74,6 +76,7 @@ Note: Click `File` -> `Download` for a copy.
   <b><u>Past Events (abbreviated)</u></b>
  </summary>
   <ul>
+  <li>GSA Annual Meeting October 2020, Montreal/Online</li>
   <li>TAMU Datathon October 2020, College Station/Online</li>
   <li>AAPG Annual Conference and Exhibition 2020, Houston/Online</li>
   <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>

@@ -2,13 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Christian Haller
+  name:              Christian Haller, Ph.D.
   email:             chris@christianhaller.me
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Geoscientist & Machine Learning Dev
+    Geoscientist - Machine Learning Dev - Published Author
 
   # This photo will be used in the about section
   picture:

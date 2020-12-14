@@ -24,16 +24,16 @@ baseurl:               ''
 lang:                  en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Christian Haller
+title:                 Christian Haller Ph.D.
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Christian Haller - Personal Website. Building digital eminence for geoscience.
+  Christian Haller Ph.D. 
 
 # A shorter description for the sidebar.
 tagline:               >
-  Geoscientist & Machine Learning Dev
+  Geoscientist - Machine Learning Dev Published Author
 
 # A list of keywords for your blog
 keywords:              [geology,geoscience,geophysics,geochemistry,paleontology,data science,data analytics]
@@ -62,12 +62,14 @@ menu:
     url:               /projectblog/
   - title:             Academic Interests
     url:               /academic/
-  - title:             About
-    url:               /about/
+  - title:             Publications
+    url:               /publications/
   - title:             Photography
     url:               /photography/
   - title:             Connect and Communicate
     url:               /connect/
+  - title:             About
+    url:               /about/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -295,14 +297,18 @@ collections:
   featured_categories:
     permalink:         /:name/
     output:            true
+  
+  publications:
+    permalink:         /publications/:path/
+    output:            true
 
   featured_tags:
     permalink:         /tag-:name/
-    output:            true
+    output:            false
 
   projects:
     permalink:         /projects/:path/
-    output:            true
+    output:            false
 
 
 # File inclusion/exclusion

@@ -1,31 +1,32 @@
 ---
-layout: welcome
-title:  Welcome
-cover:  true
+layout:         welcome
+title:          Christian Haller, Ph.D.
+cover:          true
+caption:        Geoscientist - Machine Learning Dev - Published Author
 ---
 
-My website is about my work, my research, and what I am passionate about.
+Geoscientist - Machine Learning Dev - Published Author
+{:.lead}
 
-I am looking to collaborate on open source projects!
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
 
+Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming background.
+He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
+[See more...](/about/)
+
+## News
 
 ### Doing
-
-- Optimizing well-log classifictions.
-- Preparing for the Datathon/Hackathon season. All online? Ugh!
-- Should I train a Deep Racer???
-- Besides the blog entries, check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects" target="_blank">GitHub Repository "Data Science Projects"</a> for latest work.
+- Should I train an AWS Deep Racer???
+- Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects" target="_blank">GitHub Repository "Data Science Projects"</a>.
 	
 	
 ### Learning
-
-- Deployment of Tensorflow models to edge devices. Very promising, so far.
+- Deployment of Tensorflow models to edge devices. It's great fun. <a href="https://youtu.be/ACmydtFDTGs" target="_blank">Does this ring a bell?</a>
 - Advanced Object-Oriented Programming in Python.
-- To Dash or not to Dash.
-
 
 ### Reading
-
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
 - Clive Thompson (2019) Coders: The Making of a New Tribe and the Remaking of the World
@@ -33,7 +34,7 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 - M. Crichton & R. Preston (2011) Micro: A Novel
 
 
-### Quotes
+## Quotes
 
 <img src="/assets/img/testimonials/emt_round.png" alt="Esa-Matti Tastula" style="width:180px">
 <br>
@@ -68,9 +69,9 @@ He is a highly competent scientist and will make an excellent addition to a rese
 <br>
 <br>
 
-### Disclaimer
+## Disclaimer
 
 Opinions expressed are solely my own and do not express the views or opinions of my employer.
 
-### Latest Research Posts
+## Latest stuff in Project Blog
 <!--posts-->
