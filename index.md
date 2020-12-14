@@ -19,7 +19,7 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 
 ### Doing
 - Should I train an AWS Deep Racer???
-- Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects" target="_blank">GitHub Repository "Data Science Projects"</a>.
+- Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects#data-science-projects" target="_blank">GitHub Repository "Data Science Projects"</a>.
 	
 	
 ### Learning
