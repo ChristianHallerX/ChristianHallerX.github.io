@@ -1,9 +1,9 @@
 ---
 image: /assets/img/about/0342.jpg
 layout: about
-title:  About
+title:  About Christian Haller
 description: >
-  Who is Christian Haller?
+  Background, CV, and more.
 ---
 
 
