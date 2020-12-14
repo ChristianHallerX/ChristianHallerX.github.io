@@ -41,7 +41,7 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 "Christian's hunger for constantly improving his skills in disciplines ranging from data science to oceanography has always impressed me. His meticulous approach to whatever project he is working on, hard work ethic, and in-depth knowledge of the latest data science technologies make him an ideal candidate for a position in the field of data science."
 {:.lead}
 
-<a href="https://www.linkedin.com/in/esa-matti-tastula-126274a9/" target="_blank">Esa-Matti Tastula</a>, Data Scientist @ <a href="https://www.stormgeo.com/" target="_blank">StormGeo Shipping - Applied Weather Technology</a>, Silicon Valley, CA
+<a href="https://www.linkedin.com/in/esa-matti-tastula-126274a9/" target="_blank">Esa-Matti Tastula, Ph.D.</a>, Data Scientist @ <a href="https://www.stormgeo.com/" target="_blank">StormGeo Shipping - Applied Weather Technology</a>, Silicon Valley, CA
 
 <br>
 <br>
@@ -64,7 +64,7 @@ I was very impressed with the extensiveness of his PhD work and his knowledge of
 He is a highly competent scientist and will make an excellent addition to a research or technical team."
 {:.lead}
 
-<a href="https://www.linkedin.com/in/kathryn-smith-9465ab84/" target="_blank">Kathryn Smith</a>, Ecologist @ <a href="https://www.usgs.gov/" target="_blank">US Geological Survey</a>, St. Petersburg, FL
+<a href="https://www.linkedin.com/in/kathryn-smith-9465ab84/" target="_blank">Kathryn Smith, Ph.D.</a>, Ecologist @ <a href="https://www.usgs.gov/" target="_blank">US Geological Survey</a>, St. Petersburg, FL
 
 <br>
 <br>
