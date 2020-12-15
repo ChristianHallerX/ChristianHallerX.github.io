@@ -11,7 +11,7 @@ permalink: /academic/
 {:toc}
 
 <br>
-<img src="/assets/img/academic/0501.jpg" alt="Christian Haller academic interests" style="height:300px">
+<img src="/assets/img/academic/0501.jpg" alt="Christian Haller academic interests">
 
 Work @ USGS St. Petersburg Coastal and Marine Science Center
 {:.figcaption style="text-align: left;"}
@@ -27,7 +27,11 @@ Microfossil-related proxy data is used to make inferences about age of strata (b
 To bring all the disciplines together in a meaningful way, it is inescapable to retrieve geological samples and ground-truth geophysical assumptions in context of modern analogues in contemporary sedimentary research. In my research, I strive to establish a better understanding of the shelf depositional realm and find ways to improve on estimates made in paleoenvironmental and bathymetric aspects in basin models.
 
 <br>
-<img src="/assets/img/academic/Grand.jpg" alt="grand" style="width:800px">
+<img src="/assets/img/academic/Grand.jpg" alt="Christian Haller grand canyon">
+
+Field Trip Instructor @ Grand Canyon National Park, AZ
+{:.figcaption style="text-align: left;"}
+
 
 ### Past and ongoing work
 
@@ -40,8 +44,10 @@ In my carbonate shelves-related work we have carried out comparative analyses of
 Having spent multiple years as part of the marine sediment core research community, I now start establish a voice in directing community efforts to address scientific questions of societal relevance such as those outlined here. As with any geological coring effort, community collaboration is essential for successful sample recovery, storage at national repositories, and productive analysis through to publication. I thrive on this collaborative spirit, and hope to provide fellow researchers with experience and the opportunity to similarly participate in this supportive environment. My current research and four planned projects are outlined below.
 
 <br>
-<img src="/assets/img/academic/Volcanic_exp.jpg" alt="Volcanic Exp Photo" style="width:800px">
+<img src="/assets/img/academic/Volcanic_exp.jpg" alt="Christian HallerVolcanic Sediment">
 
+Climbing S P Crater, AZ
+{:.figcaption style="text-align: left;"}
 
 ### Future Projects
  
@@ -77,7 +83,10 @@ Carbonate ramps, such as the WA shelf, are marginal marine settings in which car
 A major setting for future inquiry is linking glass ramp intervals to the global processes that allowed them to flourish, sustain, and terminate. Causes must be examined in detail at outcrop/core, biofacies, and microfacies scales if generalized associations with environmental conditions (temperature, bathymetric context, etc.) may be established. Hypothesized are records of locally-oscillating biosiliceous and carbonate factories, which is still a new model that requires more scrutiny. Environmental stabilizing feedbacks, sensitivity to perturbations, and the thresholds of state switching are only loosely defined today.
 
 <br>
-<img src="/assets/img/academic/TinticSilver.jpg" alt="Tintic Silver Photo" style="width:800px">
+<img src="/assets/img/academic/TinticSilver.jpg" alt="Christian Haller Tintic Silver Photo">
+
+Field Trip Instructor @ Eastern Tintic Mountains Silver Mining District, UT
+{:.figcaption style="text-align: left;"}
 
 ## Teaching Concepts
 
@@ -121,6 +130,5 @@ I am prepared to teach courses related to geological processes, sedimentology, a
 
 <img src="/assets/img/academic/Mother_Goose_And_Grimm.jpg" alt="Radiocarbon Comic" style="width:600px">
 
-
-*You read all the way through this dry text. Let this comic strip cheer you up.<br>(Source: 
-<a href="https://www.grimmy.com/">Mother Goose and Grimm</a>)*
+You read all the way through this dry text. Let this comic strip cheer you up. Source: <a href="https://www.grimmy.com/">Mother Goose and Grimm</a>
+{:.figcaption style="text-align: left;"}

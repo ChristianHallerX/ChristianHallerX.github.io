@@ -9,7 +9,7 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<img src="/assets/img/photography/Snapping.jpg" alt="Christian Haller photography" style="height:300px">
+<img src="/assets/img/photography/Snapping.jpg" alt="Christian Haller photography">
 
 Boyd Hill Nature Park, St. Petersburg, Florida
 {:.figcaption style="text-align: left;"}

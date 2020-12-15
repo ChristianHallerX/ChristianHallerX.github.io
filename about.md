@@ -11,7 +11,7 @@ description: >
 
 
 <br>
-<img src="/assets/img/about/about.jpg" style="height:300px" alt="Christian Haller about"><br>
+<img src="/assets/img/about/about.jpg" alt="Christian Haller about"><br>
 Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon, Wales, UK
 {:.figcaption style="text-align: left;"}
 

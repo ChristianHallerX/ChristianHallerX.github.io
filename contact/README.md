@@ -5,7 +5,7 @@ hide_description: false
 description: >
   Carrier pigeons accepted, too.
 ---
-<img src="/assets/img/contact/contact.jpg" style="height:300px" alt="Christian Haller contact">
+<img src="/assets/img/contact/contact.jpg" alt="Christian Haller contact">
 
 Gubbio near K/T iridium outcrop, Italy
 {:.figcaption style="text-align: left;"}
