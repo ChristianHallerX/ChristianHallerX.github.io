@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoonGS';
-  src:  url('fonts/icomoonGS.eot?rleye6');
-  src:  url('fonts/icomoonGS.eot?rleye6#iefix') format('embedded-opentype'),
-    url('fonts/icomoonGS.ttf?rleye6') format('truetype'),
-    url('fonts/icomoonGS.woff?rleye6') format('woff'),
-    url('fonts/icomoonGS.svg?rleye6#icomoonGS') format('svg');
+  src:  url('fonts/icomoonGS.eot?khih4j');
+  src:  url('fonts/icomoonGS.eot?khih4j#iefix') format('embedded-opentype'),
+    url('fonts/icomoonGS.ttf?khih4j') format('truetype'),
+    url('fonts/icomoonGS.woff?khih4j') format('woff'),
+    url('fonts/icomoonGS.svg?khih4j#icomoonGS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-googlescholar:before {
-  content: "\e901";
+.icon-lightbulb2:before {
+  content: "\e909";
+}
+.icon-lightbulb1:before {
+  content: "\e903";
+}
+.icon-bubble:before {
+  content: "\e96b";
 }
 .icon-researchgate:before {
   content: "\e900";
@@ -333,4 +339,7 @@
 }
 .icon-checkmark:before {
   content: "\ea10";
+}
+.icon-googlescholar:before {
+  content: "\e901";
 }
