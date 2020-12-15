@@ -10,16 +10,16 @@ description: >
 Gubbio near K/T iridium outcrop, Italy
 {:.figcaption style="text-align: left;"}
 
-* <i class="icomoon icon-linkedin2"></i> [LinkedIn]{:.heading.flip-title} --- Professional networking.
+* <i class="icomoon icon-linkedin2"></i> [LinkedIn]{:.heading.flip-title}{:target="_blank"} --- Professional networking.
 {:.related-posts.faded}
 
-* <i class="icomoon icon-github"></i> [GitHub]{:.heading.flip-title} --- Coding project repository.
+* <i class="icomoon icon-github"></i> [GitHub]{:.heading.flip-title}{:target="_blank"} --- Coding project repository.
 {:.related-posts.faded}
 
-* <i class="icomoon icon-googlescholar"></i> [Google Scholar]{:.heading.flip-title} --- Scientific publications.
+* <i class="icomoon icon-googlescholar"></i> [Google Scholar]{:.heading.flip-title}{:target="_blank"} --- Scientific publications.
 {:.related-posts.faded}
 
-* <i class="icomoon icon-researchgate"></i> [ResearchGate]{:.heading.flip-title} --- Scientific publications.
+* <i class="icomoon icon-researchgate"></i> [ResearchGate]{:.heading.flip-title}{:target="_blank"} --- Scientific publications.
 {:.related-posts.faded}
 
 * <i class="icomoon icon-mail"></i> [E-Mail]{:.heading.flip-title} --- Send me a message.
