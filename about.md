@@ -1,5 +1,4 @@
 ---
-image: /assets/img/about/0342.jpg
 layout: about
 title:  About Christian Haller
 description: >
@@ -12,9 +11,9 @@ description: >
 
 
 <br>
-<img src="/assets/img/about/about.jpg" style="width:800px" class="center" alt="Hike"><br>
-*Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon, Wales, UK*
-<br>
+<img src="/assets/img/about/about.jpg" style="height:300px" alt="Christian Haller about"><br>
+Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon, Wales, UK
+{:.figcaption style="text-align: left;"}
 
 
 ## Bio

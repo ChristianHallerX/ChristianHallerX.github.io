@@ -11,7 +11,10 @@ permalink: /academic/
 {:toc}
 
 <br>
-<img src="/assets/img/academic/0501.jpg" alt="Microscope Photo" style="width:800px">
+<img src="/assets/img/academic/0501.jpg" alt="Christian Haller academic interests" style="height:300px">
+
+Work @ USGS St. Petersburg Coastal and Marine Science Center
+{:.figcaption style="text-align: left;"}
 
 ## Statement of Research
 

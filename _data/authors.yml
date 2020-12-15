@@ -3,12 +3,14 @@
 # Change `author1` to your shortname.
 author1:
   name:              Christian Haller, Ph.D.
-  email:             chris@christianhaller.me
+  email:             mail@christianhaller.me
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Geoscientist - Machine Learning Dev - Published Author
+    Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming background.
+    He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
+    [See more...](/about/)
 
   # This photo will be used in the about section
   picture:
@@ -24,8 +26,9 @@ author1:
   social:
     linkedin:        christian-haller
     github:          ChristianHallerX
+    google-scholar:  4xJhLhYAAAAJ&hl
     researchgate:    Christian_Haller4
-    email:           chris@christianhaller.me
+    email:           mail@christianhaller.me
     cv:              https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing
     # resume:          /resume/
     # stackoverflow:   <number>

@@ -36,7 +36,23 @@ tagline:               >
   Geoscientist - Machine Learning Dev Published Author
 
 # A list of keywords for your blog
-keywords:              [geology,geoscience,geophysics,geochemistry,paleontology,data science,data analytics]
+keywords: [
+          'Geology',
+          'Geoscience',
+          'Geophysics',
+          'Geochemistry',
+          'Paleontology',
+          'Data science',
+          'Data analytics',
+          'Coding',
+          'Programming',
+          'Machine Learning',
+          'Python',
+          'Tensorflow',
+          'Developer',
+          'Tutorials',
+          'Tips'
+          ]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -47,13 +63,13 @@ logo:                /assets/icons/icon-512x512.png
 author:
   # Used by `jekyll-feed`:
   name:              Christian Haller
-  email:             chris@christianhaller.me
+  email:             mail@christianhaller.me
   picture:           /assets/icons/icon-512x512.png
   social:
     linkedin:        christian-haller
     github:          ChristianHallerX
     researchgate:    Christian_Haller4
-    email:           chris@christianhaller.me
+    email:           mail@christianhaller.me
     cv:              https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing
 
 # Add links to the sidebar.
@@ -66,8 +82,8 @@ menu:
     url:               /publications/
   - title:             Photography
     url:               /photography/
-  - title:             Connect and Communicate
-    url:               /connect/
+  - title:             Contact Me
+    url:               /contact/
   - title:             About
     url:               /about/
 # Add links to the footer.

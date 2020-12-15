@@ -1,4 +1,8 @@
 # This file contains meta data for various social media sites
+google-scholar:
+  name: Google Scholar
+  icon: icon-googlescholar
+  prepend: "https://scholar.google.com/citations?user="
 cv:
   name: Curriculum Vitae (CV)
   icon: icon-profile
