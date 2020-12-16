@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoonGS';
-  src:  url('fonts/icomoonGS.eot?khih4j');
-  src:  url('fonts/icomoonGS.eot?khih4j#iefix') format('embedded-opentype'),
-    url('fonts/icomoonGS.ttf?khih4j') format('truetype'),
-    url('fonts/icomoonGS.woff?khih4j') format('woff'),
-    url('fonts/icomoonGS.svg?khih4j#icomoonGS') format('svg');
+  src:  url('fonts/icomoonGS.eot?g13qu6');
+  src:  url('fonts/icomoonGS.eot?g13qu6#iefix') format('embedded-opentype'),
+    url('fonts/icomoonGS.ttf?g13qu6') format('truetype'),
+    url('fonts/icomoonGS.woff?g13qu6') format('woff'),
+    url('fonts/icomoonGS.svg?g13qu6#icomoonGS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-aperture:before {
+  content: "\e90b";
+}
+.icon-photocollection:before {
+  content: "\e90a";
+}
 .icon-lightbulb2:before {
   content: "\e909";
 }
 .icon-lightbulb1:before {
   content: "\e903";
+}
+.icon-camera:before {
+  content: "\e90f";
 }
 .icon-bubble:before {
   content: "\e96b";

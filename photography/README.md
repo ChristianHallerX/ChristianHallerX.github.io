@@ -14,7 +14,7 @@ description: >
 Boyd Hill Nature Park, St. Petersburg, Florida
 {:.figcaption style="text-align: left;"}
 
-## Geology
+### <i class="icomoon icon-aperture"></i> Geology
 
 * [Rocks]{:.heading.flip-title} --- Geological outcrops, views, and friends.
 {:.related-posts.faded}
@@ -23,7 +23,7 @@ Boyd Hill Nature Park, St. Petersburg, Florida
 * [Colorful Microfossils]{:.heading.flip-title} --- Microfossils are the Stratigrapher's darling.
 {:.related-posts.faded}
 
-## Florida
+### <i class="icomoon icon-aperture"></i> Florida
 
 * [Wildlife]{:.heading.flip-title} --- Life, big and small.
 {:.related-posts.faded}
@@ -32,7 +32,7 @@ Boyd Hill Nature Park, St. Petersburg, Florida
 * [Environments]{:.heading.flip-title} --- Florida's metropolitan and nature landscapes.
 {:.related-posts.faded}
 
-## Europe
+### <i class="icomoon icon-aperture"></i> Europe
 
 * [Black Forest]{:.heading.flip-title} --- Into the woods and over the mountains.
 {:.related-posts.faded}
