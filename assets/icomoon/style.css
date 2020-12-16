@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoonGS';
-  src:  url('fonts/icomoonGS.eot?g13qu6');
-  src:  url('fonts/icomoonGS.eot?g13qu6#iefix') format('embedded-opentype'),
-    url('fonts/icomoonGS.ttf?g13qu6') format('truetype'),
-    url('fonts/icomoonGS.woff?g13qu6') format('woff'),
-    url('fonts/icomoonGS.svg?g13qu6#icomoonGS') format('svg');
+  src:  url('fonts/icomoonGS.eot?1pwuxi');
+  src:  url('fonts/icomoonGS.eot?1pwuxi#iefix') format('embedded-opentype'),
+    url('fonts/icomoonGS.ttf?1pwuxi') format('truetype'),
+    url('fonts/icomoonGS.woff?1pwuxi') format('woff'),
+    url('fonts/icomoonGS.svg?1pwuxi#icomoonGS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -42,6 +42,12 @@
 }
 .icon-bubble:before {
   content: "\e96b";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
+.icon-file-pdf1:before {
+  content: "\eae0";
 }
 .icon-researchgate:before {
   content: "\e900";

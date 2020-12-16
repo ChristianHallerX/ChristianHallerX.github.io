@@ -38,7 +38,7 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 
 <img src="/assets/img/testimonials/emt_round.png" alt="Esa-Matti Tastula" style="width:180px">
 <br>
-<i class="icomoon icon-bubble"></i> "Christian's hunger for constantly improving his skills in disciplines ranging from data science to oceanography has always impressed me. His meticulous approach to whatever project he is working on, hard work ethic, and in-depth knowledge of the latest data science technologies make him an ideal candidate for a position in the field of data science."
+<i class="icomoon icon-quotes-left"></i> Christian's hunger for constantly improving his skills in disciplines ranging from data science to oceanography has always impressed me. His meticulous approach to whatever project he is working on, hard work ethic, and in-depth knowledge of the latest data science technologies make him an ideal candidate for a position in the field of data science. <i class="icomoon icon-quotes-right"></i>
 {:.lead}
 
 <a href="https://www.linkedin.com/in/esa-matti-tastula-126274a9/" target="_blank">Esa-Matti Tastula, Ph.D.</a>, Data Scientist @ <a href="https://www.stormgeo.com/" target="_blank">StormGeo Shipping - Applied Weather Technology</a>, Silicon Valley, CA
@@ -48,8 +48,8 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 
 <img src="/assets/img/testimonials/mg_round.png" alt="Michael Guo" style="width:180px">
 <br>
-<i class="icomoon icon-bubble"></i> "Christian was a crucial team mate at the Datathon we attended.
-He is easy to work with and enthusiastic to learn and share new ideas with others on the team."
+<i class="icomoon icon-quotes-left"></i> Christian was a crucial team mate at the Datathon we attended.
+He is easy to work with and enthusiastic to learn and share new ideas with others on the team. <i class="icomoon icon-quotes-right"></i>
 {:.lead}
 
 <a href="https://www.linkedin.com/in/michael-guo-2850825a/" target="_blank">Michael Guo</a>, Senior Data Analyst @ <a href="https://www.tamu.edu/" target="_blank">Texas A&M University</a>, College Station, TX
@@ -59,9 +59,9 @@ He is easy to work with and enthusiastic to learn and share new ideas with other
 
 <img src="/assets/img/testimonials/ks_round.png" alt="Kathryn Smith" style="width:180px">
 <br>
-<i class="icomoon icon-bubble"></i> "Christian is extremely knowledgeable, professional and hard-working.
+<i class="icomoon icon-quotes-left"></i> Christian is extremely knowledgeable, professional and hard-working.
 I was very impressed with the extensiveness of his PhD work and his knowledge of micropaleontology and geology.
-He is a highly competent scientist and will make an excellent addition to a research or technical team."
+He is a highly competent scientist and will make an excellent addition to a research or technical team. <i class="icomoon icon-quotes-right"></i>
 {:.lead}
 
 <a href="https://www.linkedin.com/in/kathryn-smith-9465ab84/" target="_blank">Kathryn Smith, Ph.D.</a>, Ecologist @ <a href="https://www.usgs.gov/" target="_blank">US Geological Survey</a>, St. Petersburg, FL
