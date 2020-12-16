@@ -38,9 +38,9 @@ In his downtime he and his partner pursue their passion for backpacking such as 
 
 ## Curriculum Vitae
 
-<i class="icomoon icon-profile"></i> <a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">Full Length CV</a>
+<i class="icomoon icon-cv-b"></i> <a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">View in Google Docs</a>
 
-In Google Docs, click `File` -> `Download` for a PDF copy.
+`File` -> `Download` for a pdf/docx/odt copy.
 {:.note}
 
 

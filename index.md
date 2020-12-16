@@ -22,7 +22,7 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 - Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects#data-science-projects" target="_blank">GitHub Repository "Data Science Projects"</a>.
 	
 	
-### <i class="icomoon icon-lightbulb1"></i> Learning
+### <i class="icomoon icon-lightbulb3"></i> Learning
 - Deployment of Tensorflow models to edge devices. It's great fun. <a href="https://youtu.be/ACmydtFDTGs" target="_blank">Does this ring a bell?</a>
 - Advanced Object-Oriented Programming in Python.
 
@@ -49,7 +49,7 @@ His meticulous approach to whatever project he is working on, hard work ethic, a
 
 ![MG Quote](/assets/img/testimonials/mg_round.png){: style="float: left; margin-right: 1em; width:180px"}
 <i class="icomoon icon-quotes-left"></i> Christian was a crucial team mate at the Datathon we attended.
-He is easy to work with and enthusiastic to learn and share new ideas with others on the <br>team. <i class="icomoon icon-quotes-right"></i>
+He is easy to work with and enthusiastic to learn and share new ideas with others on the team. <i class="icomoon icon-quotes-right"></i>
 {:.lead}
 <br>
 <br>

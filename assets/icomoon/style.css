@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoonGS';
-  src:  url('fonts/icomoonGS.eot?1pwuxi');
-  src:  url('fonts/icomoonGS.eot?1pwuxi#iefix') format('embedded-opentype'),
-    url('fonts/icomoonGS.ttf?1pwuxi') format('truetype'),
-    url('fonts/icomoonGS.woff?1pwuxi') format('woff'),
-    url('fonts/icomoonGS.svg?1pwuxi#icomoonGS') format('svg');
+  src:  url('fonts/icomoonGS.eot?4kizs1');
+  src:  url('fonts/icomoonGS.eot?4kizs1#iefix') format('embedded-opentype'),
+    url('fonts/icomoonGS.ttf?4kizs1') format('truetype'),
+    url('fonts/icomoonGS.woff?4kizs1') format('woff'),
+    url('fonts/icomoonGS.svg?4kizs1#icomoonGS') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cv-w:before {
+  content: "\f101";
+}
+.icon-cv-b:before {
+  content: "\f100";
+}
+.icon-lightbulb3:before {
+  content: "\f102";
+}
 .icon-aperture:before {
   content: "\e90b";
 }
@@ -46,8 +55,8 @@
 .icon-quotes-left:before {
   content: "\e977";
 }
-.icon-file-pdf1:before {
-  content: "\eae0";
+.icon-googlescholar:before {
+  content: "\e901";
 }
 .icon-researchgate:before {
   content: "\e900";
@@ -354,7 +363,4 @@
 }
 .icon-checkmark:before {
   content: "\ea10";
-}
-.icon-googlescholar:before {
-  content: "\e901";
 }
