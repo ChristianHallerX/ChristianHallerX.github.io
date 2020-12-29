@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+  - 2.7.2
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: chmod +x ./script/jekyll-rebuild.sh && ./script/jekyll-rebuild.sh
+exclude: [vendor]
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master     # test the master branch
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler # caching bundler gem packages will speed up build
+
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false

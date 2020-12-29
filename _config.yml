@@ -454,3 +454,6 @@ feed:
   categories:
     - devlog
     - review
+
+# activate building posts with future dates
+future:                false
