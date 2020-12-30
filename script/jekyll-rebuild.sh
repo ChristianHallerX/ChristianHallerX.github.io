@@ -23,7 +23,7 @@ git clone https://${GH_TOKEN}@github.com/ChristianHallerX/ChristianHallerX.githu
 cd _site
 git config user.email "christian_haller@gmx.de"
 git config user.name "ChristianHallerX"
-git commit -a -m "rebuild pages" --allow-empty
+git commit -a -m "rebuild GH pages script" --allow-empty
 git push origin master
 
 # remove last empty commit
