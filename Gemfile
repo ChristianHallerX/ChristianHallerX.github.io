@@ -38,7 +38,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", git: "https://github.com/hydecorp/jekyll-include-cache"
-  gem "github-pages"
+  gem "github-pages", ">= 208"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
@@ -48,5 +48,5 @@ end
 gem "wdm" if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
-gem "rake"
-gem "kramdown"
+gem "rake", ">= 12.3.3"
+gem "kramdown", ">= 2.3.0"
