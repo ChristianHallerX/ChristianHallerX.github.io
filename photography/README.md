@@ -7,29 +7,29 @@ description: >
 
 galleries1:
   - title: Rocks
-    image: /assets/img/photography/rocks/rocks_cover.jpg
+    image: /assets/img/photography/covers/rocks_cover.jpg
     url: /photography/rocks/
   - title: JOIDES
-    image: /assets/img/photography/JOIDES/JOIDES_cover.jpg
+    image: /assets/img/photography/covers/JOIDES_cover.jpg
     url: /photography/JOIDES/
   - title: Colorful Microfossils
-    image: /assets/img/photography/colorful-microfossils/colorful_microfossils_cover.jpg
+    image: /assets/img/photography/covers/colorful_microfossils_cover.jpg
     url: /photography/colorful-microfossils/
 
 galleries2:
   - title: Wildlife
-    image: /assets/img/photography/wildlife/wildlife_cover.jpg
+    image: /assets/img/photography/covers/wildlife_cover.jpg
     url: /photography/wildlife/
   - title: Plants
-    image: /assets/img/photography/plants/plants_cover.jpg
+    image: /assets/img/photography/covers/plants_cover.jpg
     url: /photography/plants/
   - title: Environments
-    image: /assets/img/photography/environments/environments_cover.jpg
+    image: /assets/img/photography/covers/environments_cover.jpg
     url: /photography/environments/
 
 galleries3:
   - title: Black Forest
-    image: /assets/img/photography/blackf/blackf_cover.jpg
+    image: /assets/img/photography/covers/blackf_cover.jpg
     url: /photography/blackf/
 ---
 
@@ -45,7 +45,7 @@ Boyd Hill Nature Park, St. Petersburg, Florida
 
 {% if page.galleries1 %}{% include image-gallery-index1.html %}{% endif %}
 
-### <i class="icomoon icon-aperture"></i> Florida
+### <i class="icomoon icon-aperture"></i> Florida and More
 
 {% if page.galleries2 %}{% include image-gallery-index2.html %}{% endif %}
 
