@@ -1,6 +1,6 @@
 # # Website Content
 
-[![Build Status](https://travis-ci.com/ChristianHallerX/ChristianHallerX.github.io.svg?branch=master?label=Travis+CI+Build)](https://travis-ci.com/ChristianHallerX/ChristianHallerX.github.io)
+[![Build Status](https://travis-ci.com/ChristianHallerX/ChristianHallerX.github.io.svg?branch=master)](https://travis-ci.com/ChristianHallerX/ChristianHallerX.github.io)
 
 https://www.christianhaller.me
 
