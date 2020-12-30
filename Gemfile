@@ -27,7 +27,7 @@ source "https://rubygems.org"
 # gem "kramdown-math-katex"
 
 group :jekyll_plugins do
-  gem "jekyll-default-layout", "= 0.1.5", git: "https://github.com/benbalter/jekyll-default-layout"
+  gem "jekyll-default-layout", "= 0.1.4", git: "https://github.com/benbalter/jekyll-default-layout"
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
   gem "jekyll-paginate"
