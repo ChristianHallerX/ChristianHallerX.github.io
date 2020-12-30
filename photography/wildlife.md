@@ -12,6 +12,8 @@ hide_description: false
 
 ![Nesting](/assets/img/photography/wildlife/1312.jpg "Nesting")
 
+![Frilled](/assets/img/photography/wildlife/4325.jpg "Frilled")
+
 ![Glider](/assets/img/photography/wildlife/1413.jpg "Glider")
 
 ![Curious](/assets/img/photography/wildlife/3080.jpg "Curious")
@@ -24,11 +26,13 @@ hide_description: false
 
 ![Duel](/assets/img/photography/wildlife/3552.jpg "Duel")
 
+![BigLizard](/assets/img/photography/wildlife/5296.jpg "BigLizard")
+
 ![Runner](/assets/img/photography/wildlife/6319.jpg "Runner")
 
 ![Waving](/assets/img/photography/wildlife/7800.jpg "Waving")
 
-![Vulure](/assets/img/photography/wildlife/7941.jpg "Vulture")
+![Vulture](/assets/img/photography/wildlife/7941.jpg "Vulture")
 
 ![Brown](/assets/img/photography/wildlife/8180.jpg "Brown")
 

@@ -1,0 +1,9 @@
+<style>
+    .image-gallery-index3 {overflow: auto; margin-left: -1%!important;}
+    .image-gallery-index3 a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; text-decoration: none !important;}
+    .image-gallery-index3 a img {width: 100%; display: block;}
+    .image-gallery-index3 a span {display: block; font-family: Roboto Slab; font-weight: 700; text-align: center; padding: 3px 0;}
+</style>
+
+<p class="image-gallery-index3">{% for item in page.galleries3 %}<a href="{{ item.url }}" title="{{ item.title }}"><img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.image }}&w=300&h=300&output=jpg&q=50&t=square" /><span>{{ item.title }}</span></a>{% endfor %}</p>
+

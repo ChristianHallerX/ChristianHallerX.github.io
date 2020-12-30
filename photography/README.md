@@ -4,6 +4,33 @@ permalink: /photography/
 hide_description: false
 description: >
   Pictures captured in my life.
+
+galleries1:
+  - title: Rocks
+    image: /assets/img/photography/rocks/rocks_cover.jpg
+    url: /photography/rocks/
+  - title: JOIDES
+    image: /assets/img/photography/JOIDES/JOIDES_cover.jpg
+    url: /photography/JOIDES/
+  - title: Colorful Microfossils
+    image: /assets/img/photography/colorful-microfossils/colorful_microfossils_cover.jpg
+    url: /photography/colorful-microfossils/
+
+galleries2:
+  - title: Wildlife
+    image: /assets/img/photography/wildlife/wildlife_cover.jpg
+    url: /photography/wildlife/
+  - title: Plants
+    image: /assets/img/photography/plants/plants_cover.jpg
+    url: /photography/plants/
+  - title: Environments
+    image: /assets/img/photography/environments/environments_cover.jpg
+    url: /photography/environments/
+
+galleries3:
+  - title: Black Forest
+    image: /assets/img/photography/blackf/blackf_cover.jpg
+    url: /photography/blackf/
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list
@@ -16,32 +43,12 @@ Boyd Hill Nature Park, St. Petersburg, Florida
 
 ### <i class="icomoon icon-aperture"></i> Geology
 
-* [Rocks]{:.heading.flip-title} --- Geological outcrops, views, and friends.
-{:.related-posts.faded}
-* [JOIDES Resolution]{:.heading.flip-title} --- Scientific offshore drilling.
-{:.related-posts.faded}
-* [Colorful Microfossils]{:.heading.flip-title} --- Microfossils are the Stratigrapher's darling.
-{:.related-posts.faded}
+{% if page.galleries1 %}{% include image-gallery-index1.html %}{% endif %}
 
 ### <i class="icomoon icon-aperture"></i> Florida
 
-* [Wildlife]{:.heading.flip-title} --- Life, big and small.
-{:.related-posts.faded}
-* [Plants]{:.heading.flip-title} --- Subtropical vegetation.
-{:.related-posts.faded}
-* [Environments]{:.heading.flip-title} --- Florida's metropolitan and nature landscapes.
-{:.related-posts.faded}
+{% if page.galleries2 %}{% include image-gallery-index2.html %}{% endif %}
 
 ### <i class="icomoon icon-aperture"></i> Europe
 
-* [Black Forest]{:.heading.flip-title} --- Into the woods and over the mountains.
-{:.related-posts.faded}
-
-
-[JOIDES Resolution]: JOIDES.md
-[Rocks]: rocks.md
-[Wildlife]: wildlife.md
-[Colorful Microfossils]: colorful-microfossils.md
-[Plants]: plants.md
-[Environments]: environments.md
-[Black Forest]: blackf.md
+{% if page.galleries3 %}{% include image-gallery-index3.html %}{% endif %}
