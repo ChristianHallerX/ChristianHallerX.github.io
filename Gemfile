@@ -49,4 +49,4 @@ gem "wdm" if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
 gem "rake", ">= 12.3.3"
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.1.0"
