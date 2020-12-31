@@ -76,7 +76,7 @@ function setGallery(el) {
 	}
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.getElementById('_pushState').addEventListener('hy-push-state-load', function() {
 
     //create lightbox div in the footer
     var newdiv = document.createElement("div");
