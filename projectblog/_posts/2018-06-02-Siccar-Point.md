@@ -5,9 +5,6 @@ description: >
   Siccar Point is one of geology's iconic locations.
 ---
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 Siccar Point (East Scotland) is an important type location where intellectual progress was made by James Hutton (1726-1797).
 
 At ´Hutton’s Unconformity´ two very different rock formations are coming together at very crass angles.

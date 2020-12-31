@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 In a previous post about computer vision I wrote how to make binary predictions if a photo contains a cat or no cat <a href="https://christianhallerx.github.io/research/2019-09-19-Cat-Prediction/" target="_blank">Article "Cat Prediction"</a>. This was a much simpler classifier built from ground up. However, not many users would still programm everything from scratch today. It is much easier to make use of a Deep Learning API such as PyTorch, Keras, TensorFlow etc.

@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 The MicroCT housed at the <a href="https://www.steinmann.uni-bonn.de/" target="_blank">Steinmann Institut für Geowissenschaften</a> can scan specimens from large to small (think *Brachiosaur* skull and friends).

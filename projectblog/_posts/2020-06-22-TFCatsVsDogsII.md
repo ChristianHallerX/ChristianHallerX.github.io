@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 Given the somewhat mediocre performance of the <a href="https://christianhallerx.github.io/research/2020-06-02-TFCatsVsDogsI/" target="_blank">previous model</a> for Cats Vs Dogs, it seems warranted to implement new tools that promise performance gains. The classification model used previously suffered from overfitting. That means, the training set was learned very well, but probably so well, that the unknown data in the validation set could not be predicted precisely. If a model can only predict well what it has seen before means that it does not "generalize" well.

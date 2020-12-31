@@ -76,16 +76,17 @@ author:
 menu:
   - title:             Project Blog
     url:               /projectblog/
-  - title:             Academic Interests
-    url:               /academic/
+  - title:             About
+    url:               /about/
   - title:             Publications
     url:               /publications/
+  - title:             Academic Interests
+    url:               /academic/
   - title:             Photography
     url:               /photography/
   - title:             Contact Me
     url:               /contact/
-  - title:             About
-    url:               /about/
+
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:

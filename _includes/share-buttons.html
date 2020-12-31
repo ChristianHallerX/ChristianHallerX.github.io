@@ -1,0 +1,30 @@
+{% if include.pageurl != nil and include.pageurl != '' %}
+    {% assign pageurl = include.pageurl %}
+{% else %}
+    {% assign pageurl = page.url %}
+{% endif %}
+
+<br>
+
+<div align="center">
+Share:
+&nbsp;<button class="btn btn-sm btn-primary" onclick="window.open('https://twitter.com/intent/tweet?url={{ site.data.strings.website_url }}{{ page.url }}&text=Check out this blog post: {{ page.title }} from&hashtags={{ site.data.strings.website_name }}&related={{ site.data.strings.website_name }}','_blank')" title="Tweet">
+  <small class="icon-twitter"></small> Twitter
+</button>
+
+&nbsp;<button class="btn btn-sm btn-primary" onclick="window.open('https://www.reddit.com/submit?url={{ site.data.strings.website_url }}{{ page.url }}&title={{ page.title }}','_blank')" title="Post to Reddit">
+  <small class="icon-reddit"></small> Reddit
+</button>
+
+&nbsp;<button class="btn btn-sm btn-primary" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ site.data.strings.website_url }}{{ page.url }}','_blank')" title="Share on LinkedIn">
+  <small class="icon-linkedin2"></small> LinkedIn
+</button>
+
+{% if page.image %}&nbsp;<button class="btn btn-sm btn-primary" onclick="window.open('https://pinterest.com/pin/create/button/?url=&media={{ site.url }}{{ page.image }}&description=');" title="Share on Pinterest">
+  <small class="icon-pinterest2"></small> Pinterest
+</button>
+{% endif %}
+
+&nbsp;<button class="btn btn-sm btn-primary" onclick="window.open('mailto:?&body={{ site.url }}{{ pageurl }}');" title="Share through Email">
+  <small class="icon-mail2"></small> Email
+</button>

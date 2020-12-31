@@ -5,9 +5,6 @@ description: >
   Ooids are small carbonate grains formed in shallow, tropical seas.
 ---
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 Ooids are small, well-rounded carbonate grains formed in warm, shallow waters with sufficient agitation.
 
 These Bahamian ooids were filled into snap caps on a recent field trip as an example for our lab and geology students.

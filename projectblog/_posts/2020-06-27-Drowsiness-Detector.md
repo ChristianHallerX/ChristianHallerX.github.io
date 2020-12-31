@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 For this ML/DL project, we will implement a relatively simple drowsiness-detection tool. Drowsiness detection can be done by measuring if someone's eyes were closed longer than blinking and may be a life-saver in many instances. For example while driving a vehicle for long hours or at night (<a href="https://en.wikipedia.org/wiki/Driver_drowsiness_detection" target="_blank">Wikipedia: Driver drowsiness detection</a>, <a href="https://www.nytimes.com/2017/03/16/automobiles/wheels/drowsy-driving-technology.html" target="_blank">NYTimes: Sleepy Behind the Wheel? Some Cars Can Tell</a>). Other use cases are more recent applications such as virtual school classes. In either case, we hope people are wide awake during these activities.

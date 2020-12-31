@@ -25,6 +25,17 @@
       {% assign tag_separator      = site.data.strings.tag_separator      | default:", "  %}
       {% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
       {% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
+	  
+	  <span class="read-time" title="Read time"> ∙
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          1 min read
+        {% else %}
+          {{ words | divided_by:180 }} mins read
+        {% endif %}
+      </span>
+
+      {% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
     </div>
 
     {% assign alt = false %}
@@ -36,12 +47,15 @@
       {% unless no_link_title %}</a>{% endunless %}
       {% assign alt = '' %}
     {% endif %}{% endunless %}
-
+	
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
+	
+	{% include share-buttons.html %}
   </header>
 
   {% if no_excerpt %}
     {{ post.content }}
+	{% include edit-button.html %}
   {% else %}
     {{ post.excerpt }}
 

@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 For this project we will examine making time series predictions using sunspot records. Sunspots are dark spots on the sun, associated with lower temperature but also marked by intense magnetic activity. They play host to solar flares and hot gassy ejections from the sun’s corona. 

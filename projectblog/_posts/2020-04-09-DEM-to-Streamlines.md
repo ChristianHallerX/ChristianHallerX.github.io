@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 Many tasks in ArcGIS can be tedious, time-consuming, and require repeated execution. Here I show how streamlines can be calculated from a DEM model that could for example have been created previously from LIDAR data (Part I). Series of different geoprocessing tools can be run automatically by stringing them together in the Model Builder, and save the Model for future execution.

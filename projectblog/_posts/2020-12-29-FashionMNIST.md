@@ -8,9 +8,6 @@ description: >
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-<br>
-<center><applause-button  color="aqua" multiclap="true" style="width: 90px; height: 90px; margin-bottom: 40px; display: block;"></applause-button></center>
-
 ## Introduction
 
 In 2017, Zalando Research published a dataset, which is very similar to the well known "Hello World" of Computer Vision: <a href="https://yann.lecun.com/exdb/mnist/" target="_blank">the MNIST database of handwritten digits</a>.
