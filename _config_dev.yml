@@ -21,19 +21,19 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en-US
+lang:     en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Christian Haller Ph.D.
+title:    Christian Haller Ph.D.
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Christian Haller Ph.D. 
+          Christian Haller Ph.D. 
 
 # A shorter description for the sidebar.
 tagline:               >
-  Geoscientist - Machine Learning Dev Published Author
+          Data Scientist - Machine Learning Dev Published Author
 
 # A list of keywords for your blog
 keywords: [
@@ -42,8 +42,8 @@ keywords: [
           'Geophysics',
           'Geochemistry',
           'Paleontology',
-          'Data science',
-          'Data analytics',
+          'Data Science',
+          'Data Analytics',
           'Coding',
           'Programming',
           'Machine Learning',

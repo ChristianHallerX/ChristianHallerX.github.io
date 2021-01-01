@@ -2,34 +2,38 @@
 layout:         welcome
 title:          Christian Haller, Ph.D.
 cover:          true
-caption:        Geoscientist - Machine Learning Dev - Published Author
 ---
 
-Geoscientist - Machine Learning Dev - Published Author
+Data Scientist - Machine Learning Dev - Published Author
 {:.lead}
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming background.
+Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming and data analytics background.
 He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
 [See more...](/about/)
 
 ## News
 
-### <i class="icomoon icon-wrench"></i> Doing
-- Should I train an AWS Deep Racer???
+### <i class="icomoon icon-wrench"></i> Doing 
+![doing](/assets/img/index/doing.png){: style="float: right; margin-left: 1em; width:140px"}
+
+- Waiting for the Adafruit BrainCraft Hat to ship...
 - Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects#data-science-projects" target="_blank">GitHub Repository "Data Science Projects"</a>.
 	
 	
 ### <i class="icomoon icon-lightbulb3"></i> Learning
+![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
+
 - Deployment of Tensorflow models to edge devices. It's great fun. <a href="https://youtu.be/ACmydtFDTGs" target="_blank">Does this ring a bell?</a>
-- Advanced Object-Oriented Programming in Python.
+- Working into Tensorflow Lite.
 
 ### <i class="icomoon icon-books"></i> Reading
+![reading](/assets/img/index/reading.png){: style="float: right; margin-left: 1em; width:140px"}
+
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
-- Clive Thompson (2019) Coders: The Making of a New Tribe and the Remaking of the World
 - Kal Mishra (2018) Heard In Data Science Interviews: Over 650 Most Commonly Asked Interview Questions & Answers
 - M. Crichton & R. Preston (2011) Micro: A Novel
 

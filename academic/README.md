@@ -1,7 +1,7 @@
 ---
 title: Academic Interests
 description: >
-  Plans for future academic research endeavors and engagement.
+  Plans for future academic research endeavors and engagement in Geoscience.
 hide_description: false
 permalink: /academic/
 ---
@@ -16,7 +16,7 @@ permalink: /academic/
 Work @ USGS St. Petersburg Coastal and Marine Science Center
 {:.figcaption style="text-align: left;"}
 
-## Statement of Research
+## Statement of Research (Geoscience)
 
 ### Overview of the field
 

@@ -31,73 +31,27 @@ In his downtime he and his partner pursue their passion for backpacking such as 
 
 ## Education
 
-* PhD in Marine Science (Geology), University of South Florida, USA 2018. <a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download Dissertation</a>.
+* PhD in Marine Science (Geology), University of South Florida, USA 2018. <i class="icomoon icon-file-pdf">&nbsp;<a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download Dissertation</a>.
 * MSc in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012.
 * BSc in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009.
+
+## Professional Certifications
+
+| Issuer                       | Title                                            | Code            | Date      | Verify        |
+|------------------------------|--------------------------------------------------|-----------------|-----------|---------------|
+| Linux Professional Institute | Linux Essentials Certificate                     | [010-160]       | Dec 2020  | <a href="https://lpi.org/v/LPI000469105/5vc355v5f2" target="_blank">link</a> |
+| Google                       | TensorFlow 2.X Developer Certificate             | -               | Oct 2020  | <a href="https://www.credential.net/6ad51867-2c56-4631-97bb-3ccc76f1a34f" target="_blank">link</a> |
+| Amazon Web Services          | AWS Certified Machine Learning – Specialty       | [MLS-C01]       | Oct 2020  | <a href="https://www.youracclaim.com/badges/6f202410-e310-4e03-a554-d52af5c294c3/public_url" target="_blank">link</a> |
+| Amazon Web Services          | AWS Solutions Architect – Associate              | [SAA-C02]       | Aug 2020  | <a href="https://www.youracclaim.com/badges/2a6c62c1-d6f6-4873-a0fb-1ae773029869/public_url" target="_blank">link</a> |
+| Amazon Web Services          | AWS Certified Cloud Practitioner                 | [010-160]       | Jul 2020  | <a href="https://www.youracclaim.com/badges/510a55f6-76c3-4d43-bcc4-2aedac93c856/public_url" target="_blank">link</a> |
+| Python Institute             | PCAP – Certified Associate in Python Programming | [PCAP-NP-31-02] | Jun 2020  | <a href="https://www.youracclaim.com/badges/a9cac248-91a2-443b-947c-09976e4cb097/public_url" target="_blank">link</a> |
+| IBM                          | IBM Data Science Professional Certificate        | -               | Jul 2020  | <a href="https://www.youracclaim.com/badges/5e6ddd35-e1fd-4a9d-9225-1f80b21410c3/public_url" target="_blank">link</a> |
+
 
 
 ## Curriculum Vitae
 
-<i class="icomoon icon-cv-b"></i> <a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">View in Google Docs</a>
+<i class="icomoon icon-cv-b"></i>&nbsp;<a href="https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing" target="_blank">View in Google Docs</a>
 
 `File` -> `Download` for a pdf/docx/odt copy.
 {:.note}
-
-
-## Details
-
-<details>
- <summary>
-  <b><u>Technical Interest</u></b>
- </summary>
- <ul>
-  <li>Data Science</li>
-  <li>Machine Learning and Artificial Intelligence</li>
-  <li>Applied Geoscience</li>
- </ul>
-</details>	
-<br>
-
-
-<details>
- <summary>
-  <b><u>Upcoming Events</u></b>
- </summary>
- <ul>
-  <li>AWS re:Invent 2020</li>
- </ul>
-</details>
-<br>
-
-
-<details>
- <summary>
-  <b><u>Past Events (abbreviated)</u></b>
- </summary>
-  <ul>
-  <li>GSA Annual Meeting October 2020, Montreal/Online</li>
-  <li>TAMU Datathon October 2020, College Station/Online</li>
-  <li>AAPG Annual Conference and Exhibition 2020, Houston/Online</li>
-  <li>Software Underground TRANSFORM 2020 Hackathon and Conference</li>
-  <li>ResTech 2020, Petryx</li>
-  <li>GSA Northeastern/Southeastern 2020 Joint Section Meeting, Reston, Virginia CANCELLED</li>
-  <li>HackDuke (Duke University Hackathon), November 2019, Durham, North Carolina</li>
-  <li>GeoGulf 19, October 2019, Houston, Texas</li>
-  <li>Texas A&M Datathon (Data Science Hackathon), October 2019, College Station, Texas</li>
-  <li>HackNC (UNC Chapel Hill Hackathon), October 2019, Chapel Hill, North Carolina</li>
-  <li>AAPG Student Expo 2019, Houston, Texas</li>
-  <li>Rocky Mountain Rendezvous 2019, Laramie, Wyoming</li>
-  <li>Geotherm 2019, Offenburg, Germany</li>
-  <li>AAPG Student Expo 2018, Houston, Texas</li>
-  <li>HGS 2019 AGC - 1st Subsurface Intelligence and Analytics Conference, The Woodlands, Texas</li>
-  <li>Rocky Mountain Rendezvous, 2018, Laramie, Wyoming</li>
-  <li>URTeC Unconventional Resources Technology Conference 2018, Houston, Texas </li>
-  <li>AAPG Annual Conference and Exhibition 2018, Salt Lake City, Utah; <a href="https://www.researchgate.net/publication/335989016_Leeuwin_Current_Activity_Controls_Benthic_Foraminifera_on_the_Carnarvon_Ramp_Western_Australia_From_Inception_to_Flow_Optimum" style="color:#FF0000;" target="_blank"> See contribution</a></li>
-  <li>GCAGS-GCSSEPM 2017, San Antonio, Texas</li>
-  <li>IODP Expedition 356 Meeting, 2017, Bremen, Germany</li>
-  <li>AAPG Annual Conference and Exhibition, 2017, Houston, Texas</li>
-  <li>SEPM NAMS Microfossils IV April 2017 "Geologic Problem Solving with Microfossils", Houston, Texas; <a href="https://www.researchgate.net/publication/335988858_Modern_benthic_foraminifera_assemblages_from_the_carbonate_ramp_edge_of_the_Western_Australian_Shelf" style="color:#FF0000;" target="_blank"> See contribution</a></li>
-  <li>GSA 2016, Denver, Colorado<a href="https://www.researchgate.net/publication/335988851_Nearshore_and_intertidal_modern_foraminifer_biofacies_across_the_salt-marshes_of_the_Eastern_Mississippi_Sound_USA" style="color:#FF0000;" target="_blank"> See contribution</a></li>
-  <li>Mississippi-Alabama Bays and Bayous 2016, Biloxi, Mississippi; <a href="https://www.researchgate.net/publication/335988851_Nearshore_and_intertidal_modern_foraminifer_biofacies_across_the_salt-marshes_of_the_Eastern_Mississippi_Sound_USA" style="color:#FF0000;" target="_blank"> See contribution</a></li>
-  </ul>
-</details>
