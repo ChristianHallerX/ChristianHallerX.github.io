@@ -2,7 +2,7 @@
 title: What to expect from an Online Hackathon
 image: /assets/img/research/OnlineHackathon/OnlineHackathon_Cover.jpg
 description: >
-  What tradeoffs will you have to make?
+  What trade-offs will you have to make?
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

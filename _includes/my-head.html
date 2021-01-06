@@ -12,7 +12,10 @@ Fill in `href`. You may have to adjust `rel`.
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 {% endcomment %}
 
-<!-- add the button style & script -->
+<!-- slider -->
+{% include slider_styles.html %}
+
+<!-- add the clap button style & script -->
 <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
 <script type="module" src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 <style>applause-button { --applause-button-color: var(--accent-color) }</style>

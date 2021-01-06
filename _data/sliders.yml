@@ -1,0 +1,20 @@
+# example slider
+- selector: about_cert_slider
+  captions: true
+  bullets:  true
+  images:
+    - src:  /assets/img/about/slider_certificates/400h/CHaller - AWS Certified Cloud Practitioner Certificate.png
+      alt:  image one
+      href: https://www.reddit.com/
+      target: "'_blank'"
+    - src:  /assets/img/about/slider_certificates/400h/CHaller - AWS Certified Machine Learning - Specialty certificate.png
+      alt:  image two
+      href: https://www.reddit.com/
+    - src:  /assets/img/about/slider_certificates/400h/CHaller - AWS Certified Solutions Architect - Associate certificate.png
+      alt:  image three
+      href: https://www.reddit.com/
+  settings:
+    height:        "'auto'"
+    effect:        "'slide'"
+    #initialHeight: "200"
+    #maxHeight:     "200"
