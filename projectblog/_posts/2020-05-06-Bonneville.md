@@ -55,7 +55,8 @@ Literature review yields eight significant lake levels, four recognized from chr
 <br>
 
 <img src="/assets/img/research/Bonneville/Fig1.jpg" alt="Figure1" style="width:720px"><br>
-*Figure 1 Extent of paleo lake levels recorded as shorelines and historic levels using gauges since 1850 (see Table 1).*
+Figure 1 Extent of paleo lake levels recorded as shorelines and historic levels using gauges since 1850 (see Table 1).
+{:.figcaption}
 
 <br>
 <br>
@@ -82,7 +83,8 @@ Using the timing and the water volume data, the net water flux in and out of the
 <br>
 
 <img src="/assets/img/research/Bonneville/Fig2.jpg" alt="Figure2" style="width:640px"><br>
-*Figure 2 Water level above sea level.*
+Figure 2 Water level above sea level.
+{:.figcaption}
 
 <br>
 <br>
@@ -107,7 +109,8 @@ In summary, the lake changed in size massively and was significantly larger in s
 <br>
 
 <img src="/assets/img/research/Bonneville/Fig3.jpg" alt="Figure3" style="width:640px"><br>
-*Figure 3 Net water flux between stable lake levels.*
+Figure 3 Net water flux between stable lake levels.
+{:.figcaption}
 
 <br>
 <br>
@@ -121,7 +124,8 @@ Bonneville reached its highstand level at 18.6 ka; it fluctuated near that level
 <br>
 
 <img src="/assets/img/research/Bonneville/Fig4.jpg" alt="Figure4" style="width:720px"><br>
-*Figure 4 The spillover point at Red Rock Pass. After the erosion of the sediment dam, which caused the Flood Event at 17.5 ka, the lake receded to the Provo level.*
+Figure 4 The spillover point at Red Rock Pass. After the erosion of the sediment dam, which caused the Flood Event at 17.5 ka, the lake receded to the Provo level.
+{:.figcaption}
 
 <br>
 <br>
@@ -155,8 +159,6 @@ The USGS National Map 1-arc-second DEM is continuous and well updated. However, 
 
 ## Additional Media
 
-**3D Animation Video on Youtube**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPlnN-vK7Ho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
@@ -164,7 +166,8 @@ The USGS National Map 1-arc-second DEM is continuous and well updated. However, 
 
 **Interactive Map on ArcGIS Online**
 
-Click "Open in Map Viewer".
+Click "Open in Map Viewer"
+{:.note}
 
 <a href="https://www.arcgis.com/home/item.html?id=5c7df41a33044e2e8c3671fe767adef4" target="_blank"><img src="/assets/img/research/Bonneville/ArcGISOnline.png" alt="ArcGIS Online" width="480"/></a>
 
