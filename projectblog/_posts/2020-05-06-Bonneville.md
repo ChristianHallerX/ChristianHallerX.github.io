@@ -54,7 +54,7 @@ Literature review yields eight significant lake levels, four recognized from chr
 <br>
 <br>
 
-<img src="/assets/img/research/Bonneville/Fig1.png" alt="Figure1" style="width:720px"><br>
+<img src="/assets/img/research/Bonneville/Fig1.jpg" alt="Figure1" style="width:720px"><br>
 *Figure 1 Extent of paleo lake levels recorded as shorelines and historic levels using gauges since 1850 (see Table 1).*
 
 <br>
@@ -81,7 +81,7 @@ Using the timing and the water volume data, the net water flux in and out of the
 <br>
 <br>
 
-<img src="/assets/img/research/Bonneville/Fig2.png" alt="Figure2" style="width:640px"><br>
+<img src="/assets/img/research/Bonneville/Fig2.jpg" alt="Figure2" style="width:640px"><br>
 *Figure 2 Water level above sea level.*
 
 <br>
@@ -106,7 +106,7 @@ In summary, the lake changed in size massively and was significantly larger in s
 <br>
 <br>
 
-<img src="/assets/img/research/Bonneville/Fig3.png" alt="Figure3" style="width:640px"><br>
+<img src="/assets/img/research/Bonneville/Fig3.jpg" alt="Figure3" style="width:640px"><br>
 *Figure 3 Net water flux between stable lake levels.*
 
 <br>
@@ -120,7 +120,7 @@ Bonneville reached its highstand level at 18.6 ka; it fluctuated near that level
 <br>
 <br>
 
-<img src="/assets/img/research/Bonneville/Fig4.png" alt="Figure4" style="width:720px"><br>
+<img src="/assets/img/research/Bonneville/Fig4.jpg" alt="Figure4" style="width:720px"><br>
 *Figure 4 The spillover point at Red Rock Pass. After the erosion of the sediment dam, which caused the Flood Event at 17.5 ka, the lake receded to the Provo level.*
 
 <br>
