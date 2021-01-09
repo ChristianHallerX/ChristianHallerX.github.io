@@ -39,7 +39,7 @@ I usually have a few books on the go. One or two smart books and a sci-fi select
 
 
 ## Quotes
-![E-M T Quote](/assets/img/testimonials/emt_round.png){: style="float: left; margin-right: 1em; width:180px"}
+![E-MT Quote](/assets/img/index/quotes/emt_round.png){: style="float: left; margin-right: 1em; width:180px"}
 <i class="icomoon icon-quotes-left"></i>
 Christian's hunger for constantly improving his skills in disciplines ranging from data science to oceanography has always impressed me.
 His meticulous approach to whatever project he is working on, hard work ethic, and in-depth knowledge of the latest data science technologies make him an ideal candidate for a position in the field of data science.
@@ -51,7 +51,23 @@ His meticulous approach to whatever project he is working on, hard work ethic, a
 <br>
 <br>
 
-![MG Quote](/assets/img/testimonials/mg_round.png){: style="float: left; margin-right: 1em; width:180px"}
+![TSS Quote](/assets/img/index/quotes/TSS_round.png){: style="float: left; margin-right: 1em; width:180px"}
+<i class="icomoon icon-quotes-left"></i>
+Christian is very detail oriented, consistent, and very knowledgeable.
+Working with him in the past and even beyond that I have enjoyed his teamwork ability and always admired how he handled difficult tasks and situations.
+Every task he is given is brought to completion in a way that I have not seen often.
+Besides work, he is a fun person to hang out with.
+I hope that our professional paths will cross many times in the future.
+<i class="icomoon icon-quotes-right"></i>
+{:.lead}
+
+<a href="https://www.linkedin.com/in/tomas-silva-santisteban-phd-b2736a115/" target="_blank">Tomas Silva Santisteban, Ph.D.</a>, Sales Account Manager @ <a href="https://www.thermofisher.com/" target="_blank">Thermo Fisher Scientific</a>, Houston, TX
+
+<br>
+<br>
+
+
+![MG Quote](/assets/img/index/quotes/mg_round.png){: style="float: left; margin-right: 1em; width:180px"}
 <i class="icomoon icon-quotes-left"></i> Christian was a crucial team mate at the Datathon we attended.
 He is easy to work with and enthusiastic to learn and share new ideas with others on the team. <i class="icomoon icon-quotes-right"></i>
 {:.lead}
@@ -62,7 +78,7 @@ He is easy to work with and enthusiastic to learn and share new ideas with other
 <br>
 <br>
 
-![KS Quote](/assets/img/testimonials/ks_round.png){: style="float: left; margin-right: 1em; width:180px"}
+![KS Quote](/assets/img/index/quotes/ks_round.png){: style="float: left; margin-right: 1em; width:180px"}
 <i class="icomoon icon-quotes-left"></i> Christian is extremely knowledgeable, professional and hard-working.
 I was very impressed with the extensiveness of his PhD work and his knowledge of micropaleontology and geology.
 He is a highly competent scientist and will make an excellent addition to a research or technical team. <i class="icomoon icon-quotes-right"></i>
