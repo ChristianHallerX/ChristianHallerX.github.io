@@ -32,11 +32,13 @@ Have a look at the full list of code smells and their description on <a href="ht
 
 ### Breakout: Who has the smelliest code?
 
-At the time of writing this, Google Search users from Washington state were the most interested in code smells or at least ranking very highly. <a href="https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F01h_xq" target="_blank">Check now</a>. 
+At the time of writing this, Google Search users from Washington state were the most interested in code smells or at least ranking very highly. <a href="https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F01h_xq" target="_blank">Check now on Google Trends</a>. 
 Is their code the smelliest of them all? Interest likely correlates with the amount of coders in a state and inevitably there is problematic code among.
 
 <br>
 <p align="center"><img src="/assets/img/research/ML_Perfect/ML_perfect_dog.jpg" alt="Christian Haller ML_Perfect dog" style="width:360px"></p>
+Photo by <a href="https://unsplash.com/@claybanks" target="_blank">@claybanks</a>  on Unsplash
+{:.figcaption}
 <br>
 
 ## What does Machine Learning smell like?
@@ -49,7 +51,7 @@ The workflow of invoking the library's functions bespoke to our project's needs 
 
 So what are the "ML smells" that might alert us to deeper problems in our prediction tools?
 
-<a href="https://agilescientific.com/who" target="_blank">Dr. Matt Hall</a> recently asked the following question on Twitter and in the <a href="https://softwareunderground.org/" target="_blank">Software Underground</a> community he co-founded:
+<a href="https://agilescientific.com/who" target="_blank">Dr. Matt Hall</a> recently asked the following question on Twitter and in the geological machine learning community <a href="https://softwareunderground.org/" target="_blank">Software Underground</a> he co-founded:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🐽 ML smell is probably not a thing, but maybe it should be. What are the superficial signs of potentially deeper problems in a <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> project?</p>&mdash; Matt Hall (@kwinkunks) <a href="https://twitter.com/kwinkunks/status/1313841986886152194?ref_src=twsrc%5Etfw" target="_blank">October 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -77,7 +79,7 @@ Matt crowdsourced some excellent responses:
 
 - **Skewed feature importance** on one or two features might suggest feature leakage. (John Ramey, Austin)
 
-- **Excuses, excuses** -> “we need more data”, “the labels are bad”, etc. (Hallgrim Ludvigsen, Stavanger)
+- **Making excuses** -> “we need more data”, “the labels are bad”, etc. (Hallgrim Ludvigsen, Stavanger)
 
 - **Time spend cleaning data too short** -> Less than 80-90% of the effort spent on preparing the data. (Michael Pyrcz, Austin)
 
@@ -94,4 +96,4 @@ How perfect is *your* ML code and what kind of surface phenomena have you seen t
 
 Maybe it is time for someone to officially coin a new term called "ML Smell".....
 
-Thank-you to Matt Hall and his inspiring questions!
+Thank-you to <a href="https://twitter.com/kwinkunks/status/1313841986886152194?ref_src=twsrc%5Etfw" target="_blank">Matt Hall</a> whose question inspired me to write this up!
