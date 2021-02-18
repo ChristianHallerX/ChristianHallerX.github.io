@@ -24,9 +24,12 @@ How do we find out what command is more efficient and what is less efficient? Yo
 
 - <a href="https://github.com/pythonprofilers/memory_profiler" target="_blank">Memory_Profiler</a>, a memory that accepts a function (imported from a .py file) and delivers a line-by-line analysis of memory usage in MiB. 
 
-An example Jupyter Notebook how to use the can be found <a href="https://github.com/ChristianHallerX/Python_Coding/blob/master/speedy_python/SpeedyPython_measuring.ipynb" target="_blank">**here**</a>
+If you want to know more about magic commands and code measurement, check out these articles:
+- <a href="https://towardsdatascience.com/the-top-5-magic-commands-for-jupyter-notebooks-2bf0c5ae4bb8" target="_blank">The Top 5 Magic Commands for Jupyter Notebooks</a> on Towards Data Science
+- <a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html" target="_blank">Profiling and Timing Code</a> in Python Data Science Handbook
 
-If you want to know more about magic commands, check out this TDS article: <a href="https://towardsdatascience.com/the-top-5-magic-commands-for-jupyter-notebooks-2bf0c5ae4bb8" target="_blank">The Top 5 Magic Commands for Jupyter Notebooks</a>
+An example Jupyter Notebook with all the code of this post can be found <a href="https://github.com/ChristianHallerX/Python_Coding/blob/master/speedy_python/SpeedyPython_measuring.ipynb" target="_blank">**here**</a>
+{:.note}
 
 
 ## Timeit
