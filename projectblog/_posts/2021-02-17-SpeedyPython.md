@@ -135,6 +135,7 @@ The decorator is used to automate the timing of a function and we do not have to
 
 ~~~python
 import time
+from functools import wraps
 
 def timer(func):
 	'''A decorator that prints how long a function took to run.
@@ -146,6 +147,7 @@ def timer(func):
 			callable: The decorated function.
 	'''
 	
+	@wraps(func)
 	def wrapper(*args, **kwargs):
 		t_start = time.time()
 		
@@ -159,9 +161,14 @@ def timer(func):
 	
 	return wrapper
 	
-# Make use of the decorator with a function we are evaluating
+# Make use of the decorator with a function we are evaluating (modify as needed)
 @timer
 def slow_function(n)
+	'''Pause processing for n seconds.
+	
+		Args: 
+			n (int): the number of seconds to pause for.
+	'''
 	# things are happening here
 	time.sleep(n)
 
