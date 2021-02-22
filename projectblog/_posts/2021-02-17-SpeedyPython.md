@@ -129,6 +129,46 @@ Line #    Mem usage    Increment  Occurences   Line Contents
      7     96.9 MiB      0.0 MiB           1       return people_data
 ```
 
+## Timer Decorator
+
+The decorator is used to automate the timing of a function and we do not have to repeat the timing logic over and over.
+
+~~~python
+import time
+
+def timer(func):
+	'''A decorator that prints how long a function took to run.
+
+		Args:
+			func (callable): The function being decorated.
+	
+		Returns:
+			callable: The decorated function.
+	'''
+	
+	def wrapper(*args, **kwargs):
+		t_start = time.time()
+		
+		# things are happening here
+		result = func(*args, **kwargs)
+		
+		duration = time.time() - t_start
+		print('{} took {} seconds'.format(func.__name__, duration))
+		
+		return result	
+	
+	return wrapper
+	
+# Make use of the decorator with a function we are evaluating
+@timer
+def slow_function(n)
+	# things are happening here
+	time.sleep(n)
+
+slow_function(10)
+~~~
+> slow_function took 10 seconds
+
 
 # Examples, slow and fast.
 
