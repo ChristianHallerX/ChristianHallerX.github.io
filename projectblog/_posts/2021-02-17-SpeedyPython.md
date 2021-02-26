@@ -264,3 +264,41 @@ name_lengths_map = map(len, filtered_name_list)
 output = [*zip(filtered_name_list, name_lengths_map)]
 ~~~
 >8.95 ms ± 280 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+
+
+# My function runs for too long...
+
+What if you are having trouble with a function executing for longer than expected?
+
+You can have a timeout alarm set if it runs longer than a set duration of seconds.
+
+The example below makes use of a decorator factory that produced decorators with a variable time for the timeout (seconds).
+
+~~~python
+from functools import wraps
+import signal
+import time
+
+def timeout(n_seconds):
+	def decorator(func):
+		@wraps(func)
+		def wrapper(*args, **kwargs):
+			#set alarm timer
+			signal.alarm(n_seconds)
+			try:
+				#run the desired function
+				return func(*args, **kwargs)
+			finally:
+				#cancel the alarm in any case
+				signal.alarm(0)
+		return wrapper
+	return decorator
+
+#produce a decorator it with sleep example that will trigger
+@timeout(5)
+def trialfunction()
+	time.sleep(10)
+
+trialfunction()
+~~~
+>TimeoutError
