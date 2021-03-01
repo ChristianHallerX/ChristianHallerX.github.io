@@ -13,7 +13,7 @@ The writeup below are some highlights I wrote for myself. If you find the writeu
 ## Preface
 
 This is my personal summary from reading <a href="https://a16z.com/2020/08/12/taming-the-tail-adventures-in-improving-ai-economics/" target="_blank">Taming the Tail: Adventures in Improving AI Economics</a>, which was published on the Andreessen Horowitz blog <a href="https://a16z.com/" target="_blank">a16z.com</a>, a Silicon Valley venture capital (VC) investor.
-This VC supported the likes of Skype and Facebook when they were still little known and dozens of others whos digital services we are using in our daily lives.
+This VC supported the likes of Skype and Facebook when they were still little known and dozens of others whose digital services we are using in our daily lives.
 The article is excellently written, and part of the <a href="https://a16z.com/2020/12/17/ai-in-2020/" target="_blank">AI in 2020</a> series.
 This series is a distillation of dozens of interviews the authors lead with ML tams and thus marks a great resource for machine learning professionals who want deep insights into new AI developments, be it startups or mature companies.
 And last but not least it helps evaluating the next job opportunities.
@@ -42,9 +42,9 @@ However, the low-frequency samples from the tail are harder to train with superv
 
 ### Impact on the economics of AI
 
-- Improving models on the long tail costs a lot of compute resources and thus creats more (cloud) costs than traditional software would cause (3-5x higher).
+- Improving models on the long tail costs a lot of compute resources and thus creates more (cloud) costs than traditional software would cause (3-5x higher).
 
-- Data has a cost to collect, process, and maintain. That means the larger the long-tailed dataset becomes, the harder it becomes to work with it and more costly, too. The projects actually show "DISeconomies of scale". While more data  to improve a model is often available, the long-taildness also means a diminishing return. AI developers may need 10x more data to achieve a 2x subjective improvement. While computing power becomes cheaper and more available (Moore's Law), this does not occur with model performance at the moment.
+- Data has a cost to collect, process, and maintain. That means the larger the long-tailed dataset becomes, the harder it becomes to work with it and more costly, too. The projects actually show "DISeconomies of scale". While more data to improve a model is often available, the long-taildness also means a diminishing return. AI developers may need 10x more data to achieve a 2x subjective improvement. While computing power becomes cheaper and more available (Moore's Law), this does not occur with model performance at the moment.
 
 
 
@@ -69,7 +69,7 @@ Serving a single (global) model if there is large customer-segment/region overla
 Tactics to build around the long tail:
 
 - Optimize the model -> add more (customer) training data, adjust hyperparameters, tweak architecture.
-- Narrow the problem to the fat head -> restrict user-input complexity to avoid creating an unnecessary tail -> e.g. auto-comlete text input for the user.
+- Narrow the problem to the fat head -> restrict user-input complexity to avoid creating an unnecessary tail -> e.g. auto-complete text input for the user.
 - Convert the problem -> human intervention for special edge cases or create single-turn interfaces that cover the long tail more easily.
 
 Componentizing:
@@ -92,7 +92,7 @@ Operational best practices to improve AI economics:
 - Edge case engine, a collection of odd long-tail samples and systematically collecting long-tail samples.
 - On-Prem ML clusters with GPUs can unlock massive savings. Example: startup saved 10 Million USD with their own cluster in colocation facility compared to AWS.
 - Model quantization, distillation, pruning, compression, and compilation (including APIs and pre-trained models)
-- Frequent testing, not only accuracy, F1 etc. but also on A) bad data, B) privacy violations, C) precision mismatches, D) model drift, E) bias, and F) adverserial tactics.
+- Frequent testing, not only accuracy, F1 etc. but also on A) bad data, B) privacy violations, C) precision mismatches, D) model drift, E) bias, and F) adversarial tactics.
 
 
 ## Summary
