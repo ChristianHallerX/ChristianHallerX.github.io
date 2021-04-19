@@ -90,7 +90,7 @@ He is a highly competent scientist and will make an excellent addition to a rese
 
 ## Disclaimer
 
-Opinions expressed are solely my own and do not express the views or opinions of my employer.
+All views expressed on this site are solely my own and do not express the views or opinions of my employer.
 
 ## Latest stuff in Project Blog
 <!--posts-->
