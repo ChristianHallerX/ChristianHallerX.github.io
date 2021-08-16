@@ -4,7 +4,7 @@ title:          Christian Haller, Ph.D.
 cover:          true
 ---
 
-Data Scientist - Machine Learning Dev - Published Author
+AI/ML Scientist - Developer - Published Author
 {:.lead}
 
 0. this unordered seed list will be replaced by toc as unordered list
@@ -19,22 +19,22 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ### <i class="icomoon icon-wrench"></i> Doing 
 ![doing](/assets/img/index/doing.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Waiting for the Adafruit BrainCraft Hat to ship...
+- Making the best out of WFH.
 - Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects#data-science-projects" target="_blank">GitHub Repository "Data Science Projects"</a>.
 	
 	
 ### <i class="icomoon icon-lightbulb3"></i> Learning
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Deployment of Tensorflow models to edge devices. It's great fun. <a href="https://youtu.be/ACmydtFDTGs" target="_blank">Does this ring a bell?</a>
-- Working into Tensorflow Lite.
+- Curly-brace languages such as Scala
+- Working into MLops.
 
 ### <i class="icomoon icon-books"></i> Reading
 ![reading](/assets/img/index/reading.png){: style="float: right; margin-left: 1em; width:140px"}
 
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
-- Kal Mishra (2018) Heard In Data Science Interviews: Over 650 Most Commonly Asked Interview Questions & Answers
+- Emily Chang (2019) Brotopia: Breaking Up the Boys' Club of Silicon Valley
 - M. Crichton & R. Preston (2011) Micro: A Novel
 
 
