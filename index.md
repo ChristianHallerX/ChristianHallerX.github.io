@@ -19,7 +19,7 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ### <i class="icomoon icon-wrench"></i> Doing 
 ![doing](/assets/img/index/doing.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Making the best out of WFH.
+- Shelter in Place means: Less commuting, more heads-down productivity.... or meetings ;-)
 - Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects#data-science-projects" target="_blank">GitHub Repository "Data Science Projects"</a>.
 	
 	

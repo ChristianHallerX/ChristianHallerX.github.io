@@ -33,7 +33,7 @@ In his downtime he and his partner pursue their passion for backpacking such as 
 
 ## Education
 
-* Ph.D. in Marine Science (Geology), University of South Florida, U.S.A. 2018. <i class="icomoon icon-file-pdf">&nbsp;<a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download</a>
+* Ph.D. in Marine Science (ML @ Geoscience), University of South Florida, U.S.A. 2018. <i class="icomoon icon-file-pdf">&nbsp;<a href="https://scholarcommons.usf.edu/etd/7627/" target="_blank">Download</a>
 * M.Sc. in Geosciences, Rheinische Friedrich-Wilhelms-Universität, Germany 2012.
 * B.Sc. in Geosciences, Albert-Ludwigs-Universität Freiburg, Germany 2009.
 
