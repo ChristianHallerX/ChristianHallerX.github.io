@@ -15,6 +15,10 @@ The advantage of Spark is that the instructions get sent out to a cluster that d
 
 A Spark cluster (made up of nodes) can have much more memory (RAM) than a single machine, which enables processing of vastly larger data sets.
 
+Spark DataFrames are data objects that can be partitioned for submitting to the differnt nodes of a Spark cluster.
+
+The number of partitions can be set when creating a DataFrame.
+
 Spark uses 'Lazy Processing'. This means:
 - Entering lazy commands is akin to writing a script that gets executed later.
 - Updates to the instructions before processing makes for most efficient planning.
@@ -33,8 +37,52 @@ from pyspark.sql import SparkSession
 my_spark_session = SparkSession.builder.getOrCreate()
 ~~~
 
+## Name of the Spark application instance
+~~~python
+app_name = spark.conf.get('spark.app.name')
+print("Name: %s" % app_name)
+~~~
+>Name: pyspark-shell
 
-## SQL query against table
+
+## Driver TCP port
+
+The cluster consists of one driver node and one or more worker nodes.
+
+~~~python
+driver_tcp_port = spark.conf.get('spark.driver.port')
+print("Driver TCP port: %s" % driver_tcp_port)
+~~~
+>Driver TCP port: 41309
+
+## Number of Join and DataFrame Partitions
+
+Default number of partitions is 200.
+
+~~~python
+# Get settings, number of join partitions
+spark.conf.get('spark.sql.shuffle.partitions')
+
+# Get numbers of partitions of DataFrame
+num_partitions_bef = workers_df.rdd.getNumPartitions()
+print("Number of DF partitions before: %s" % num_partitions_bef)
+
+# Change settings, number of join partitions
+spark.conf.set('spark.sql.shuffle.partitions', 400)
+
+# Reload DataFrame from file
+workers_df = spark.read.csv('departures.txt.gz').distinct()
+
+# Get numbers of partitions of DF again
+num_partitions_aft = workers_df.rdd.getNumPartitions()
+print("Number of DF partitions after: %s" % num_partitions_aft)
+~~~
+>Number of DF partitions before: 200
+
+>Number of DF partitions after: 400
+
+
+## SQL query against Spark table
 
 ~~~python
 # write a query string
@@ -54,7 +102,7 @@ flights10.show()
 |2014|    3|  9|    1443|       -2|    1652|        2|     VX| N847VA|   755|   SEA| SFO|     111|     679|  14|    43|
 
 
-## SQL query against table and save to Pandas DataFrame
+### SQL query against Spark table and save to Pandas DataFrame
 
 ~~~python
 # write a query string
@@ -155,15 +203,24 @@ people_schema = StructType([
 
 ### DataType overview
 
-| DataType    | Value Type in Python              |
-|-------------|-----------------------------------|
-| ByteType    | Numbers -128 to 127               |
-| ShortType   | Numbers -32768 to 32767           |
-| IntegerType | Numbers -2147483648 to 2147483647 |
-| FloatType   | Floating point number             |
-| StringType  | String                            |
-| BooleanType | bool (True, False, 0, 1)          |
-| DateType    | datetime.date                     |
+| DataType      | Value Type in Python              |
+|---------------|-----------------------------------|
+| ByteType()    | Numbers -128 to 127               |
+| ShortType()   | Numbers -32768 to 32767           |
+| IntegerType() | Numbers -2147483648 to 2147483647 |
+| FloatType()   | Floating point number             |
+| StringType()  | String                            |
+| BooleanType() | bool (True, False, 0, 1)          |
+| DateType()    | datetime.date                     |
+
+
+### View DataFrame schema
+
+Show the columns in a DataFrame and their data types.
+
+~~~python
+split_df.printSchema()
+~~~
 
 
 ## Save DataFrame to File
@@ -395,7 +452,7 @@ aggregated.show()
 |  Spain|       62000.0| 12727.922061357855|         71000|
 
 
-### Special Functions F
+## Special Functions F
 
 String to upper case
 ~~~python
@@ -423,6 +480,20 @@ by_month_dest.agg(F.stddev("dep_delay")).show()
 |   11| TUS|    3.0550504633038935|
 |   11| ANC|    18.604716401245316|
 |    1| BUR|     15.22627576540667|
+
+
+### Add an ID column
+
+The are IDs generated as Int64, contain gaps (non sequential), but retain parallelization across a cluster.
+
+Important Note: DataFrames with many partitions will get much more more digits in the IDs.
+
+~~~python
+import pyspark.sql.functions as F
+
+worker_df = worker_df.withColumn('ROW_ID', F.monotonically_increasing_id())
+~~~
+
 
 ### User-Defined Functions udf()
 
@@ -491,11 +562,85 @@ worker_df.show()
 |02/08/2019|     engineer|      Alvaro Verano|  0.4672294882395198|
 
 
-## Machine Learning Pipelines
+## Caching
+
+### Caching DataFrames with .cache()
+
+Creating local caches for DataFrames that get called repeatedly can help improving speed.
+
+~~~python
+# Set start time
+start_time1 = time.time()
+
+# Add caching to df
+workers_df = workers_df.distinct().cache()
+
+# Print how long counting took when reading first time. This time without pre-cached material takes longer.
+print("Counting %d rows took %f seconds" % (workers_df.count(), time.time() - start_time1))
+
+# Do it again, this time it will be faster
+start_time2 = time.time()
+print("Counting %d rows again took %f seconds" % (workerss_df.count(), time.time() - start_time2))
+~~~
+>Counting 319532 rows took 2.255696 seconds
+
+>Counting 319532 rows again took 0.404590 seconds
+
+
+### Checking and Removing DataFrames from Cache
+
+~~~python
+# Check status
+print("Is workers_df cached?: %s" % workers_df.is_cached)
+
+# Remove caching
+workers_df.unpersist()
+
+# Check status again
+print("Is workers_df cached?: %s" % workers_df.is_cached)
+~~~
+>Is workers_df cached?: True \\ Is workers_df cached?: False
+
+
+## Broadcasting in Joins
+
+Broadcasting distributed the entire dataframe that is selected to all workers.
+This can expedite up join commands.
+
+~~~python
+from pyspark.sql.functions import broadcast
+
+# Join the trains_rides_df and stations_df DataFrames using broadcasting
+broadcast_df = train_rides_df.join(broadcast(stations_df), \
+    train_rides_df["Arrival Station"] == stations_df["Station_Name"] )
+
+# Show the query plan and compare against the original
+broadcast_df.explain()
+~~~
+
+## Pipelines
 
 Creating a pipeline can simplify and formalize preprocessing of training data and the ML model training. Using them avoids mistakes in repetition.
 
 <a href="https://spark.apache.org/docs/3.1.2/ml-pipeline.html#pipeline-components" target="_blank">https://spark.apache.org/docs/3.1.2/ml-pipeline.html#pipeline-components</a>
+
+Create a pipeline from a workflow such as this:
+
+~~~python
+departures_df = spark.read.csv('2015-departures.csv.gz', header=True)
+
+# get column id from printSchema()
+departures_df.printSchema()
+
+# Remove any duration of 0 -> where the column has null rows
+departures_df = departures_df.drop(departures_df[departures_df.columns[3]].isNull())
+
+# Add an ID column
+departures_df = departures_df.withColumn('ID', F.monotonically_increasing_id())
+
+# Write the file
+departures_df.write.json('output_file.json', mode='overwrite')
+~~~
 
 
 ### Casting DataFrame columns
