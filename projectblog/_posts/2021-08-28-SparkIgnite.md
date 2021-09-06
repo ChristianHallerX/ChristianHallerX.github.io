@@ -82,41 +82,6 @@ print("Number of DF partitions after: %s" % num_partitions_aft)
 >Number of DF partitions after: 400
 
 
-## SQL query against Spark table
-
-~~~python
-# write a query string
-query = "FROM flights SELECT * LIMIT 10"
-
-# apply query string with .sql() method to the session object
-flights10 = my_spark_session.sql(query)
-
-# print results table in console
-flights10.show()
-~~~
-
-|year|month|day|dep_time|dep_delay|arr_time|arr_delay|carrier|tailnum|flight|origin|dest|air_time|distance|hour|minute|
-|----|-----|---|--------|---------|--------|---------|-------|-------|------|------|----|--------|--------|----|------|
-|2014|   12|  8|     658|       -7|     935|       -5|     VX| N846VA|  1780|   SEA| LAX|     132|     954|   6|    58|
-|2014|    1| 22|    1040|        5|    1505|        5|     AS| N559AS|   851|   SEA| HNL|     360|    2677|  10|    40|
-|2014|    3|  9|    1443|       -2|    1652|        2|     VX| N847VA|   755|   SEA| SFO|     111|     679|  14|    43|
-
-
-### SQL query against Spark table and save to Pandas DataFrame
-
-~~~python
-# write a query string
-query = "SELECT origin, dest, COUNT(*) as N FROM flights GROUP BY origin, dest"
-
-# apply query string with .sql() method to the session object
-flight_counts = spark.sql(query)
-
-# convert the results to a pandas DataFrame
-pd_counts = flight_counts.toPandas()
-
-# print results pandas DF
-pd_counts.head()
-~~~
 
 
 ## Create Spark DataFrames and (SQL-like) Tables
@@ -236,6 +201,7 @@ df.write.format('parquet').save('filename.paruqet')
 ~~~
 
 
+
 ## DataFrames and SQL-like Tables
 
 ### Register Spark DataFrame in SQL Table Catalog
@@ -247,9 +213,42 @@ After registering the table, we can run .sql() methods with queries against it.
 temp_df.createOrReplaceTempView("my_sqltable")
 ~~~
 
-### Query SQL Table
+### SQL query against Spark table
 
-Query Table and save data in DataFrame variable.
+~~~python
+# write a query string
+query = "FROM flights SELECT * LIMIT 10"
+
+# apply query string with .sql() method to the session object
+flights10 = my_spark_session.sql(query)
+
+# print results table in console
+flights10.show()
+~~~
+
+|year|month|day|dep_time|dep_delay|arr_time|arr_delay|carrier|tailnum|flight|origin|dest|air_time|distance|hour|minute|
+|----|-----|---|--------|---------|--------|---------|-------|-------|------|------|----|--------|--------|----|------|
+|2014|   12|  8|     658|       -7|     935|       -5|     VX| N846VA|  1780|   SEA| LAX|     132|     954|   6|    58|
+|2014|    1| 22|    1040|        5|    1505|        5|     AS| N559AS|   851|   SEA| HNL|     360|    2677|  10|    40|
+|2014|    3|  9|    1443|       -2|    1652|        2|     VX| N847VA|   755|   SEA| SFO|     111|     679|  14|    43|
+
+
+### Query SQL Table and save to Pandas DF
+
+~~~python
+# write a query string
+query = "SELECT origin, dest, COUNT(*) as N FROM flights GROUP BY origin, dest"
+
+# apply query string with .sql() method to the session object
+flight_counts = spark.sql(query)
+
+# convert the results to a pandas DataFrame
+pd_counts = flight_counts.toPandas()
+
+# print results pandas DF
+pd_counts.head()
+~~~
+
 ~~~python
 long_films_df = spark.sql('SELECT * FROM my_sqltable WHERE filmduration >100')
 ~~~
@@ -267,6 +266,18 @@ avg_duration = spark.sql('SELECT AVG(film_duration) from films').collect()[0]
 print('The average film time is: %d' % avg_duration)
 ~~~
 > The average film time is: 88
+
+### Describe an SQL Table
+
+~~~python
+spark.sql("DESCRIBE schedule").show()
+~~~
+
+|col_name|data_type|comment|
+|--------|---------|-------|
+|train_id|   string|   null|
+| station|   string|   null|
+|    time|   string|   null|
 
 
 ### List SQL Table Catalog
