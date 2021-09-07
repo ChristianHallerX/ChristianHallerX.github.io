@@ -82,7 +82,35 @@ print("Number of DF partitions after: %s" % num_partitions_aft)
 >Number of DF partitions after: 400
 
 
+### Partition SQL Table by Column values
 
+Partition table by 'part' column values:
+~~~python
+query = """
+SELECT
+    part,
+    LAG(word, 2) OVER(PARTITION BY part ORDER BY id) AS w1,
+    LAG(word, 1) OVER(PARTITION BY part ORDER BY id) AS w2,
+    word AS w3,
+    LEAD(word, 1) OVER(PARTITION BY part ORDER BY id) AS w4,
+    LEAD(word, 2) OVER(PARTITION BY part ORDER BY id) AS w5
+FROM 
+    text
+"""
+spark.sql(query).where("part = 12").show(10)
+~~~
+
+The 'chapter' column has 12 integer categories.
+
+Repartition DataFrame into 12 partitions on 'chapter' column.
+
+~~~python
+repart_df = text_df.repartition(12,'chapter')
+
+# Prove that repart_df has 12 partitions
+repart_df.rdd.getNumPartitions()
+~~~
+>12
 
 ## Create Spark DataFrames and (SQL-like) Tables
 
@@ -187,8 +215,7 @@ Show the columns in a DataFrame and their data types.
 split_df.printSchema()
 ~~~
 
-
-## Save DataFrame to File
+### Save DataFrame to File
 
 Shortcut version
 ~~~python
@@ -199,7 +226,6 @@ Long version with extra options
 ~~~python
 df.write.format('parquet').save('filename.paruqet')
 ~~~
-
 
 
 ## DataFrames and SQL-like Tables
@@ -710,8 +736,6 @@ vec_assembler = VectorAssembler(inputCols=["month", "air_time", "carrier_fact", 
 ~~~
 
 <a href="https://spark.apache.org/docs/latest/ml-features#vectorassembler" target="_blank">https://spark.apache.org/docs/latest/ml-features#vectorassembler</a>
-
-
 
 ### ML Pipeline stages with Pipeline()
 
