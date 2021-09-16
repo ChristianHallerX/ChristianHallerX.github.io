@@ -655,6 +655,62 @@ broadcast_df = train_rides_df.join(broadcast(stations_df), \
 broadcast_df.explain()
 ~~~
 
+## Machine Learning
+
+### Data Set splitting
+
+~~~python
+# Data splitting in 0.8 train, 0.2 test
+df_trainset, df_testset = df_examples.randomSplit((0.8, 0.2), 42)
+
+# Number of train samples
+print("Number training: ", df_trainset.count())
+
+# Number of test samples
+print("Number test: ", df_testset.count())
+~~~
+
+>Number training: 4602
+>Number test: 1128
+
+
+### Training Logistic Regression
+
+~~~python
+from pyspark.ml.classification import LogisticRegression
+
+# Create a Logistic Regression object with settings
+logistic = LogisticRegression(maxIter=100, regParam=0.4, elasticNetParam=0.0)
+
+# Train (fit) on the train set to create a model
+model = logistic.fit(df_trainset)
+
+# How many iterations were needed
+print("Training iterations: ", model.summary.totalIterations)
+~~~
+
+>Training iteration: 25
+
+### Model Evaluation
+
+Return a summary object.
+~~~python
+model_statistics = model.evaluate(df_testset)
+
+print(model_statistics.areaUnderROC)
+~~~
+>0.8783
+
+### Predicting
+
+The prediction will create a 'prediction' column anda a 'probability' column (probability false pred, probability true pred).
+
+By default, the probability threshold is 0.5 to make a prediction.
+~~~python
+# Predict the test set, returns a DataFrame
+prediction = model.transform(df_testset)
+~~~
+
 ## Pipelines
 
 Creating a pipeline can simplify and formalize preprocessing of training data and the ML model training. Using them avoids mistakes in repetition.
