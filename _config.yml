@@ -99,7 +99,7 @@ menu:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2021. All rights reserved. Hosted on GitHub, made with https://hydejack.com/
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
