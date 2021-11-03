@@ -27,15 +27,15 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
 
 - Curly-brace languages such as Scala
-- Working into MLops.
+- Working into MLOps and evangelizing its use for reproducibility and automation.
 
 ### <i class="icomoon icon-books"></i> Reading
 ![reading](/assets/img/index/reading.png){: style="float: right; margin-left: 1em; width:140px"}
 
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
-- Emily Chang (2019) Brotopia: Breaking Up the Boys' Club of Silicon Valley
-- M. Crichton & R. Preston (2011) Micro: A Novel
+- Chris Voss (2016) Never Split the Difference: Negotiating As If Your Life Depended On It
+- Sheila Jasanoff (2016) The Ethics of Invention Technology and the Human Future
 
 
 ## Quotes
