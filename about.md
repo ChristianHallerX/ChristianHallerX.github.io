@@ -55,15 +55,16 @@ In his downtime he and his partner pursue their passion for backpacking such as 
 | Amazon Web Services          | AWS Solutions Architect – Associate              | [SAA-C02]       | Aug 2020  | <a href="https://www.youracclaim.com/badges/2a6c62c1-d6f6-4873-a0fb-1ae773029869/public_url" target="_blank">link</a> |
 | Amazon Web Services          | AWS Certified Cloud Practitioner                 | [CLF-C01]       | Jul 2020  | <a href="https://www.youracclaim.com/badges/510a55f6-76c3-4d43-bcc4-2aedac93c856/public_url" target="_blank">link</a> |
 | Python Institute             | PCAP – Certified Associate in Python Programming | [PCAP-NP-31-02] | Jun 2020  | <a href="https://www.youracclaim.com/badges/a9cac248-91a2-443b-947c-09976e4cb097/public_url" target="_blank">link</a> |
-| IBM                          | IBM Data Science Professional Certificate        | -               | Jul 2020  | <a href="https://www.youracclaim.com/badges/5e6ddd35-e1fd-4a9d-9225-1f80b21410c3/public_url" target="_blank">link</a> |
+| IBM                          | IBM Data Science Professional Certificate        | -               | Jul 2019  | <a href="https://www.youracclaim.com/badges/5e6ddd35-e1fd-4a9d-9225-1f80b21410c3/public_url" target="_blank">link</a> |
 
 <br>
 {% include image-gallery.html folder="/assets/img/about/prof_certs/" %}
 
-## Other Certifications
+## Other Training
 
 | Issuer                        | Title                                                       | Date      | Verify        |
 |------------------------------ |-------------------------------------------------------------|-----------|---------------|
+| DataCamp                      | Data Engineer with Python Track                             | Nov 2021  | <a href="https://www.datacamp.com/statement-of-accomplishment/track/25fd11bdd2bd4c6b6bad06a1723a84c7c1e98e70" target="_blank">link</a> |
 | NVIDIA Deep Learning Institute| Fundamentals of Deep Learning for Computer Vision           | Aug 2020  | <a href="https://courses.nvidia.com/certificates/e1614b616bf34e0da50fe3d9dcc1add3" target="_blank">link</a> |
 | deeplearning.ai               | TensorFlow Developer                                        | Jul 2020  | <a href="https://coursera.org/share/7d61540ebcff08e2811403629ae21cf3" target="_blank">link</a> |
 | UC Davis                      | Geographic Information Systems (GIS)                        | May 2020  | <a href="https://coursera.org/share/6c1ebdc14f7c7a06273023705a1c58c2" target="_blank">link</a> |
