@@ -1,6 +1,6 @@
 ---
 title: Yannic Kilcher's ML News
-image: /assets/img/research/KilcherYT/KilcherYT_cover.jpg
+image: /assets/img/research/KilcherYT/KilcherYT_Cover.jpg
 description: > 
   Papers discussed, authors interviewed, stuff reported (shades required).
 ---
