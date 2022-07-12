@@ -19,23 +19,21 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ### <i class="icomoon icon-wrench"></i> Doing 
 ![doing](/assets/img/index/doing.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Shelter in Place means: Less commuting, more heads-down productivity.... or meetings ;-)
-- Check my technical notebooks in the <a href="https://github.com/ChristianHallerX/DataScienceProjects#data-science-projects" target="_blank">GitHub Repository "Data Science Projects"</a>.
+- Waiting till my coveted bike becomes available again. Technology is much easier to get than bikes and bike parts. Don't believe in any of that chip-shortage talk.
 	
 	
 ### <i class="icomoon icon-lightbulb3"></i> Learning
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Curly-brace languages such as Scala
-- Working into MLOps and evangelizing its use for reproducibility and automation.
+- DevOps for Machine Learning, MLOps
 
 ### <i class="icomoon icon-books"></i> Reading
 ![reading](/assets/img/index/reading.png){: style="float: right; margin-left: 1em; width:140px"}
 
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
-- Chris Voss (2016) Never Split the Difference: Negotiating As If Your Life Depended On It
-- Sheila Jasanoff (2016) The Ethics of Invention Technology and the Human Future
+- John Doerr (2018) Measure what matters : how Google, Bono, and the Gates Foundation rock the world with OKRs
+- Levitt & Dubner (2005) Freakonomics
 
 
 ## Quotes
@@ -61,7 +59,7 @@ I hope that our professional paths will cross many times in the future.
 <i class="icomoon icon-quotes-right"></i>
 {:.lead}
 
-<a href="https://www.linkedin.com/in/tomas-silva-santisteban-phd-b2736a115/" target="_blank">Tomas Silva Santisteban, Ph.D.</a>, Sales Account Manager @ <a href="https://www.thermofisher.com/" target="_blank">Thermo Fisher Scientific</a>, Houston, TX
+<a href="https://www.linkedin.com/in/tomas-silva-santisteban-phd-b2736a115/" target="_blank">Tomas Silva Santisteban, Ph.D.</a>, Technical Sales Representative @ <a href="https://imaris.oxinst.com/" target="_blank">Oxford Instruments Imaris</a>, Houston, TX
 
 <br>
 <br>
@@ -73,7 +71,7 @@ He is easy to work with and enthusiastic to learn and share new ideas with other
 {:.lead}
 <br>
 <br>
-<a href="https://www.linkedin.com/in/michael-guo-2850825a/" target="_blank">Michael Guo</a>, Senior Data Analyst @ <a href="https://www.tamu.edu/" target="_blank">Texas A&M University</a>, College Station, TX
+<a href="https://www.linkedin.com/in/michael-guo-2850825a/" target="_blank">Michael Guo</a>, Data Analyst @ <a href="https://www.paypal.com/" target="_blank">Paypal</a>, Austin, TX
 
 <br>
 <br>
