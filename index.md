@@ -26,6 +26,7 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
 
 - DevOps for Machine Learning, MLOps
+- Running docker loccally on my private machine with WSL2 etc.
 
 ### <i class="icomoon icon-books"></i> Reading
 ![reading](/assets/img/index/reading.png){: style="float: right; margin-left: 1em; width:140px"}
