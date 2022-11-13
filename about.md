@@ -49,6 +49,7 @@ In his downtime he and his partner pursue their passion for backpacking such as 
 
 | Issuer                       | Title                                            | Code            | Date      | Verify        |
 |------------------------------|--------------------------------------------------|-----------------|-----------|---------------|
+| Scaled Agile Framework       | Certified SAFe 5 Practitioner                    | -               | Aug 2022  | <a href="https://www.credly.com/badges/afc2e29e-d5b9-4af3-b700-862cb1afa197/public_url" target="_blank">link</a> |
 | Linux Professional Institute | Linux Essentials Certificate                     | [010-160]       | Dec 2020  | <a href="https://lpi.org/v/LPI000469105/5vc355v5f2" target="_blank">link</a> |
 | Google                       | TensorFlow 2.X Developer Certificate             | -               | Oct 2020  | <a href="https://www.credential.net/6ad51867-2c56-4631-97bb-3ccc76f1a34f" target="_blank">link</a> |
 | Amazon Web Services          | AWS Certified Machine Learning – Specialty       | [MLS-C01]       | Oct 2020  | <a href="https://www.youracclaim.com/badges/6f202410-e310-4e03-a554-d52af5c294c3/public_url" target="_blank">link</a> |
