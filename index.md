@@ -19,7 +19,7 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ### <i class="icomoon icon-wrench"></i> Doing 
 ![doing](/assets/img/index/doing.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Waiting till my coveted bike becomes available again. Technology is much easier to get than bikes and bike parts. Don't believe in any of that chip-shortage talk.
+- My new bike finally arrived. Let's go biking in the woodlands!
 	
 	
 ### <i class="icomoon icon-lightbulb3"></i> Learning
@@ -33,11 +33,29 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
-- John Doerr (2018) Measure what matters : how Google, Bono, and the Gates Foundation rock the world with OKRs
+-  Michael Crichton (1990) Jurassic Park
 - Levitt & Dubner (2005) Freakonomics
 
 
 ## Quotes
+
+
+![E-MT Quote](/assets/img/index/quotes/sb_round.png){: style="float: left; margin-right: 1em; width:180px"}
+<i class="icomoon icon-quotes-left"></i>
+Christian was one of the first people to reach out to me as a new member of the team - something I very much appreciated.
+In getting to know him - it was very clear he has a great passion for Data Science, outreach & learning.
+He brings to our team a very diverse set of skills & is a respected leader.
+<i class="icomoon icon-quotes-right"></i>
+{:.lead}
+
+<br>
+
+<a href="https://www.linkedin.com/in/shaun-bowman-4439b013/" target="_blank">Shaun Bowman</a>, Senior AI/ML Scientist, AV Map Data Product @ <a href="https://www.gm.com/" target="_blank">General Motors</a>, Ann Arbor, MI
+
+<br>
+<br>
+
+
 ![E-MT Quote](/assets/img/index/quotes/emt_round.png){: style="float: left; margin-right: 1em; width:180px"}
 <i class="icomoon icon-quotes-left"></i>
 Christian's hunger for constantly improving his skills in disciplines ranging from data science to oceanography has always impressed me.
