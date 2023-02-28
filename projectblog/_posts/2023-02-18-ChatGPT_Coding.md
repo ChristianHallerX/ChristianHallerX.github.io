@@ -2,7 +2,7 @@
 title: Improving Your Coding Skills with ChatGPT
 image: /assets/img/research/ChatGPTCoding/ChatGPT_Code_Cover.jpg
 description: >
-  
+  Some examples to effectively use ChatGPT
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

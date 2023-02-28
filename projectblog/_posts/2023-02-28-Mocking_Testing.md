@@ -2,7 +2,7 @@
 title: Mocking and Testing
 image: /assets/img/research/Mocking_Testing/Mocking_Testing_Cover.jpg
 description: >
-  
+  Concepts for testing. It's a bit dry though.
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list
