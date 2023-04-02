@@ -1,8 +1,8 @@
 ---
-title: Improving Your Coding Skills with ChatGPT
+title: Improving Your Coding Skills with ChatGPT Part I - Foundations
 image: /assets/img/research/ChatGPTCoding/ChatGPT_Code_Cover.jpg
 description: >
-  Some examples to effectively use ChatGPT
+  Some examples to effectively use the popular chatbot
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

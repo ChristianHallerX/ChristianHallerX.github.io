@@ -25,7 +25,7 @@ Through testing, developers can ensure that their code works as expected in diff
 
 <br>
 <p align="center"><img src="/assets/img/research/Mocking_Testing/boliviainteligente-M0GYFmhkgBk-unsplash.jpg" alt="Christian Haller " style="width:640px"></p>
-Photo by <a href="https://unsplash.com/@boliviainteligente">BoliviaInteligente</a> on <a href="https://unsplash.com/photos/M0GYFmhkgBk">Unsplash</a>
+Photo by <a href="https://unsplash.com/@boliviainteligente" target="_blank">BoliviaInteligente</a> on <a href="https://unsplash.com/photos/M0GYFmhkgBk" target="_blank">Unsplash</a>
 {:.figcaption}
 
 # Understanding Python Testing
@@ -58,7 +58,7 @@ In the next section, I will discuss Python mocking in more detail, including its
 
 <br>
 <p align="center"><img src="/assets/img/research/Mocking_Testing/moritz-kindler-G66K_ERZRhM-unsplash.jpg" alt="Christian Haller " style="width:640px"></p>
-Photo by <a href="https://unsplash.com/@moritz_photography">Moritz Kindler</a> on <a href="https://unsplash.com/photos/G66K_ERZRhM">Unsplash</a>
+Photo by <a href="https://unsplash.com/@moritz_photography" target="_blank">Moritz Kindler</a> on <a href="https://unsplash.com/photos/G66K_ERZRhM" target="_blank">Unsplash</a>
 {:.figcaption}
 
 
@@ -89,7 +89,7 @@ In the next section, I will discuss the different types of Python mocking and ho
 
 <br>
 <p align="center"><img src="/assets/img/research/Mocking_Testing/boston-public-library-YoK5pBcSY8s-unsplash.jpg" alt="Christian Haller " style="width:640px"></p>
-Photo by <a href="https://unsplash.com/it/@bostonpubliclibrary">Boston Public Library</a> on <a href="https://unsplash.com/photos/YoK5pBcSY8s">Unsplash</a>
+Photo by <a href="https://unsplash.com/it/@bostonpubliclibrary" target="_blank">Boston Public Library</a> on <a href="https://unsplash.com/photos/YoK5pBcSY8s" target="_blank">Unsplash</a>
 {:.figcaption}
 
 
@@ -125,7 +125,7 @@ In the next section, I will discuss how to use Python mocking effectively in tes
 
 <br>
 <p align="center"><img src="/assets/img/research/Mocking_Testing/david-clode-RAfIk-ZKbPk-unsplash.jpg" alt="Christian Haller " style="width:640px"></p>
-Photo by <a href="https://unsplash.com/@davidclode">David Clode</a> on <a href="https://unsplash.com/photos/RAfIk-ZKbPk">Unsplash</a>
+Photo by <a href="https://unsplash.com/@davidclode" target="_blank">David Clode</a> on <a href="https://unsplash.com/photos/RAfIk-ZKbPk">Unsplash</a>
 {:.figcaption}
 
 
@@ -159,7 +159,7 @@ Developers should use mocking in conjunction with other testing techniques, such
 
 <br>
 <p align="center"><img src="/assets/img/research/Mocking_Testing/george-pagan-iii-WwCTFNpZx8g-unsplash.jpg" alt="Christian Haller " style="width:640px"></p>
-Photo by <a href="https://unsplash.com/@gpthree">George Pagan III</a> on <a href="https://unsplash.com/photos/WwCTFNpZx8g">Unsplash</a> 
+Photo by <a href="https://unsplash.com/@gpthree" target="_blank">George Pagan III</a> on <a href="https://unsplash.com/photos/WwCTFNpZx8g" target="_blank">Unsplash</a> 
 {:.figcaption}
 
 
@@ -196,7 +196,7 @@ In the final section of this post, I will summarize the key takeaways from this 
 
 <br>
 <p align="center"><img src="/assets/img/research/Mocking_Testing/mahdi-bafande-nPLjZdw4B50-unsplash.jpg" alt="Christian Haller " style="width:640px"></p>
-Photo by <a href="https://unsplash.com/@mahdibafande">Mahdi Bafande</a> on <a href="https://unsplash.com/photos/nPLjZdw4B50">Unsplash</a>
+Photo by <a href="https://unsplash.com/@mahdibafande" target="_blank">Mahdi Bafande</a> on <a href="https://unsplash.com/photos/nPLjZdw4B50" target="_blank">Unsplash</a>
 {:.figcaption}
 
 
