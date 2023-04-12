@@ -1,8 +1,8 @@
 basics:
-  name: "CHRISTIAN HALLER, PhD"
+  name: "John Doe"
   # label: "Title"
   picture: "/assets/icons/icon-512x512.png"
-  email: "christian_haller@gmx.de"
+  email: "bla@bla.com"
   # phone: "00000000"
   website: "https://christianhallerx.github.io/"
   summary: >

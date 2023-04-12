@@ -20,21 +20,30 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 ![doing](/assets/img/index/doing.png){: style="float: right; margin-left: 1em; width:140px"}
 
 - My new bike finally arrived. Let's go biking in the woodlands!
+- Planning trips into the desert
+
+
 	
 	
 ### <i class="icomoon icon-lightbulb3"></i> Learning
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- DevOps for Machine Learning, MLOps
-- Running docker loccally on my private machine with WSL2 etc.
+- Databricks LakeHouse Platform
+- Prompt Engineering in Stable Diffusion
+
+
+
 
 ### <i class="icomoon icon-books"></i> Reading
 ![reading](/assets/img/index/reading.png){: style="float: right; margin-left: 1em; width:140px"}
 
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
--  Michael Crichton (1990) Jurassic Park
-- Levitt & Dubner (2005) Freakonomics
+- Nir Eyal, Ryan Hoover (2014) Hooked - How to Build Habit-Forming Products
+- Chris Voss (2016) Never Split the Difference - Negotiating As If Your Life Depended On It
+- Michael Lewis (2015) Flash Boys - A Wall Street Revolt
+
+
 
 
 ## Quotes

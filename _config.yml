@@ -72,6 +72,7 @@ author:
     researchgate:    Christian_Haller4
     email:           mail@christianhaller.me
     cv:              https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing
+    calendly:        christian_haller/30-min-call-on-google-meet
 
 # Add links to the sidebar.
 menu:
@@ -99,7 +100,7 @@ menu:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved. Hosted on GitHub, made with https://hydejack.com/
+copyright:             © 2023. All rights reserved. Hosted on GitHub, made with https://hydejack.com/
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/

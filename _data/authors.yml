@@ -25,11 +25,13 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     linkedin:        christian-haller
+    calendly:        christian_haller/30-min-call-on-google-meet
+    email:           mail@christianhaller.me
     github:          ChristianHallerX
     google-scholar:  4xJhLhYAAAAJ&hl
     researchgate:    Christian_Haller4
-    email:           mail@christianhaller.me
-    cv:              https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing
+    #cv:              https://docs.google.com/document/d/1CDO0WQcwpnmia_fosRdELAl8MzRlk_RM6tQMCr5ra50/edit?usp=sharing
+
     # resume:          /resume/
     # stackoverflow:   <number>
     # rss:             <https://website.com>

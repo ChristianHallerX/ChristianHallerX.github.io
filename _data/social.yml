@@ -220,3 +220,7 @@ download:
 resume:
   name: Resume
   icon: icon-profile
+calendly:
+  name: Schedule a Video Call
+  icon: icon-bubbles
+  prepend:  "https://calendly.com/"
