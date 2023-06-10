@@ -188,7 +188,7 @@ def send():
     if msg == "Message":
         # if the user clicks send before entering their own message, "Message" gets inserted again
         # no prediction/response
-        EntryBox.insert(END, "Message")
+        EntryBox.insert(END, "Message"
         pass
         # if user clicks send and proper entry
     elif msg != '':
