@@ -20,7 +20,9 @@ Here's your roadmap to achieving operational mastery in machine learning, ensuri
 
 Machine learning is a field that uniquely binds the theoretical with the practical.
 
-It's imperative to assemble a team that understands the intricacies of machine learning models and the research behind them. These interdisciplinary mavens ensure there's a smooth transition from labs to real-world applications.
+It's imperative to assemble a team that understands the intricacies of machine learning models and the research behind them.
+
+These interdisciplinary mavens ensure there's a smooth transition from labs to real-world applications.
 
 <br>
 <p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig1.png" alt="Christian Haller " style="width:480px"></p>
@@ -31,7 +33,9 @@ It's imperative to assemble a team that understands the intricacies of machine l
 
 Remember, in ML operations (MLOps), you're catering to two distinct audiences—your researchers and your end-users.
 
-Your systems should offer transparent tools for your scientists, yet seamless experiences for the consumers. Bridge these two worlds efficiently.
+Your systems should offer transparent tools for your scientists, yet seamless experiences for the consumers.
+
+Bridge these two worlds efficiently.
 
 <br>
 <p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig2.png" alt="Christian Haller " style="width:480px"></p>
@@ -87,6 +91,6 @@ As you delve deeper into the realm of ML, remember—every challenge is an oppor
 
 
 
-**Note to readers**: Engaging with our audience has always been our strength. If you have any insights, experiences, or queries about MLOps, do let me know and send a message.
+**Note to readers**: If you have any insights, experiences, or queries about MLOps, do let me know and send a message.
 
 
