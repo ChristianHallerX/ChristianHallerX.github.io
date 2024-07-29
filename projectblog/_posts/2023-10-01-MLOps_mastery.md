@@ -25,8 +25,10 @@ It's imperative to assemble a team that understands the intricacies of machine l
 These interdisciplinary mavens ensure there's a smooth transition from labs to real-world applications.
 
 <br>
-<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig1.png" alt="Christian Haller " style="width:480px"></p>
+<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig1.png" alt="Christian Haller fig1" style="width:480px"></p>
 <br>
+Photo made with <a href="https://unsplash.com/@susan_wilkinson">Stable Diffusion</a> and A1111
+{:.figcaption}
 
 
 ## Design with Dual Perspectives
@@ -38,8 +40,10 @@ Your systems should offer transparent tools for your scientists, yet seamless ex
 Bridge these two worlds efficiently.
 
 <br>
-<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig2.png" alt="Christian Haller " style="width:480px"></p>
+<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig2.png" alt="Christian Haller fig2" style="width:480px"></p>
 <br>
+Photo made with <a href="https://unsplash.com/@susan_wilkinson">Stable Diffusion</a> and A1111
+{:.figcaption}
 
 
 ## Take Complete Ownership
@@ -51,8 +55,10 @@ Ensure your MLOps team handles everything—from offline model training to onlin
 This cohesion ensures a seamless integration of updates and minimizes discrepancies.
 
 <br>
-<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig3.png" alt="Christian Haller " style="width:480px"></p>
+<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig3.png" alt="Christian Haller fig3" style="width:480px"></p>
 <br>
+Photo made with <a href="https://unsplash.com/@susan_wilkinson">Stable Diffusion</a> and A1111
+{:.figcaption}
 
 
 ## Understand the Dance of Science and Engineering
@@ -65,6 +71,9 @@ Let each have its moment in the spotlight, and remember, forced synchrony can le
 
 <br>
 <p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig4.png" alt="Christian Haller " style="width:480px"></p>
+<br>
+Photo made with <a href="https://unsplash.com/@susan_wilkinson">Stable Diffusion</a> and A1111
+{:.figcaption}
 
 
 ## Build a Well-Rounded Engineering Team
@@ -76,8 +85,10 @@ While you need the expertise of seasoned engineers to tackle complex challenges,
 It's this blend that ensures longevity and dynamism.
 
 <br>
-<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig5.png" alt="Christian Haller " style="width:480px"></p>
+<p align="center"><img src="/assets/img/research/MLOps_mastery/MLOps_mastery_fig5.png" alt="Christian Haller fig3" style="width:480px"></p>
 <br>
+Photo made with <a href="https://unsplash.com/@susan_wilkinson">Stable Diffusion</a> and A1111
+{:.figcaption}
 
 ## Conclusion
 
