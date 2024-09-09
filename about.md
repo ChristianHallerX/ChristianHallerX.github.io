@@ -58,6 +58,8 @@ In his downtime he and his partner pursue their passion for backpacking such as 
 
 | Issuer                        | Title                                                       | Date      | Verify        |
 |------------------------------ |-------------------------------------------------------------|-----------|---------------|
+| deeplearning.ai				| Generative AI with Large Language Models					  | Sep 2024  | <a href="https://coursera.org/share/169acfa53c7a637e11d76f7c76ba5997" target="_blank">link</a> |
+| deeplearning.ai				| Machine Learning (2022)									  | May 2023  | <a href="https://coursera.org/share/5992b6f865e80c0ffa9f9c10cfe5539c" target="_blank">link</a> |
 | deeplearning.ai               | Machine Learning Engineering for Production (MLOps)         | Jul 2022  | <a href="https://coursera.org/share/99f6cb2cee71c8617529eb631df8e8d8" target="_blank">link</a> |
 | DataCamp                      | Data Engineer with Python Track                             | Nov 2021  | <a href="https://www.datacamp.com/statement-of-accomplishment/track/25fd11bdd2bd4c6b6bad06a1723a84c7c1e98e70" target="_blank">link</a> |
 | NVIDIA Deep Learning Institute| Fundamentals of Deep Learning for Computer Vision           | Aug 2020  | <a href="https://courses.nvidia.com/certificates/e1614b616bf34e0da50fe3d9dcc1add3" target="_blank">link</a> |
