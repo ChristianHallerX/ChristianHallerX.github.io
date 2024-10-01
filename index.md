@@ -14,6 +14,18 @@ Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a
 He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
 [See more...](/about/)
 
+## Podcast
+
+Listen to a summary of my posts with the most visits (15:06 mins)
+by <a href="https://notebooklm.google.com/" target="_blank">Google NotebookLM</a>
+
+- <a href="../blog/projectblog/2023-09-30-ML_org/" target="_blank">Navigating Machine Learning Organizational Challenges</a>
+- <a href="../blog/projectblog/2021-01-20-Taming_Tail/" target="_blank">Taming the Tail - Adventures in Improving AI Economics - a16z</a>
+- <a href="../blog/projectblog/2023-10-01-MLOps_mastery/" target="_blank"> The Roadmap to Machine Learning Operational Mastery</a>
+<iframe src="https://drive.google.com/file/d/1ZuJYEFN4M-iPMnn6Bvw-zHXaVptktbf_/preview" width="640" height="140" allow="autoplay"></iframe>
+
+
+
 ## News
 
 ### <i class="icomoon icon-wrench"></i> Doing 
@@ -23,7 +35,6 @@ He has a proficiency in one of the hottest subjects of our time: `Data Science`,
 - Planning trips into the desert
 
 
-	
 	
 ### <i class="icomoon icon-lightbulb3"></i> Learning
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
