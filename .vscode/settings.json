@@ -1,0 +1,11 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "where.exe": true,
+        "gem": true,
+        "type": true,
+        "Get-Command": true,
+        "&": true,
+        "Test-Path": true,
+        "Get-Item": true
+    }
+}

@@ -4,25 +4,15 @@ title:          Christian Haller, Ph.D.
 cover:          true
 ---
 
-AI/ML Scientist - Developer - Published Author
+Artificial Intelligence and Machine Learning Engineer
 {:.lead}
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming and data analytics background.
+Christian holds MSc and Ph.D. and has a strong computer programming and data analytics background.
 He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
 [See more...](/about/)
-
-## Podcast
-
-Listen to a summary of my posts with the most visits (15:06 mins)
-by <a href="https://notebooklm.google.com/" target="_blank">Google NotebookLM</a>
-
-- <a href="../blog/projectblog/2023-09-30-ML_org/" target="_blank">Navigating Machine Learning Organizational Challenges</a>
-- <a href="../blog/projectblog/2021-01-20-Taming_Tail/" target="_blank">Taming the Tail - Adventures in Improving AI Economics - a16z</a>
-- <a href="../blog/projectblog/2023-10-01-MLOps_mastery/" target="_blank"> The Roadmap to Machine Learning Operational Mastery</a>
-<iframe src="https://drive.google.com/file/d/1ZuJYEFN4M-iPMnn6Bvw-zHXaVptktbf_/preview" width="640" height="140" allow="autoplay"></iframe>
 
 
 
@@ -39,8 +29,8 @@ by <a href="https://notebooklm.google.com/" target="_blank">Google NotebookLM</a
 ### <i class="icomoon icon-lightbulb3"></i> Learning
 ![learning](/assets/img/index/learning.png){: style="float: right; margin-left: 1em; width:140px"}
 
-- Databricks LakeHouse Platform
-- Prompt Engineering in Stable Diffusion
+- DSPy, a framework for programming and optimizing LLM pipelines instead of manually prompt-engineering them
+- Dockerized FastAPI/Bento service on managed cloud
 
 
 
@@ -50,9 +40,9 @@ by <a href="https://notebooklm.google.com/" target="_blank">Google NotebookLM</a
 
 I usually have a few books on the go. One or two smart books and a sci-fi selection for bedtime reading or as audiobook in the gym.
 
-- Nir Eyal, Ryan Hoover (2014) Hooked - How to Build Habit-Forming Products
-- Chris Voss (2016) Never Split the Difference - Negotiating As If Your Life Depended On It
-- Michael Lewis (2015) Flash Boys - A Wall Street Revolt
+- Kara Swisher (2025) Burn Book: A Tech Love Story
+- Parmy Olson (2024) Supremacy: AI, ChatGPT, and the Race That Will Change the World
+- Tae Kim (2024) The Nvidia Way: Jensen Huang and the Making of a Tech Giant
 
 
 
