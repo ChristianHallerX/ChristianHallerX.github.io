@@ -20,7 +20,7 @@ Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon
 
 ## Bio
 
-Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming background.
+Christian honed his coding and data anlytics skills in academia and has worked in his past for various Fortune 500 companies, U.S. Federal government, and global academic research initiatives.
 He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models at scale (think Big Data).
 These models are useful to analyze data to simplify class recognition, automate interpretation, and discern cause-and-effect correlation.
 Furthermore, Christian creates, runs, and improves complex prediction systems in order to support organizations whose research and success metrics depend on accurate prediction.
