@@ -8,8 +8,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Christian holds a Ph.D. in `Marine Science`, an M.Sc. in `Geoscience`, and has a strong computer programming background.
-    He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
+    Christian is a data scientist and machine learning engineer with experience across Fortune 500 companies, federal government, and global research initiatives.
+    He builds scalable prediction systems and has contributed to offshore scientific expeditions and technical publications.
     [See more...](/about/)
 
   # This photo will be used in the about section

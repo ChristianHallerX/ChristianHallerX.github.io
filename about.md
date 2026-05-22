@@ -20,14 +20,19 @@ Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon
 
 ## Bio
 
-Christian honed his coding and data anlytics skills in academia and has worked in his past for various Fortune 500 companies, U.S. Federal government, and global academic research initiatives.
-He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models at scale (think Big Data).
-These models are useful to analyze data to simplify class recognition, automate interpretation, and discern cause-and-effect correlation.
-Furthermore, Christian creates, runs, and improves complex prediction systems in order to support organizations whose research and success metrics depend on accurate prediction.
-During his time in academia, Christian has sailed on offshore expeditions (scientific drilling) and published various technical papers.
+Christian developed his coding and data analytics expertise through academia and has applied it across Fortune 500 companies, the U.S. federal government, and global research initiatives.
+
+He specializes in data science and building machine learning models at scale, turning complex datasets into systems that improve classification, automate interpretation, and uncover meaningful relationships.
+
+Christian also designs, runs, and refines advanced prediction systems for organizations whose research, operations, and success metrics depend on accurate forecasting.
+
+During his academic career, Christian participated in offshore scientific drilling expeditions and published multiple technical papers.
+
 
 Outside his technical roles, Christian is a keen photographer and mountain biker - with a broad interest in emerging tech, economics, and management.
+
 His favorite book is "The Martian", which he read over a dozen times.
+
 In his downtime he and his partner pursue their passion for backpacking such as camping in the Australian Outback, the Black Forest, or the Northeast Kingdom.
 
 
