@@ -55,4 +55,16 @@
     display: none;
   }
 }
-// >>>
+// >>>>>
+
+.sidebar-social {
+  text-align: center;
+}
+
+.sidebar-social > ul {
+  display: inline-block;
+}
+
+.sidebar-sticky {
+  max-width: 24rem; // or whatever width you want
+}

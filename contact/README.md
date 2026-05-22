@@ -25,11 +25,15 @@ Gubbio near K/T iridium outcrop, Italy
 * <i class="icomoon icon-github"></i> [GitHub]{:.heading.flip-title}{:target="_blank"} --- Coding project repository.
 {:.related-posts.faded}
 
-* <i class="icomoon icon-googlescholar"></i> [Google Scholar]{:.heading.flip-title}{:target="_blank"} --- Scientific publications.
+* <i class="icomoon icon-google-scholar"></i> [Google Scholar]{:.heading.flip-title}{:target="_blank"} --- Scientific publications.
 {:.related-posts.faded}
 
 * <i class="icomoon icon-researchgate"></i> [ResearchGate]{:.heading.flip-title}{:target="_blank"} --- Scientific publications.
 {:.related-posts.faded}
+
+* <i class="icomoon icon-light-bulb"></i> [Google Patents]{:.heading.flip-title}{:target="_blank"} --- Patent Applications with the US.
+{:.related-posts.faded}
+
 
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -61,10 +65,9 @@ Gubbio near K/T iridium outcrop, Italy
 </style>
 <!-- Calendly link widget end -->
 
-
 [LinkedIn]: https://www.linkedin.com/in/christian-haller/
-[GitHub]: https://github.com/ChristianHallerX/
-[ResearchGate]: https://www.researchgate.net/profile/Christian_Haller4/
-[Google Scholar]: https://scholar.google.com/citations?user=4xJhLhYAAAAJ&hl
 [E-Mail]: mailto:mail&#64;christianhaller.me
-
+[GitHub]: https://github.com/ChristianHallerX/
+[Google Scholar]: https://scholar.google.com/citations?user=4xJhLhYAAAAJ&hl
+[ResearchGate]: https://www.researchgate.net/profile/Christian_Haller4/
+[Google Patents]: https://patents.google.com/?inventor=Christian+Haller&assignee=GM+Global+Technology+Operations+LLC
