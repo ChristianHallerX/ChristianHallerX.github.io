@@ -38,6 +38,7 @@
   position: absolute;
   height: 95%;
   padding-top: 5%;
+  max-width: 26rem;
 }
 
 a.sidebar-nav-item {
@@ -119,4 +120,17 @@ input[type="checkbox"]:checked ~ ul{
       display: none;
       visibility: hidden;
    }
+}
+
+.sidebar-social {
+  text-align: center;
+}
+
+.sidebar-social > ul {
+  display: inline-block;
+  width: auto;
+}
+
+.sidebar-width {
+  width: 24rem;
 }

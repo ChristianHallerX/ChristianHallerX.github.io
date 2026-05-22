@@ -18,7 +18,7 @@
   content_width_2: 54 #rem
   content_width_5: 60 #rem
 
-  sidebar_width: 21 #rem
+  sidebar_width: 24 #rem
 
   break_point_1: 42 #em
   break_point_2: 54 #em
