@@ -9,8 +9,6 @@ description: >
 {:toc}
 
 
-# AI Code Slop: Why Traditional Code Review Is Breaking
-
 As an MLE Tech Lead, I have seen firsthand how quickly AI can accelerate software development. It can help engineers move faster, explore ideas more quickly, and produce working implementations with less manual effort. But I have also seen the other side of that speed: when teams are not careful, AI can scale technical debt just as quickly as it scales output.
 The uncomfortable reality is that code is no longer the scarce resource; review capacity is.
 Code review is becoming a bottleneck because AI has made it much easier to generate large amounts of code, but it has not made humans proportionally faster at reviewing that code.
