@@ -13,9 +13,9 @@ Machine-learning projects often begin with a table. The columns have names, the 
 That table is rarely the beginning of the story.
 
 <br>
-<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_Cover.jpg" alt="Mountain landscape showing geological scale" style="width:640px"></p>
+<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig1.jpg" alt="Ocean wave patterns showing variation in a natural system" style="width:640px"></p>
 <br>
-Photo by <a href="https://unsplash.com/@lucabravo" target="_blank">Luca Bravo</a> on <a href="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@matthardy" target="_blank">Matt Hardy</a> on <a href="https://unsplash.com/photos/body-of-water-under-sky-6ArTTluciuA" target="_blank">Unsplash</a>
 {:.figcaption}
 
 In geoscience, a row may represent a measurement taken at a particular depth, with a particular instrument, from a particular well, after a chain of sampling and interpretation decisions. A label may be a geologist's description of a core interval rather than an objective property that can be read directly from the rock. A pixel or voxel may look like an independent observation even though it belongs to the same specimen as thousands of neighboring pixels.
@@ -40,9 +40,9 @@ This is true in less obviously scientific projects as well:
 When a model performs unexpectedly, inspect how the data was produced before assuming that the algorithm is the problem.
 
 <br>
-<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig1.jpg" alt="Layered mountain landscape" style="width:640px"></p>
+<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig2.jpg" alt="Eroded sandstone cliffs exposing geological layers" style="width:640px"></p>
 <br>
-Photo by <a href="https://unsplash.com/@dawidzawila" target="_blank">Dawid Zawila</a> on <a href="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@ed_wingate" target="_blank">Ed Wingate</a> on <a href="https://unsplash.com/photos/golden-sand-dunes-under-a-clear-blue-sky-viSgI4trvK8" target="_blank">Unsplash</a>
 {:.figcaption}
 
 ## Lesson One: Labels Are Interpretations
@@ -85,9 +85,9 @@ Geoscience moves across scales constantly. A MicroCT scan can reveal internal st
 Those observations cannot automatically be treated as interchangeable.
 
 <br>
-<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig2.jpg" alt="Mountain lake and surrounding terrain" style="width:640px"></p>
+<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig3.jpg" alt="Mountain lake and surrounding terrain" style="width:640px"></p>
 <br>
-Photo by <a href="https://unsplash.com/@kalenemsley" target="_blank">Kalen Emsley</a> on <a href="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@lucabravo" target="_blank">Luca Bravo</a> on <a href="https://unsplash.com/photos/brown-house-near-body-of-water-zAjdgNXsMeg" target="_blank">Unsplash</a>
 {:.figcaption}
 
 In digital-rock analysis, for example, a workflow can begin with a stack of two-dimensional CT slices, segment pore space, remove disconnected pores, construct a pore-network model, and simulate flow. Each step changes the representation. The final permeability estimate depends not only on the rock but also on resolution, segmentation, connectivity assumptions, boundary conditions, and the modeled volume.
@@ -134,9 +134,9 @@ The validation strategy should follow the way the model will be used:
 A lower grouped score is not necessarily bad news. It may be the first honest measurement of the deployment problem.
 
 <br>
-<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig3.jpg" alt="Mountain landscape illustrating variation between geological environments" style="width:640px"></p>
+<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig4.jpg" alt="Mountain landscape illustrating variation between geological environments" style="width:640px"></p>
 <br>
-Photo via <a href="https://images.unsplash.com/photo-1500534623283-312aade485b7" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@von_co" target="_blank">Ivana Cajina</a> on <a href="https://unsplash.com/photos/silhoutte-of-mountains-during-sunset-dQejX2ucPBs" target="_blank">Unsplash</a>
 {:.figcaption}
 
 ## Lesson Four: Missing Data Can Carry Meaning
@@ -156,9 +156,9 @@ For missing features, consider:
 The same warning applies to data cleaning. Removing unusual measurements may remove the exact rare event the model is supposed to detect. Cleaning should be justified by the measurement process, not only by a statistical rule.
 
 <br>
-<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig4.jpg" alt="Desert dunes showing variation in geological environments" style="width:640px"></p>
+<p align="center"><img src="/assets/img/research/Geoscience_AI/Geoscience_AI_fig5.jpg" alt="Desert dunes showing variation in geological environments" style="width:640px"></p>
 <br>
-Photo via <a href="https://images.unsplash.com/photo-1509316785289-025f5b846b35" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@gkumar2175" target="_blank">Ganapathy Kumar</a> on <a href="https://unsplash.com/photos/sandstone-buttes-in-monument-valley-L75D18aVal8 " target="_blank">Unsplash</a>
 {:.figcaption}
 
 ## Model Choice Comes After Data Questions

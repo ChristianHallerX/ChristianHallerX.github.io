@@ -15,7 +15,7 @@ Generating a convincing AI demo is getting easier. A few prompts can produce a u
 <br>
 <p align="center"><img src="/assets/img/research/Prompt_to_production/Prompt_to_production_fig1.jpg" alt="Developer working at a laptop in a modern workspace" style="width:640px"></p>
 <br>
-Photo by <a href="https://unsplash.com/@cgower" target="_blank">Christopher Gower</a> on <a href="https://images.unsplash.com/photo-1498050108023-c5249f4df085" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@cgower" target="_blank">Christopher Gower</a> on <a href="https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo" target="_blank">Unsplash</a>
 {:.figcaption}
 
 That is not the same as having a production service.
@@ -73,7 +73,7 @@ Avoid adding a second model, a queue, a feature store, or a generalized orchestr
 <br>
 <p align="center"><img src="/assets/img/research/Prompt_to_production/Prompt_to_production_fig2.jpg" alt="Team collaborating around a laptop" style="width:640px"></p>
 <br>
-Photo by <a href="https://unsplash.com/@anniespratt" target="_blank">Annie Spratt</a> on <a href="https://images.unsplash.com/photo-1551434678-e076c223a692" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@timmykp" target="_blank">Annie Spratt</a> on <a href="https://unsplash.com/photos/man-sitting-on-chair-wearing-gray-crew-neck-long-sleeved-shirt-using-apple-magic-keyboard-CPs2X8JYmS8" target="_blank">Unsplash</a>
 {:.figcaption}
 
 ## Build One Vertical Slice
@@ -112,7 +112,7 @@ The most valuable test is often not another happy-path example. It is a case tha
 <br>
 <p align="center"><img src="/assets/img/research/Prompt_to_production/Prompt_to_production_fig3.jpg" alt="Laptop used for software development" style="width:640px"></p>
 <br>
-Photo by <a href="https://unsplash.com/@christinhumephoto" target="_blank">Christin Hume</a> on <a href="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@johnishappysometimes" target="_blank">Christin Hume</a> on <a href="https://unsplash.com/photos/person-using-laptop-FlPc9_VocJ4" target="_blank">Unsplash</a>
 {:.figcaption}
 
 ## Measure Before You Optimize
@@ -146,6 +146,12 @@ At minimum, capture:
 
 Do not log sensitive request content by default. Decide what can be retained, who can access it, and how long it should remain available before the service goes live.
 
+<br>
+<p align="center"><img src="/assets/img/research/Prompt_to_production/Prompt_to_production_fig4.jpg" alt="Modern data center aisle with white server cabinets" style="width:640px"></p>
+<br>
+Photo by <a href="https://unsplash.com/@tonymarinescu" target="_blank">Tony Marinescu</a> on <a href="https://unsplash.com/photos/modern-data-center-with-rows-of-white-server-cabinets-fImCPTZ026U" target="_blank">Unsplash</a>
+{:.figcaption}
+
 ## What AI Can Generate, and What It Cannot Verify
 
 An AI assistant can help produce scaffolding, tests, documentation, and alternative implementations. It can also suggest an architecture that sounds more complete than the problem requires.
@@ -176,6 +182,12 @@ Before calling the service production-ready, ask:
 - Is the service owner clear?
 
 If several answers are “not yet,” the service may still be a valuable prototype. The important thing is to describe it accurately.
+
+<br>
+<p align="center"><img src="/assets/img/research/Prompt_to_production/Prompt_to_production_fig5.jpg" alt="Network cabling supporting data center infrastructure" style="width:640px"></p>
+<br>
+Photo by <a href="https://unsplash.com/@tvick" target="_blank">Taylor Vick</a> on <a href="https://unsplash.com/photos/cable-network-M5tzZtFCOfs" target="_blank">Unsplash</a>
+{:.figcaption}
 
 ## Final Thoughts
 
