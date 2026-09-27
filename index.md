@@ -10,8 +10,8 @@ Artificial Intelligence and Machine Learning Engineer
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-Christian holds MSc and Ph.D. and has a strong computer programming and data analytics background.
-He has a proficiency in one of the hottest subjects of our time: `Data Science`, and developing `Machine Learning` models.
+Christian is an Artificial Intelligence and Machine Learning Engineer with an MSc, Ph.D., and a background in computer programming and data analytics.
+He builds machine-learning models and scalable prediction systems from complex datasets.
 [See more...](/about/)
 
 

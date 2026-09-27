@@ -20,7 +20,7 @@ Barrk Sandstone at Kakadu National Park, Northern Territory, Australia / Snowdon
 
 ## Bio
 
-Christian developed his coding and data analytics expertise through academia and has applied it across Fortune 500 companies, the U.S. federal government, and global research initiatives.
+Christian is an Artificial Intelligence and Machine Learning Engineer. He developed his coding and data analytics expertise through academia and has applied it across Fortune 500 companies, the U.S. federal government, and global research initiatives.
 
 He specializes in data science and building machine learning models at scale, turning complex datasets into systems that improve classification, automate interpretation, and uncover meaningful relationships.
 
